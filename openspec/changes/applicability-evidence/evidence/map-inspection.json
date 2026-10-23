@@ -1,0 +1,26 @@
+{
+  "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-010-&f=file",
+  "inspected_date": "2026-10-22",
+  "sha256": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+  "visible_stamp": "1985",
+  "review_scope": "Map reading by Codex; not a survey, legal lot verification, or independent professional review",
+  "observations": [
+    {
+      "ain": "2202010006",
+      "tract": "16180",
+      "lot": "108",
+      "width_ft": 50,
+      "depth_ft": 120,
+      "location": "Page 1, Louise Avenue row, circled assessor parcel 6; width at rear line, depth on left side"
+    },
+    {
+      "ain": "2202010009",
+      "tract": "16180",
+      "lot": "111",
+      "width_ft": 50,
+      "depth_ft": 120,
+      "location": "Page 1, Louise Avenue row, circled assessor parcel 9; repeated dimensions via ditto marks; requires explicit operator confirmation in implementation"
+    }
+  ],
+  "tract_reference": "M.B. 354-34-36"
+}

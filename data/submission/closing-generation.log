@@ -1,0 +1,15 @@
+/home/hdx/miniconda3/envs/chatterbox/lib/python3.11/site-packages/perth/perth_net/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+[chatterbox] loading model on cuda
+/home/hdx/miniconda3/envs/chatterbox/lib/python3.11/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+loaded PerthNet (Implicit) at step 250,000
+[chatterbox] generating chunk 1/2
+/home/hdx/miniconda3/envs/chatterbox/lib/python3.11/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.
+  self.gen = func(*args, **kwds)
+Sampling:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling:   1%|          | 11/1000 [00:00<00:09, 108.50it/s]Sampling:   3%|▎         | 27/1000 [00:00<00:07, 137.75it/s]Sampling:   4%|▎         | 35/1000 [00:00<00:06, 138.08it/s]
+[chatterbox] generating chunk 2/2
+Sampling:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling:   1%|▏         | 13/1000 [00:00<00:07, 129.37it/s]Sampling:   3%|▎         | 29/1000 [00:00<00:06, 146.84it/s]Sampling:   4%|▍         | 45/1000 [00:00<00:06, 150.43it/s]Sampling:   6%|▌         | 61/1000 [00:00<00:06, 151.46it/s]Sampling:   8%|▊         | 77/1000 [00:00<00:06, 151.24it/s]Sampling:   9%|▉         | 93/1000 [00:00<00:06, 150.67it/s]Sampling:  11%|█         | 109/1000 [00:00<00:05, 149.79it/s]Sampling:  12%|█▏        | 124/1000 [00:00<00:05, 149.01it/s]Sampling:  14%|█▍        | 139/1000 [00:00<00:05, 147.22it/s]Sampling:  15%|█▌        | 154/1000 [00:01<00:06, 138.05it/s]Sampling:  17%|█▋        | 169/1000 [00:01<00:05, 139.42it/s]Sampling:  17%|█▋        | 172/1000 [00:01<00:05, 144.71it/s]
+{
+  "generated": "/home/hdx/code/cover-regulatory-engine/data/submission/audio/09-closing.wav"
+}

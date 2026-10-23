@@ -1,0 +1,85 @@
+{
+  "answer": "No. The assessment does not treat 800 sq ft as a universal cap. It applies 800 sq ft as the maximum for one specific path: the state-exempt detached ADU branch (Gov. Code \u00a7 66323(a)(2)), which also uses four-foot side and rear setbacks and a 16/18/20 ft height limit. The assessment says larger ADUs fall under a separate local-ordinance branch. It also says explicitly that it is not claiming every larger local ADU is prohibited. However, it did not evaluate that local-ordinance branch. So it cannot say whether a larger ADU would be allowed on this property, or under what size, setback or height limits. Your current project input of 750 sq ft is within the 800 sq ft maximum for the state-exempt branch. This is an interpretation of the source with medium confidence, not a permit determination.",
+  "citations": [
+    {
+      "id": "result-3",
+      "quote": "Maximum for this state-exempt branch; larger ADUs require the separate local-ordinance branch",
+      "evidence": {
+        "text": "{\"category\": \"floor-area\", \"status\": \"evaluated\", \"value\": 800, \"units\": \"sq ft\", \"confidence\": \"medium\", \"reasons\": [\"Reviewed source interpretation with attributed project inputs; no permit determination.\"], \"citations\": [{\"section\": \"HCD-ADU-2026\", \"url\": \"https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf\", \"quote\": \"   2. Single-Family Detached ADUs\\n      One detached new construction ADU that does not exceed four-foot side and rear yard\\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\\n\\n\\n\\n\\n                                              16\\n\\f\", \"source_hash\": \"521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d\"}], \"inputs\": {\"proposed_area_sqft\": {\"value\": 750, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}, \"building_height_ft\": {\"value\": 16, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}}, \"derivation\": \"Maximum for this state-exempt branch; larger ADUs require the separate local-ordinance branch\", \"rule_version\": \"8688f24d5601cb7b\", \"blockers\": [], \"conditional\": null}",
+        "category": "floor-area",
+        "kind": "assessment"
+      }
+    },
+    {
+      "id": "result-2",
+      "quote": "This is not a claim that every larger local ADU is prohibited.",
+      "evidence": {
+        "text": "{\"category\": \"height\", \"status\": \"evaluated\", \"value\": 16, \"units\": \"ft\", \"confidence\": \"medium\", \"reasons\": [\"Reviewed source interpretation with attributed project inputs; no permit determination.\"], \"citations\": [{\"section\": \"HCD-ADU-2026\", \"url\": \"https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf\", \"quote\": \"   2. Single-Family Detached ADUs\\n      One detached new construction ADU that does not exceed four-foot side and rear yard\\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\\n\\n\\n\\n\\n                                              16\\n\\f\", \"source_hash\": \"521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d\"}, {\"section\": \"HCD-ADU-2026\", \"url\": \"https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf\", \"quote\": \"Height Requirements\\nIs there a limit on the height of an ADU?\\nThere is no height limit contained in State ADU Law, but local agencies may impose height\\nlimits pursuant to Government Code section 66321, subdivision (b)(4). A local agency may\\nimpose a height limit by adopting a compliant ADU ordinance.\\n\\nA local agency may not impose a height limit that is less than the following:\\n\\nDetached ADUs\\n\\n16 feet on a lot with a proposed or existing single-family or multifamily dwelling unit (Gov.\\nCode, \u00a7 66321, subd. (b)(4)(A)).\\n\\n18 feet on a lot with an existing or proposed single-family or multifamily dwelling, including an\\nadditional 2 feet to accommodate roof pitch that aligns with the primary dwelling, when the lot\\nis a half-mile from a major transit stop or high-quality transit corridor (Gov. Code, \u00a7 66321,\\nsubd. (b)(4)(B)). Please see the ADU Glossary for definitions of these terms.\\n\\n                                                24\\n\\f18 feet height on a lot with an existing or proposed multifamily, multistory dwelling (Gov. Code,\\n\u00a7 66321, subd. (b)(4)(C)).\\n\\nIf a detached two-story ADU can be built according to the height allowances required under\\nState ADU Law while remaining compliant with the building code, a local agency cannot deny\\nan ADU application to create a two-story ADU, irrespective of the underlying zoning that might\\nrestrict a primary dwelling to one story. (Gov. Code, \u00a7\u00a7 66321, subd. (b)(4)(D); 66314, subd.\\n(d)(8).)\\n\\n\", \"source_hash\": \"521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d\"}], \"inputs\": {\"proposed_area_sqft\": {\"value\": 750, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}, \"building_height_ft\": {\"value\": 16, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}}, \"derivation\": \"Selected state-exempt height allowance; transit and matching-roof branches require project evidence. This is not a claim that every larger local ADU is prohibited.\", \"rule_version\": \"7b3f33397e803a7e\", \"blockers\": [], \"conditional\": null}",
+        "category": "height",
+        "kind": "assessment"
+      }
+    },
+    {
+      "id": "source-3-0",
+      "quote": "One detached new construction ADU that does not exceed four-foot side and rear yard",
+      "evidence": {
+        "text": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+        "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+        "section": "HCD-ADU-2026",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "source-3-0",
+      "quote": "The maximum unit size is 800 square feet",
+      "evidence": {
+        "text": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+        "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+        "section": "HCD-ADU-2026",
+        "kind": "source"
+      }
+    },
+    {
+      "id": "project",
+      "quote": "\"proposed_area_sqft\": 750",
+      "evidence": {
+        "text": "{\"project_type\": \"adu\", \"inputs\": {\"proposed_area_sqft\": 750, \"building_height_ft\": 16}, \"checks\": {\"existing_primary_dwelling\": true, \"new_detached\": true, \"has_kitchen\": true}, \"evidence_note\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}",
+        "kind": "project-input"
+      }
+    },
+    {
+      "id": "result-3",
+      "quote": "Reviewed source interpretation with attributed project inputs; no permit determination.",
+      "evidence": {
+        "text": "{\"category\": \"floor-area\", \"status\": \"evaluated\", \"value\": 800, \"units\": \"sq ft\", \"confidence\": \"medium\", \"reasons\": [\"Reviewed source interpretation with attributed project inputs; no permit determination.\"], \"citations\": [{\"section\": \"HCD-ADU-2026\", \"url\": \"https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf\", \"quote\": \"   2. Single-Family Detached ADUs\\n      One detached new construction ADU that does not exceed four-foot side and rear yard\\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\\n\\n\\n\\n\\n                                              16\\n\\f\", \"source_hash\": \"521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d\"}], \"inputs\": {\"proposed_area_sqft\": {\"value\": 750, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}, \"building_height_ft\": {\"value\": 16, \"origin\": \"project-input\", \"evidence\": \"Proposed new detached ADU with existing single-family primary; design assumptions\"}}, \"derivation\": \"Maximum for this state-exempt branch; larger ADUs require the separate local-ordinance branch\", \"rule_version\": \"8688f24d5601cb7b\", \"blockers\": [], \"conditional\": null}",
+        "category": "floor-area",
+        "kind": "assessment"
+      }
+    }
+  ],
+  "suggested_changes": [
+    "Optional scenario: if you are considering a detached ADU larger than 800 sq ft, run a separate assessment under the applicable local ADU ordinance. That branch was not evaluated here, and its size, setback and height limits may differ from the state-exempt values."
+  ],
+  "insufficient_evidence": false,
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 991,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 6444,
+        "webSearchRequests": 0,
+        "costUSD": 0.07138,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 372,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "61c0f231cbdeebaf05ae16836ea207dc1b019014e30484c36530b76c34f20f69",
+    "elapsed_seconds": 9.091
+  }
+}

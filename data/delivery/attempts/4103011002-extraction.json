@@ -1,0 +1,68 @@
+{
+  "observations": [],
+  "rejected": [
+    {
+      "reason": "Model did not establish the requested map/tract/lot/assessor identity"
+    }
+  ],
+  "uncertainties": [
+    "Model did not establish the requested map/tract/lot/assessor identity"
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "4103-11",
+      "tract": "11569",
+      "lot": "71",
+      "parcel_number": "2",
+      "confirmed": true
+    },
+    "shape": "irregular",
+    "frontage": {
+      "street": "Glasgow Ave",
+      "compass": "east",
+      "reason": "The north arrow at the lower left points toward the left edge of the sheet and is labeled N. That makes the top of the sheet east. Lot 71 sits in the top row of lots, and its top edge, marked 60, borders Glasgow Ave., so the lot fronts east onto Glasgow Ave. This matches the situs address, 7013 Glasgow Ave."
+    },
+    "observations": [],
+    "uncertainties": [
+      "Lot 71 is not a rectangle. Its side lines are printed 120.88 (shared with lot 72) and 115.91 (shared with lot 70), and its front and rear lines are printed 60 and 60.2. Because opposite sides are unequal, no single width or depth value is reported, and no area is derived.",
+      "No lot area is printed for lot 71 on this map.",
+      "The full AIN 4103-011-002 is assembled from map book 4103, page 11 and circled parcel number 2. The map does not print the full 10-digit AIN.",
+      "The north arrow is hand-drawn and somewhat stylized, with the N at its left tip. Reading it as pointing left is a reasonable interpretation, but the east-facing orientation depends on it.",
+      "There are no ditto marks along the lot 71 boundaries. All dimensions considered are explicitly printed.",
+      "The approximate region of lot 71 on page 1 is [0.50, 0.158, 0.56, 0.344]. It is given for reference only and is not tied to any reported observation."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1108,
+        "cacheReadInputTokens": 4374,
+        "cacheCreationInputTokens": 306,
+        "webSearchRequests": 0,
+        "costUSD": 0.025490799999999997,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 490,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "4975f3613e26375f8aca32dca660698ae5a0ae19d8425c9e7cc8e73656fa5623",
+    "elapsed_seconds": 12.191
+  },
+  "document": {
+    "map_id": "4103-011",
+    "ain": "4103011002",
+    "legal_description": "TRACT # 11569 LOT   71",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-011-&f=file",
+    "retrieved_at": "2026-10-22T17:10:35.805863+00:00",
+    "content_hash": "23d3e45b0f5ea0003b8d5f5b83ec722b51a746554c7c1c4276fd1fb069afa893"
+  },
+  "elapsed_seconds": 12.697392472065985
+}

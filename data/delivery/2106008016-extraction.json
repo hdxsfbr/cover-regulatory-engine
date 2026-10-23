@@ -1,0 +1,111 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 60,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.543,
+        0.592,
+        0.556,
+        0.61
+      ],
+      "printed_mark": "\" (ditto mark on east street edge of lot 100)",
+      "reason": "The east street edge of lot 100 carries a ditto mark rather than a number. Following the chain upward, lots 101, 102, 103, 104, 105 and 106 also carry ditto marks on their east edges. The chain ends at lot 107, whose east edge has a printed '60' (normalized region approx. [0.541,0.198,0.552,0.218]). Lot 99, directly south, has its own separately printed '60' and does not belong to this chain. The frontage of lot 100 on the east street is therefore 60 ft.",
+      "method": "ditto",
+      "ain": "2106008016",
+      "map_id": "2106-008",
+      "document_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "5db855f37a66ea2c84b6155377c7ecf8f052b2102a76ea9569a309c4ab12029f"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Penfield Ave",
+    "compass": "east",
+    "reason": "The north arrow at the left margin points straight up the sheet, so the right side of the sheet is east. Lot 100 (circled 16) sits in the right-hand column of lots. Its right edge borders the 54-ft street labeled only 'AVE.' on the east side of the block. That street curves southwest into the segment labeled 'PENFIELD', so the east street appears to be Penfield Ave. This matches the situs address, 7669 Penfield Ave. The lot's left edge is the interior line shared with the west column of lots, not a street."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "Depth is not given. Lot 100 has no printed depth, and its north, south and rear (interior) edges carry no printed dimension. A '125' is printed on lot 108 and on the south line of lot 99 in the same east column. The bearing 'S.89\u00b058'42\" E.' appears only on the lot 66/67 line, and 'N.0\u00b001'18\" E.' appears on the west tract line. However, lot 100's opposite (rear) width is not printed, so equal opposite widths cannot be confirmed from printed marks. Under the stated rule, a derived-parallel depth of 125 ft is not established.",
+    "Lot area is not given because no area is printed for lot 100 and no rectangle derivation was possible without a depth.",
+    "The street directly east of lot 100 is labeled only 'AVE.' on the map. The name Penfield comes from the 'PENFIELD' label on the connecting curved segment and from the situs address.",
+    "'Rectangle' is based on the drawn lot lines. No bearings are printed on lot 100's own boundaries."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2106-8",
+      "tract": "19621",
+      "lot": "100",
+      "parcel_number": "16",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Penfield Ave",
+      "compass": "east",
+      "reason": "The north arrow at the left margin points straight up the sheet, so the right side of the sheet is east. Lot 100 (circled 16) sits in the right-hand column of lots. Its right edge borders the 54-ft street labeled only 'AVE.' on the east side of the block. That street curves southwest into the segment labeled 'PENFIELD', so the east street appears to be Penfield Ave. This matches the situs address, 7669 Penfield Ave. The lot's left edge is the interior line shared with the west column of lots, not a street."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 60,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.543,
+          0.592,
+          0.556,
+          0.61
+        ],
+        "printed_mark": "\" (ditto mark on east street edge of lot 100)",
+        "reason": "The east street edge of lot 100 carries a ditto mark rather than a number. Following the chain upward, lots 101, 102, 103, 104, 105 and 106 also carry ditto marks on their east edges. The chain ends at lot 107, whose east edge has a printed '60' (normalized region approx. [0.541,0.198,0.552,0.218]). Lot 99, directly south, has its own separately printed '60' and does not belong to this chain. The frontage of lot 100 on the east street is therefore 60 ft.",
+        "method": "ditto"
+      }
+    ],
+    "uncertainties": [
+      "Depth is not given. Lot 100 has no printed depth, and its north, south and rear (interior) edges carry no printed dimension. A '125' is printed on lot 108 and on the south line of lot 99 in the same east column. The bearing 'S.89\u00b058'42\" E.' appears only on the lot 66/67 line, and 'N.0\u00b001'18\" E.' appears on the west tract line. However, lot 100's opposite (rear) width is not printed, so equal opposite widths cannot be confirmed from printed marks. Under the stated rule, a derived-parallel depth of 125 ft is not established.",
+      "Lot area is not given because no area is printed for lot 100 and no rectangle derivation was possible without a depth.",
+      "The street directly east of lot 100 is labeled only 'AVE.' on the map. The name Penfield comes from the 'PENFIELD' label on the connecting curved segment and from the situs address.",
+      "'Rectangle' is based on the drawn lot lines. No bearings are printed on lot 100's own boundaries."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2599,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4806,
+        "webSearchRequests": 0,
+        "costUSD": 0.09043600000000002,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1635,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "54091c24a0118a084ed2263f4a201366e802001bd56255c49656dcf447fbb709",
+    "elapsed_seconds": 27.375
+  },
+  "document": {
+    "map_id": "2106-008",
+    "ain": "2106008016",
+    "legal_description": "TRACT NO 19621 LOT  100",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+    "retrieved_at": "2026-10-22T17:10:36.349347+00:00",
+    "content_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252"
+  },
+  "elapsed_seconds": 27.757802938111126
+}

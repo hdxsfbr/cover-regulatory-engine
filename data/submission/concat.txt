@@ -1,0 +1,8 @@
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/01-intro.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/02-search.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/03-evidence.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/04-research.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/05-assumptions.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/06-height.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/07-compare.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/08-reopen.mp4'

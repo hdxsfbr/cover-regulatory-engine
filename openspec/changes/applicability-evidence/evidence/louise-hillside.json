@@ -1,0 +1,1 @@
+{"displayFieldName": "H_TYPE", "fieldAliases": {"H_TYPE": "H_TYPE", "OBJECTID": "OBJECTID", "TOOLTIP": "TOOLTIP"}, "fields": [{"name": "H_TYPE", "type": "esriFieldTypeString", "alias": "H_TYPE", "length": 50}, {"name": "OBJECTID", "type": "esriFieldTypeOID", "alias": "OBJECTID"}, {"name": "TOOLTIP", "type": "esriFieldTypeString", "alias": "TOOLTIP", "length": 1}], "features": []}

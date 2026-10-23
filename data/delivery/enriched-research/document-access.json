@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://planning.lacity.gov/pdiscaseinfo/document/MTI1NjU0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive",
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://planning.lacity.gov/pdiscaseinfo/document/MTI1NjU0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive"
+  },
+  {
+    "url": "https://planning.lacity.gov/pdiscaseinfo/document/MTEzMDk0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive",
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://planning.lacity.gov/pdiscaseinfo/document/MTEzMDk0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive"
+  },
+  {
+    "url": "https://prism.dbs.lacity.gov/blob/public/mechanical-permit/72728edf-b9ad-4939-bd9a-b972b8382b61.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "final_url": "https://prism.dbs.lacity.gov/blob/public/mechanical-permit/72728edf-b9ad-4939-bd9a-b972b8382b61.pdf"
+  }
+]

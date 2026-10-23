@@ -1,0 +1,2049 @@
+{
+  "project": "86b24946-271d-43f2-9685-caedab50ec55",
+  "name": "Source research — Stagg 1792708243192",
+  "results": [
+    {
+      "source": "engineering",
+      "title": "Engineering & easements",
+      "source_url": "https://navigatela.lacity.org/navigatela/",
+      "ain": "2202004010",
+      "context_key": "e790fe2c5f402fde7c982caf18aa575e79d6833e33f4a08edee206391238ae1f",
+      "retrieved_at": "2026-10-22T22:30:27.510601+00:00",
+      "origin": "live",
+      "vintage": "Not supplied by service",
+      "status": "matched",
+      "items": [
+        {
+          "title": "Mapped easement lines",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/0",
+          "fields": {
+            "OBJECTID": 910997,
+            "ASSETID": 910997,
+            "CV_LAYER": 19,
+            "MAPSHEET": "189B129",
+            "ID": 1949
+          },
+          "distance_ft": 0
+        },
+        {
+          "title": "Mapped easement lines",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/0",
+          "fields": {
+            "OBJECTID": 910998,
+            "ASSETID": 910998,
+            "CV_LAYER": 19,
+            "MAPSHEET": "189B129",
+            "ID": 1951
+          },
+          "distance_ft": 0
+        },
+        {
+          "title": "Nearby sewer pipes",
+          "value": "39.0 ft from mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/7",
+          "fields": {
+            "OBJECTID": 75748,
+            "ENABLED": 1,
+            "ASSETID": 294928,
+            "PIPE_ID": "3970811039707136A",
+            "CLASS": 3,
+            "PIPE_SUBTYPE": 1,
+            "UP_STRUCT": 39708110,
+            "DN_STRUCT": 39707136,
+            "PIPE_LABEL": "A",
+            "ENG_DIST": "V",
+            "BASIN": "W10",
+            "UP_INV": 762.1800000000001,
+            "DN_INV": 760.83,
+            "PIPE_LENG": 263.1,
+            "SLOPE_PCT": 0.005200000000000001,
+            "PIPE_SIZE": 12,
+            "PIPE_WIDTH": 0,
+            "PIPE_MAT": "VCP",
+            "PIPE_SHAPE": "CR",
+            "REHAB": "N",
+            "STREET": "STAGG ST",
+            "BLOCK": "17000",
+            "C_SLOPE": "N",
+            "C_UP_INV": "N",
+            "C_DN_INV": "N",
+            "C_PIPE_LEN": "N",
+            "UP_STA_100": 21,
+            "UP_STA_PLS": 14.89,
+            "DN_STA_100": 18,
+            "DN_STA_PLS": 51.75,
+            "YEAR_INST": "1950",
+            "NO_LAT": 4,
+            "GRV_FM": "GR",
+            "PIPE_STATUS": "F",
+            "WYE_CON": 0,
+            "PLAN1": "D-9185",
+            "PROF": "D-9185",
+            "WYEMAP": "786-B",
+            "HR_VER": "N",
+            "PCT_ENTRY": "N",
+            "WYE_MAT": "UNK",
+            "WYE_DIAM": 0,
+            "WYE_LENG": 0,
+            "WYE_UPDATE": "Y",
+            "EST_UPINV": "N",
+            "EST_DNINV": "N",
+            "EST_MATL": "N",
+            "EST_YEAR": "N",
+            "SLOPE2": 0,
+            "V_CURVE": "N",
+            "CAPACITY": 2.5691699999999997,
+            "SYSTEM": "NASS",
+            "LAST_UPDATE": 847756800000,
+            "UP_MH": 39708110,
+            "DN_MH": 39707136,
+            "SAN_PIPE_ID": "3970811039707136A",
+            "LAYER": 1,
+            "PIPE_SUBTYPE_DESC": "Gravity",
+            "PIPE_STATUS_DESC": "As Built",
+            "MATERIAL_DESCRIPTION": "Vitrified Clay Pipe",
+            "CLASS_DESC": "Secondary Sewer",
+            "ENG_DIST_DESC": "Valley",
+            "GRV_FM_DESC": "Gravity",
+            "SYSTEM_DESC": "Northridge Area Sewer System",
+            "REHAB_DESC": "No",
+            "NLA_URL": "navigatela/reports/wastewater_pipes.cfm?PK=3970811039707136A",
+            "SHAPE_Length": 98.07720288401161
+          },
+          "distance_ft": 39
+        },
+        {
+          "title": "Nearby sewer pipes",
+          "value": "83.6 ft from mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/7",
+          "fields": {
+            "OBJECTID": 96692,
+            "ENABLED": 1,
+            "ASSETID": 268366,
+            "PIPE_ID": "3970713639707134A",
+            "CLASS": 3,
+            "PIPE_SUBTYPE": 1,
+            "UP_STRUCT": 39707136,
+            "DN_STRUCT": 39707134,
+            "PIPE_LABEL": "A",
+            "ENG_DIST": "V",
+            "BASIN": "W10",
+            "UP_INV": 760.73,
+            "DN_INV": 759.5500000000001,
+            "PIPE_LENG": 250,
+            "SLOPE_PCT": 0.0048000000000000004,
+            "PIPE_SIZE": 12,
+            "PIPE_WIDTH": 0,
+            "PIPE_MAT": "VCP",
+            "PIPE_SHAPE": "CR",
+            "REHAB": "N",
+            "STREET": "STAGG ST",
+            "BLOCK": "17000",
+            "C_SLOPE": "N",
+            "C_UP_INV": "N",
+            "C_DN_INV": "N",
+            "C_PIPE_LEN": "N",
+            "UP_STA_100": 18,
+            "UP_STA_PLS": 51.75,
+            "DN_STA_100": 16,
+            "DN_STA_PLS": 1.75,
+            "YEAR_INST": "1950",
+            "NO_LAT": 4,
+            "GRV_FM": "GR",
+            "PIPE_STATUS": "F",
+            "WYE_CON": 0,
+            "PLAN1": "D-9185",
+            "PROF": "D-9185",
+            "WYEMAP": "786-B",
+            "HR_VER": "N",
+            "PCT_ENTRY": "Y",
+            "WYE_MAT": "UNK",
+            "WYE_DIAM": 0,
+            "WYE_LENG": 0,
+            "WYE_UPDATE": "Y",
+            "EST_UPINV": "N",
+            "EST_DNINV": "N",
+            "EST_MATL": "N",
+            "EST_YEAR": "N",
+            "SLOPE2": 0,
+            "V_CURVE": "N",
+            "CAPACITY": 2.46838,
+            "SYSTEM": "NASS",
+            "LAST_UPDATE": 847756800000,
+            "UP_MH": 39707136,
+            "DN_MH": 39707134,
+            "SAN_PIPE_ID": "3970713639707134A",
+            "LAYER": 1,
+            "PIPE_SUBTYPE_DESC": "Gravity",
+            "PIPE_STATUS_DESC": "As Built",
+            "MATERIAL_DESCRIPTION": "Vitrified Clay Pipe",
+            "CLASS_DESC": "Secondary Sewer",
+            "ENG_DIST_DESC": "Valley",
+            "GRV_FM_DESC": "Gravity",
+            "SYSTEM_DESC": "Northridge Area Sewer System",
+            "REHAB_DESC": "No",
+            "NLA_URL": "navigatela/reports/wastewater_pipes.cfm?PK=3970713639707134A",
+            "SHAPE_Length": 92.67370109793372
+          },
+          "distance_ft": 83.6
+        },
+        {
+          "title": "Adjacent streets",
+          "value": "30.0 ft from mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_street/MapServer/4",
+          "fields": {
+            "OBJECTID": 96454,
+            "ASSETID": 18806,
+            "INT_ID_FROM": 37875,
+            "INT_ID_TO": 37874,
+            "STNUM": 2507,
+            "MAPSHEET": "189B129",
+            "ID": 59800,
+            "ST_DESIG": 4,
+            "MODSTDESIG": 0,
+            "ADRF": 17401,
+            "ADRT": 17499,
+            "ZIP_R": 91325,
+            "ADLF": 17400,
+            "ADLT": 17498,
+            "ZIP_L": 91325,
+            "TDIR": "W",
+            "STNAME": "STAGG",
+            "STSFX": "ST",
+            "STATUS": "O",
+            "SECT_ID": "5074800",
+            "OBS": 0,
+            "DEDRQ": 1,
+            "ST_SUBTYPE": 1,
+            "CRTN_DT": 799977600000,
+            "SHAPE_Length": 277.6804019499512,
+            "NLA_URL": "navigatela/reports/centerline.cfm?PK=59800&T=5074800",
+            "SYMBOL": 3,
+            "STREET_DESIGNATION": "Collector Street",
+            "DEDRQ_DESC": "No"
+          },
+          "distance_ft": 30
+        },
+        {
+          "title": "Cadastral parcels",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+          "fields": {
+            "OBJECTID": 160266,
+            "ASSETID": 1082991,
+            "MAPSHEET": "189B129",
+            "ID": 1090,
+            "BPP": "2202004009",
+            "MAP_REF": "M B 369-31/33",
+            "TRACT": "TR 15254",
+            "LOT": "9",
+            "PIND": "189B129-1090",
+            "PIN": "189B129  1090",
+            "BOOK": "2202",
+            "PAGE": "004",
+            "PARCEL": "009",
+            "ENG_DIST": "V",
+            "CNCL_DIST": "12",
+            "ENG_DIST_DESC": "Valley"
+          },
+          "distance_ft": 0
+        },
+        {
+          "title": "Cadastral parcels",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+          "fields": {
+            "OBJECTID": 160267,
+            "ASSETID": 1082992,
+            "MAPSHEET": "189B129",
+            "ID": 1091,
+            "BPP": "2202004010",
+            "MAP_REF": "M B 369-31/33",
+            "TRACT": "TR 15254",
+            "LOT": "10",
+            "PIND": "189B129-1091",
+            "PIN": "189B129  1091",
+            "BOOK": "2202",
+            "PAGE": "004",
+            "PARCEL": "010",
+            "ENG_DIST": "V",
+            "CNCL_DIST": "12",
+            "ENG_DIST_DESC": "Valley"
+          },
+          "distance_ft": 0
+        },
+        {
+          "title": "Cadastral parcels",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+          "fields": {
+            "OBJECTID": 161254,
+            "ASSETID": 1083979,
+            "MAPSHEET": "189B129",
+            "ID": 1140,
+            "BPP": "2202004013",
+            "MAP_REF": "M B 369-31/33",
+            "TRACT": "TR 15254",
+            "LOT": "13",
+            "PIND": "189B129-1140",
+            "PIN": "189B129  1140",
+            "BOOK": "2202",
+            "PAGE": "004",
+            "PARCEL": "013",
+            "ENG_DIST": "V",
+            "CNCL_DIST": "12",
+            "ENG_DIST_DESC": "Valley"
+          },
+          "distance_ft": 0
+        },
+        {
+          "title": "Cadastral parcels",
+          "value": "Intersects mapped parcel",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+          "fields": {
+            "OBJECTID": 161417,
+            "ASSETID": 1084142,
+            "MAPSHEET": "189B129",
+            "ID": 1148,
+            "BPP": "2202004012",
+            "MAP_REF": "M B 369-31/33",
+            "TRACT": "TR 15254",
+            "LOT": "12",
+            "PIND": "189B129-1148",
+            "PIN": "189B129  1148",
+            "BOOK": "2202",
+            "PAGE": "004",
+            "PARCEL": "012",
+            "ENG_DIST": "V",
+            "CNCL_DIST": "12",
+            "ENG_DIST_DESC": "Valley"
+          },
+          "distance_ft": 0
+        }
+      ],
+      "warnings": [
+        "These selected layers are not a title search or a utility capacity/connection determination. GIS alignment and unmapped rights remain unresolved."
+      ],
+      "association": "EPSG:2229 parcel intersection; street and sewer context within 100 feet. Nearby features are not parcel restrictions.",
+      "next_action": "Review mapped easements and plan references; confirm dedication and service requirements with the applicable engineering office.",
+      "layers": [
+        {
+          "title": "Mapped easement lines",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/0",
+          "status": "matched",
+          "items": [
+            {
+              "title": "Mapped easement lines",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/0",
+              "fields": {
+                "OBJECTID": 910997,
+                "ASSETID": 910997,
+                "CV_LAYER": 19,
+                "MAPSHEET": "189B129",
+                "ID": 1949
+              },
+              "distance_ft": 0
+            },
+            {
+              "title": "Mapped easement lines",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/0",
+              "fields": {
+                "OBJECTID": 910998,
+                "ASSETID": 910998,
+                "CV_LAYER": 19,
+                "MAPSHEET": "189B129",
+                "ID": 1951
+              },
+              "distance_ft": 0
+            }
+          ]
+        },
+        {
+          "title": "Sewer easements",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/9",
+          "status": "no-match",
+          "items": []
+        },
+        {
+          "title": "Nearby sewer pipes",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/7",
+          "status": "matched",
+          "items": [
+            {
+              "title": "Nearby sewer pipes",
+              "value": "39.0 ft from mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/7",
+              "fields": {
+                "OBJECTID": 75748,
+                "ENABLED": 1,
+                "ASSETID": 294928,
+                "PIPE_ID": "3970811039707136A",
+                "CLASS": 3,
+                "PIPE_SUBTYPE": 1,
+                "UP_STRUCT": 39708110,
+                "DN_STRUCT": 39707136,
+                "PIPE_LABEL": "A",
+                "ENG_DIST": "V",
+                "BASIN": "W10",
+                "UP_INV": 762.1800000000001,
+                "DN_INV": 760.83,
+                "PIPE_LENG": 263.1,
+                "SLOPE_PCT": 0.005200000000000001,
+                "PIPE_SIZE": 12,
+                "PIPE_WIDTH": 0,
+                "PIPE_MAT": "VCP",
+                "PIPE_SHAPE": "CR",
+                "REHAB": "N",
+                "STREET": "STAGG ST",
+                "BLOCK": "17000",
+                "C_SLOPE": "N",
+                "C_UP_INV": "N",
+                "C_DN_INV": "N",
+                "C_PIPE_LEN": "N",
+                "UP_STA_100": 21,
+                "UP_STA_PLS": 14.89,
+                "DN_STA_100": 18,
+                "DN_STA_PLS": 51.75,
+                "YEAR_INST": "1950",
+                "NO_LAT": 4,
+                "GRV_FM": "GR",
+                "PIPE_STATUS": "F",
+                "WYE_CON": 0,
+                "PLAN1": "D-9185",
+                "PROF": "D-9185",
+                "WYEMAP": "786-B",
+                "HR_VER": "N",
+                "PCT_ENTRY": "N",
+                "WYE_MAT": "UNK",
+                "WYE_DIAM": 0,
+                "WYE_LENG": 0,
+                "WYE_UPDATE": "Y",
+                "EST_UPINV": "N",
+                "EST_DNINV": "N",
+                "EST_MATL": "N",
+                "EST_YEAR": "N",
+                "SLOPE2": 0,
+                "V_CURVE": "N",
+                "CAPACITY": 2.5691699999999997,
+                "SYSTEM": "NASS",
+                "LAST_UPDATE": 847756800000,
+                "UP_MH": 39708110,
+                "DN_MH": 39707136,
+                "SAN_PIPE_ID": "3970811039707136A",
+                "LAYER": 1,
+                "PIPE_SUBTYPE_DESC": "Gravity",
+                "PIPE_STATUS_DESC": "As Built",
+                "MATERIAL_DESCRIPTION": "Vitrified Clay Pipe",
+                "CLASS_DESC": "Secondary Sewer",
+                "ENG_DIST_DESC": "Valley",
+                "GRV_FM_DESC": "Gravity",
+                "SYSTEM_DESC": "Northridge Area Sewer System",
+                "REHAB_DESC": "No",
+                "NLA_URL": "navigatela/reports/wastewater_pipes.cfm?PK=3970811039707136A",
+                "SHAPE_Length": 98.07720288401161
+              },
+              "distance_ft": 39
+            },
+            {
+              "title": "Nearby sewer pipes",
+              "value": "83.6 ft from mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_sewer_external/MapServer/7",
+              "fields": {
+                "OBJECTID": 96692,
+                "ENABLED": 1,
+                "ASSETID": 268366,
+                "PIPE_ID": "3970713639707134A",
+                "CLASS": 3,
+                "PIPE_SUBTYPE": 1,
+                "UP_STRUCT": 39707136,
+                "DN_STRUCT": 39707134,
+                "PIPE_LABEL": "A",
+                "ENG_DIST": "V",
+                "BASIN": "W10",
+                "UP_INV": 760.73,
+                "DN_INV": 759.5500000000001,
+                "PIPE_LENG": 250,
+                "SLOPE_PCT": 0.0048000000000000004,
+                "PIPE_SIZE": 12,
+                "PIPE_WIDTH": 0,
+                "PIPE_MAT": "VCP",
+                "PIPE_SHAPE": "CR",
+                "REHAB": "N",
+                "STREET": "STAGG ST",
+                "BLOCK": "17000",
+                "C_SLOPE": "N",
+                "C_UP_INV": "N",
+                "C_DN_INV": "N",
+                "C_PIPE_LEN": "N",
+                "UP_STA_100": 18,
+                "UP_STA_PLS": 51.75,
+                "DN_STA_100": 16,
+                "DN_STA_PLS": 1.75,
+                "YEAR_INST": "1950",
+                "NO_LAT": 4,
+                "GRV_FM": "GR",
+                "PIPE_STATUS": "F",
+                "WYE_CON": 0,
+                "PLAN1": "D-9185",
+                "PROF": "D-9185",
+                "WYEMAP": "786-B",
+                "HR_VER": "N",
+                "PCT_ENTRY": "Y",
+                "WYE_MAT": "UNK",
+                "WYE_DIAM": 0,
+                "WYE_LENG": 0,
+                "WYE_UPDATE": "Y",
+                "EST_UPINV": "N",
+                "EST_DNINV": "N",
+                "EST_MATL": "N",
+                "EST_YEAR": "N",
+                "SLOPE2": 0,
+                "V_CURVE": "N",
+                "CAPACITY": 2.46838,
+                "SYSTEM": "NASS",
+                "LAST_UPDATE": 847756800000,
+                "UP_MH": 39707136,
+                "DN_MH": 39707134,
+                "SAN_PIPE_ID": "3970713639707134A",
+                "LAYER": 1,
+                "PIPE_SUBTYPE_DESC": "Gravity",
+                "PIPE_STATUS_DESC": "As Built",
+                "MATERIAL_DESCRIPTION": "Vitrified Clay Pipe",
+                "CLASS_DESC": "Secondary Sewer",
+                "ENG_DIST_DESC": "Valley",
+                "GRV_FM_DESC": "Gravity",
+                "SYSTEM_DESC": "Northridge Area Sewer System",
+                "REHAB_DESC": "No",
+                "NLA_URL": "navigatela/reports/wastewater_pipes.cfm?PK=3970713639707134A",
+                "SHAPE_Length": 92.67370109793372
+              },
+              "distance_ft": 83.6
+            }
+          ]
+        },
+        {
+          "title": "Adjacent streets",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_street/MapServer/4",
+          "status": "matched",
+          "items": [
+            {
+              "title": "Adjacent streets",
+              "value": "30.0 ft from mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_street/MapServer/4",
+              "fields": {
+                "OBJECTID": 96454,
+                "ASSETID": 18806,
+                "INT_ID_FROM": 37875,
+                "INT_ID_TO": 37874,
+                "STNUM": 2507,
+                "MAPSHEET": "189B129",
+                "ID": 59800,
+                "ST_DESIG": 4,
+                "MODSTDESIG": 0,
+                "ADRF": 17401,
+                "ADRT": 17499,
+                "ZIP_R": 91325,
+                "ADLF": 17400,
+                "ADLT": 17498,
+                "ZIP_L": 91325,
+                "TDIR": "W",
+                "STNAME": "STAGG",
+                "STSFX": "ST",
+                "STATUS": "O",
+                "SECT_ID": "5074800",
+                "OBS": 0,
+                "DEDRQ": 1,
+                "ST_SUBTYPE": 1,
+                "CRTN_DT": 799977600000,
+                "SHAPE_Length": 277.6804019499512,
+                "NLA_URL": "navigatela/reports/centerline.cfm?PK=59800&T=5074800",
+                "SYMBOL": 3,
+                "STREET_DESIGNATION": "Collector Street",
+                "DEDRQ_DESC": "No"
+              },
+              "distance_ft": 30
+            }
+          ]
+        },
+        {
+          "title": "Cadastral parcels",
+          "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+          "status": "matched",
+          "items": [
+            {
+              "title": "Cadastral parcels",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+              "fields": {
+                "OBJECTID": 160266,
+                "ASSETID": 1082991,
+                "MAPSHEET": "189B129",
+                "ID": 1090,
+                "BPP": "2202004009",
+                "MAP_REF": "M B 369-31/33",
+                "TRACT": "TR 15254",
+                "LOT": "9",
+                "PIND": "189B129-1090",
+                "PIN": "189B129  1090",
+                "BOOK": "2202",
+                "PAGE": "004",
+                "PARCEL": "009",
+                "ENG_DIST": "V",
+                "CNCL_DIST": "12",
+                "ENG_DIST_DESC": "Valley"
+              },
+              "distance_ft": 0
+            },
+            {
+              "title": "Cadastral parcels",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+              "fields": {
+                "OBJECTID": 160267,
+                "ASSETID": 1082992,
+                "MAPSHEET": "189B129",
+                "ID": 1091,
+                "BPP": "2202004010",
+                "MAP_REF": "M B 369-31/33",
+                "TRACT": "TR 15254",
+                "LOT": "10",
+                "PIND": "189B129-1091",
+                "PIN": "189B129  1091",
+                "BOOK": "2202",
+                "PAGE": "004",
+                "PARCEL": "010",
+                "ENG_DIST": "V",
+                "CNCL_DIST": "12",
+                "ENG_DIST_DESC": "Valley"
+              },
+              "distance_ft": 0
+            },
+            {
+              "title": "Cadastral parcels",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+              "fields": {
+                "OBJECTID": 161254,
+                "ASSETID": 1083979,
+                "MAPSHEET": "189B129",
+                "ID": 1140,
+                "BPP": "2202004013",
+                "MAP_REF": "M B 369-31/33",
+                "TRACT": "TR 15254",
+                "LOT": "13",
+                "PIND": "189B129-1140",
+                "PIN": "189B129  1140",
+                "BOOK": "2202",
+                "PAGE": "004",
+                "PARCEL": "013",
+                "ENG_DIST": "V",
+                "CNCL_DIST": "12",
+                "ENG_DIST_DESC": "Valley"
+              },
+              "distance_ft": 0
+            },
+            {
+              "title": "Cadastral parcels",
+              "value": "Intersects mapped parcel",
+              "source_url": "https://maps.lacity.org/arcgis/rest/services/Core/Master_landbase/MapServer/2",
+              "fields": {
+                "OBJECTID": 161417,
+                "ASSETID": 1084142,
+                "MAPSHEET": "189B129",
+                "ID": 1148,
+                "BPP": "2202004012",
+                "MAP_REF": "M B 369-31/33",
+                "TRACT": "TR 15254",
+                "LOT": "12",
+                "PIND": "189B129-1148",
+                "PIN": "189B129  1148",
+                "BOOK": "2202",
+                "PAGE": "004",
+                "PARCEL": "012",
+                "ENG_DIST": "V",
+                "CNCL_DIST": "12",
+                "ENG_DIST_DESC": "Valley"
+              },
+              "distance_ft": 0
+            }
+          ]
+        }
+      ],
+      "summary": "9 mapped features across 5 engineering layers.",
+      "id": "d8b102bc-a2aa-46c4-8548-192a0d1e7b46",
+      "cached": false
+    },
+    {
+      "source": "permits",
+      "title": "Permit history",
+      "source_url": "https://prism.dbs.lacity.gov",
+      "ain": "2202004010",
+      "context_key": "e790fe2c5f402fde7c982caf18aa575e79d6833e33f4a08edee206391238ae1f",
+      "retrieved_at": "2026-10-22T22:30:27.501182+00:00",
+      "origin": "live",
+      "vintage": "Not supplied by service",
+      "status": "matched",
+      "items": [
+        {
+          "title": "06044-90000-07649",
+          "value": "MECHANICAL PERMIT · HVAC · ISSUED",
+          "date": "2006-07-21T00:00:00",
+          "address": "17404 W STAGG ST",
+          "status": "ISSUED",
+          "record_id": 50938062,
+          "source_url": "https://prism.dbs.lacity.gov/blob/public/mechanical-permit/72728edf-b9ad-4939-bd9a-b972b8382b61.pdf",
+          "document_available": true
+        },
+        {
+          "title": "1979VN05830",
+          "value": "BUILDING PERMIT · NEW CONSTRUCTION",
+          "date": "1979-11-30T00:00:00",
+          "address": "17404 W STAGG ST",
+          "status": "Not supplied",
+          "record_id": 21133820,
+          "source_url": "https://prism.dbs.lacity.gov",
+          "document_available": false
+        },
+        {
+          "title": "1970VN58829",
+          "value": "BUILDING PERMIT · BLDG-ADDITION",
+          "date": "1970-06-10T00:00:00",
+          "address": "17404 W STAGG ST",
+          "status": "Not supplied",
+          "record_id": 8316367,
+          "source_url": "https://prism.dbs.lacity.gov",
+          "document_available": false
+        },
+        {
+          "title": "1970VN58829",
+          "value": "BUILDING PERMIT · BLDG-ADDITION",
+          "date": "1970-06-10T00:00:00",
+          "address": "17404 W STAGG ST",
+          "status": "Not supplied",
+          "record_id": 8316368,
+          "source_url": "https://prism.dbs.lacity.gov",
+          "document_available": false
+        },
+        {
+          "title": "1950VN07525",
+          "value": "BUILDING PERMIT · BLDG-NEW",
+          "date": "1950-04-20T00:00:00",
+          "address": "17404 W STAGG ST",
+          "status": "Not supplied",
+          "record_id": 8316366,
+          "source_url": "https://prism.dbs.lacity.gov",
+          "document_available": false
+        }
+      ],
+      "warnings": [
+        "A permit being issued does not establish final approval. No returned records does not establish an absence of permits or violations."
+      ],
+      "association": "PRISM assessor search: 2202-004-010.",
+      "next_action": "Check permit scope and final inspection records for the existing buildings and proposed alterations.",
+      "summary": "5 permit/building records; 1 downloadable documents.",
+      "id": "a070cee7-9207-42be-b6ec-420f9fd8c0ce",
+      "cached": false
+    },
+    {
+      "source": "planning",
+      "title": "Planning profile & cases",
+      "source_url": "https://zimas.lacity.org",
+      "ain": "2202004010",
+      "context_key": "e790fe2c5f402fde7c982caf18aa575e79d6833e33f4a08edee206391238ae1f",
+      "retrieved_at": "2026-10-22T22:30:27.491415+00:00",
+      "origin": "live",
+      "vintage": "Not supplied by service",
+      "status": "matched",
+      "items": [
+        {
+          "title": "Site Address",
+          "value": "17404 W STAGG ST",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "ZIP Code",
+          "value": "91325",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=ZIP_CD&value=91325&pin=189B129  1091"
+        },
+        {
+          "title": "PIN Number",
+          "value": "189B129  1091",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Lot/Parcel Area (Calculated)",
+          "value": "11,493.4 (sq ft)",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Thomas Brothers Grid",
+          "value": "PAGE 531 - GRID B3",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Assessor Parcel No. (APN)",
+          "value": "2202004010",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=BPP&value=2202004010&pin=189B129  1091"
+        },
+        {
+          "title": "Tract",
+          "value": "TR 15254",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Map Reference",
+          "value": "M B 369-31/33",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Block",
+          "value": "None",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Lot",
+          "value": "10",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Arb (Lot Cut Reference)",
+          "value": "None",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Map Sheet",
+          "value": "189B129",
+          "group": "Address/Legal Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=MAPSHEET&value=189B129&pin=189B129  1091"
+        },
+        {
+          "title": "Community Plan Area",
+          "value": "Reseda - West Van Nuys",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=COMN&value=Reseda%20-%20West%20Van%20Nuys&pin=189B129  1091"
+        },
+        {
+          "title": "Area Planning Commission",
+          "value": "South Valley APC",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=APC&value=South%20Valley%20APC&pin=189B129  1091"
+        },
+        {
+          "title": "Neighborhood Council",
+          "value": "NORTHRIDGE SOUTH NC",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=NC&value=NORTHRIDGE%20SOUTH%20NC&pin=189B129  1091"
+        },
+        {
+          "title": "Council District",
+          "value": "CD 12 - John Lee",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=COUNCIL&value=CD%2012%20-%20John%20Lee&pin=189B129  1091"
+        },
+        {
+          "title": "Census Tract #",
+          "value": "1312.00000000",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "LADBS District Office",
+          "value": "Van Nuys",
+          "group": "Jurisdictional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Building Permit Info",
+          "value": "View",
+          "group": "Permitting and Zoning Compliance Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=BPI&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "Administrative Review",
+          "value": "None",
+          "group": "Permitting and Zoning Compliance Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Home Sharing",
+          "value": "View",
+          "group": "Permitting and Zoning Compliance Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HOME_SHARE_WEBSITE&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "Special Notes",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Zoning",
+          "value": "R1-1",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=ZONING&value=R1-1&pin=189B129  1091"
+        },
+        {
+          "title": "Zoning Information (ZI)",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "General Plan Land Use",
+          "value": "Low Residential",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=GENPLAN&value=Low%20Residential&pin=189B129  1091"
+        },
+        {
+          "title": "General Plan Note(s)",
+          "value": "Yes",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=GPFN&value=Yes&pin=189B129  1091"
+        },
+        {
+          "title": "Minimum Density Requirement",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Hillside Area (Zoning Code)",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Specific Plan Area",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Subarea",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Special Land Use / Zoning",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Historic Preservation Review",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "HistoricPlacesLA",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HPLA&value=No&pin=189B129  1091"
+        },
+        {
+          "title": "CDO: Community Design Overlay",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "CPIO: Community Plan Imp. Overlay",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Subarea",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     CPIO Historic Preservation Review",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "CUGU: Clean Up-Green Up",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "HCR: Hillside Construction Regulation",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "NSO: Neighborhood Stabilization Overlay",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "POD: Pedestrian Oriented Districts",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "RBP: Restaurant Beverage Program Eligible Area",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "ASP: Alcohol Sales Program",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "RFA: Residential Floor Area District",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "RIO: River Implementation Overlay",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "SN: Sign District",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "SB 9 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=SB9_CRITERIA&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "SB 35 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=SB35_CRITERIA&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "SB 79 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=SB79_LINK&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "SHRA / SB 684 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=SB684_CRITERIA&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "AB 2334: Very Low Vehicle Travel Area",
+          "value": "Yes",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "AB 2097: Within a half mile of a Major Transit Stop",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "AB 2011 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=AB2011_CRITERIA&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "AB 130 Eligibility",
+          "value": "View",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=AB130_CRITERIA&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "Streetscape",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Adaptive Reuse Subareas",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Adaptive Reuse Program",
+          "value": "Citywide Adaptive Reuse Program",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=ARP&value=Citywide%20Adaptive%20Reuse%20Program&pin=189B129  1091"
+        },
+        {
+          "title": "     Neighborhood",
+          "value": "Lake Balboa",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Residential Market Area",
+          "value": "Low",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=AHLF_RES&value=Low&pin=189B129  1091"
+        },
+        {
+          "title": "     Commercial Market Area",
+          "value": "Low",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=AHLF_NONRES&value=Low&pin=189B129  1091"
+        },
+        {
+          "title": "Inclusionary Housing",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Local Affordable Housing Incentive",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Targeted Planting",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Special Lot Line",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Transit Oriented Communities (TOC)",
+          "value": "Not Eligible",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Transit Oriented Incentive Area (TOIA)",
+          "value": "Not Eligible",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Opportunity Corridors Incentive Area",
+          "value": "Not Eligible",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Corridor Transition Incentive Area",
+          "value": "Not Eligible",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "TCAC Opportunity Area",
+          "value": "High",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "High Quality Transit Corridor (within 1/2 mile)",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "ED 1 Eligibility",
+          "value": "Not Eligible",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "RPA: Redevelopment Project Area",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Central City Parking",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Downtown Parking",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Building Line",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "500 Ft School Zone",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "500 Ft Park Zone",
+          "value": "None",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Zanja System 1 Mile Buffer",
+          "value": "No",
+          "group": "Planning and Zoning Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Recent Activity",
+          "value": "None",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "City Planning Commission",
+          "value": "CPC-2394",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=20000&value=CPC-2394&pin=189B129  1091",
+          "case_details": {},
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/Case?caseNumber=CPC-2394",
+          "documents": [],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "No document links returned in case page; open case for its document tabs."
+        },
+        {
+          "title": "City Planning Commission",
+          "value": "CPC-2019-1741-CPU",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=20000&value=CPC-2019-1741-CPU&pin=189B129  1091",
+          "case_details": {
+            "Case Number:": "CPC-2019-1741-CPU",
+            "Case Filed On:": "03/22/2019",
+            "Accepted For Review On:": "N/A",
+            "Assigned Date:": "09/18/2024",
+            "Staff Assigned:": "KATHERINE STIEGEMEYER",
+            "Hearing Waived / Date Waived :": "No",
+            "Hearing Location:": "",
+            "Hearing Date": "N/A",
+            "CPC Action:": "",
+            "CPC Action Date:": "N/A",
+            "End of Appeal Period:": "N/A",
+            "Appealed:": "No",
+            "BOE Reference Number:": "",
+            "Case on Hold?:": "No",
+            "Project Description:": "RESEDA-WEST VAN NUYS COMMUNITY PLAN UPDATE",
+            "Requested Entitlement:": "COMMUNITY PLAN UPDATE",
+            "Applicant:": "",
+            "Representative:": ""
+          },
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/casenumber/CPC-2019-1741-CPU",
+          "documents": [],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. 0 Approved Documents found for Case Number: CPC-2019-1741-CPU 0 Initial Submittal Documents found for Case Number: CPC-2019-1741-CPU Case Number: CPC-2019-1741-CPU Case Filed On: 03/22/2019 Accepted For Review On: N/A Assigned Date: 09/18/2024 Staff Assigned: KATHERINE STIEGEMEYER Hearing Waived / Date Waived : No Hearing Location: Hearing Date N/A CPC Action: CPC Action Date: N/A End of Appeal Period: N/A Appealed: No BOE Reference Number: Case on Hold?: No Primary Address Address CNC CD 7918 N RESEDA BLVD Reseda CD 12 View All Addresses Project Description: RESEDA-WEST VAN NUYS COMMUNITY PLAN UPDATE Requested Entitlement: COMMUNITY PLAN UPDATE Applicant: Representative: View Related Cases Related Cases grid All Addresses Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "No document links returned in case page; open case for its document tabs."
+        },
+        {
+          "title": "City Planning Commission",
+          "value": "CPC-11708",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=20000&value=CPC-11708&pin=189B129  1091",
+          "case_details": {},
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/Case?caseNumber=CPC-11708",
+          "documents": [],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "No document links returned in case page; open case for its document tabs."
+        },
+        {
+          "title": "Ordinance",
+          "value": "ORD-95209",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=50000&value=ORD-95209&pin=189B129  1091",
+          "case_details": {},
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/OrdinanceDetails/ORD-95209",
+          "documents": [
+            {
+              "title": "ORD-95209",
+              "url": "https://planning.lacity.gov/pdiscaseinfo/document/MTI1NjU0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive",
+              "date": "2019-10-23T23:27:15Z",
+              "approval_status": null
+            }
+          ],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "linked"
+        },
+        {
+          "title": "Ordinance",
+          "value": "ORD-119865",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=50000&value=ORD-119865&pin=189B129  1091",
+          "case_details": {},
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/OrdinanceDetails/ORD-119865",
+          "documents": [
+            {
+              "title": "ORD-119865",
+              "url": "https://planning.lacity.gov/pdiscaseinfo/document/MTEzMDk0/6d0d2d25-0f15-4c7d-b0c2-0a119627b1eb/ord/archive",
+              "date": "2019-10-23T22:56:27Z",
+              "approval_status": null
+            }
+          ],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "linked"
+        },
+        {
+          "title": "Environmental",
+          "value": "ENV-2019-1743-EIR",
+          "group": "Case Numbers",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=40000&value=ENV-2019-1743-EIR&pin=189B129  1091",
+          "case_details": {},
+          "case_url": "https://planning.lacity.gov/pdiscaseinfo/Search/Case?caseNumber=ENV-2019-1743-EIR",
+          "documents": [],
+          "case_excerpt": "Case Information & Documents - Los Angeles City Planning Case Summary & Documents Case Number: Search Format: AA-YYYY-1234     Example: ZA-2011-3269 A Partial Case Number is required. Case Number must be at least 5 characters long. Ordinance Number: Search Format: ORD-000000     Example: ORD-127564 An Ordinance Number is required. The Ordinance Number must be at least 5 characters long. Zoning Information: Search Format: ZI-0000     Example: ZI-1232 A Zoning Information Card Number is required. The Zoning Information Card Number must be at least 5 characters long. CPC Card: Search Format: CPC-00000     Example: CPC-19701 A CPC Card Number is required. The CPC Card Number must be at least 5 characters long. ZA Card: Search Format: ZA-YYYY-0000-EXT     Example: ZA-1982-226-YV A ZA Card Number is required. The ZA Card Number must be at least 5 characters long.",
+          "document_status": "No document links returned in case page; open case for its document tabs."
+        },
+        {
+          "title": "Airport Hazard",
+          "value": "Horizontal Surface Area",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Coastal Zone",
+          "value": "None",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Coastal Bluff Potential",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Canyon Bluff Potential",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Farmland",
+          "value": "Urban and Built-up Land",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Urban Agriculture Incentive Zone",
+          "value": "YES",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=UAIZ&value=YES&pin=189B129  1091"
+        },
+        {
+          "title": "Very High Fire Hazard Severity Zone",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Fire District No. 1",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Flood Zone",
+          "value": "Outside Flood Zone",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Watercourse",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Streams",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Methane Hazard Site",
+          "value": "None",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "High Wind Velocity Areas",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Special Grading Area (BOE Basic Grid Map A-13372)",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Wells",
+          "value": "None",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Sea Level Rise Area",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Oil Well Adjacency",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Universal Planning Review Service Applicability",
+          "value": "Needs Review",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=ERP&value=Needs%20Review&pin=189B129  1091"
+        },
+        {
+          "title": "Northeast D/Q Ordinance Ridgelines",
+          "value": "No",
+          "group": "Additional Information",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Santa Monica Mountains Zone",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Biological Resource Potential",
+          "value": "None",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Mountain Lion Potential",
+          "value": "None",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Monarch Butterfly Potential",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "300-Foot Habitat Buffer",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "County-Designated SEAs and CRAs",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "USFWS-designated CHAs",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Criterion 1 Protected Areas for Wildlife (PAWs)",
+          "value": "No",
+          "group": "Environmental",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Nearest Fault (Distance in km)",
+          "value": "8.3359752",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Nearest Fault (Name)",
+          "value": "Northridge",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Region",
+          "value": "Los Angeles Blind Thrusts",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Fault Type",
+          "value": "B",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Slip Rate (mm/year)",
+          "value": "1.50000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Slip Geometry",
+          "value": "Reverse",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Slip Type",
+          "value": "Poorly Constrained",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Down Dip Width (km)",
+          "value": "22.00000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Rupture Top",
+          "value": "5.00000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Rupture Bottom",
+          "value": "20.00000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Dip Angle (degrees)",
+          "value": "42.00000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Maximum Magnitude",
+          "value": "7.00000000",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Alquist-Priolo Fault Zone",
+          "value": "No",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Landslide",
+          "value": "No",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Liquefaction",
+          "value": "No",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Preliminary Fault Rupture Study Area",
+          "value": "None",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Tsunami Hazard Area",
+          "value": "No",
+          "group": "Seismic Hazards",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Business Improvement District",
+          "value": "None",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Hubzone",
+          "value": "None",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Jobs and Economic Development Incentive Zone (JEDI)",
+          "value": "None",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Opportunity Zone",
+          "value": "No",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Promise Zone",
+          "value": "None",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "State Enterprise Zone",
+          "value": "None",
+          "group": "Economic Development Areas",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Direct all Inquiries to",
+          "value": "Los Angeles Housing Department",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Telephone",
+          "value": "(866) 557-7368",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Website",
+          "value": "housing.lacity.gov",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HCID_WEBSITE&value=housing.lacity.gov&pin=189B129  1091"
+        },
+        {
+          "title": "Rent Stabilization Ordinance (RSO)",
+          "value": "No [APN: 2202004010]",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Ellis Act Property",
+          "value": "No",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "Just Cause For Eviction Ordinance (JCO)",
+          "value": "Yes",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Assessor Parcel No. (APN)",
+          "value": "2202004010",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Address",
+          "value": "17404 STAGG ST",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "           Year Built",
+          "value": "1950",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "           Use Code",
+          "value": "0100 - Residential - Single Family Residence",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "           Notes",
+          "value": "The Just Cause Ordinance applies after the expiration of the initial lease or after 6 months of continuous occupancy, whichever comes first.",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HCID_JCO_NOTES&value=The%20Just%20Cause%20Ordinance%20applies%20after%20the%20expiration%20of%20the%20initial%20lease%20or%20after%206%20months%20of%20continuous%20occupancy%2C%20whichever%20comes%20first.&pin=189B129  1091"
+        },
+        {
+          "title": "Housing Crisis Act and Resident Protections Ordinance Replacement Review",
+          "value": "View",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HOUSING_CRISIS_GUIDE&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "Direct all Housing Element Sites Inquiries to",
+          "value": "Los Angeles City Planning",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Email",
+          "value": "planning.housingpolicy@lacity.org",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     HE Replacement Required",
+          "value": "N/A",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     SB 166 Units",
+          "value": "N/A",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Interactive Map",
+          "value": "View",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=HSE_ELE_MAP&value=View&pin=189B129  1091"
+        },
+        {
+          "title": "Housing Use within Prior 5 Years",
+          "value": "Yes",
+          "group": "Housing",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Bureau",
+          "value": "Valley",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=BUREAU&value=Valley&pin=189B129  1091"
+        },
+        {
+          "title": "          Division / Station",
+          "value": "West Valley",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=APREC&value=West%20Valley&pin=189B129  1091"
+        },
+        {
+          "title": "               Reporting District",
+          "value": "1006",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "     Bureau",
+          "value": "Valley",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=DIVISION&value=Valley&pin=189B129  1091"
+        },
+        {
+          "title": "          Battallion",
+          "value": "10",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        },
+        {
+          "title": "               District / Fire Station",
+          "value": "100",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/processdatalink.aspx?field=STATION&value=100&pin=189B129  1091"
+        },
+        {
+          "title": "     Red Flag Restricted Parking",
+          "value": "No",
+          "group": "Public Safety",
+          "pin": "189B129  1091",
+          "source_url": "https://zimas.lacity.org/zm4WS/GetProjectData?PIN=189B129++1091&APN=&project="
+        }
+      ],
+      "warnings": [
+        "A listed case is a reference, not a finding that its approvals or conditions apply to this project."
+      ],
+      "association": "Exact APN → City PIN; case references may cover an area or the whole city.",
+      "next_action": "Read applicable case decisions and conditions before accepting ordinary zoning assumptions.",
+      "summary": "1 City parcel match(es), 6 case/ordinance references.",
+      "id": "e0ce42c5-b7f5-49ce-be08-c798aebbe129",
+      "cached": false
+    },
+    {
+      "source": "transit",
+      "title": "Transit & walking access",
+      "source_url": "https://api.metro.net/",
+      "ain": "2202004010",
+      "context_key": "e790fe2c5f402fde7c982caf18aa575e79d6833e33f4a08edee206391238ae1f",
+      "retrieved_at": "2026-10-22T22:30:27.519789+00:00",
+      "origin": "live",
+      "vintage": "Not supplied by service",
+      "status": "matched",
+      "items": [
+        {
+          "title": "Saticoy / Louise",
+          "value": "0.25 mi straight-line",
+          "stop_id": "14476",
+          "straight_line_miles": 0.249,
+          "source_url": "https://api.metro.net/LACMTA/stops/14476",
+          "coordinates": [
+            -118.510191,
+            34.208548
+          ],
+          "route_status": "estimated",
+          "walking_miles": 0.3808,
+          "walking_minutes": 7.3,
+          "route_source": "https://valhalla1.openstreetmap.de/route?json=%7B%22locations%22%3A%5B%7B%22lat%22%3A34.21172373510964%2C%22lon%22%3A-118.51223965224335%7D%2C%7B%22lat%22%3A34.208548%2C%22lon%22%3A-118.510191%7D%5D%2C%22costing%22%3A%22pedestrian%22%2C%22units%22%3A%22miles%22%7D",
+          "directions": [
+            "Walk east on Stagg Street.",
+            "Turn right onto the walkway.",
+            "Turn right onto the walkway.",
+            "You have arrived at your destination."
+          ]
+        },
+        {
+          "title": "Saticoy / Encino",
+          "value": "0.26 mi straight-line",
+          "stop_id": "6080",
+          "straight_line_miles": 0.256,
+          "source_url": "https://api.metro.net/LACMTA/stops/6080",
+          "coordinates": [
+            -118.513904,
+            34.208282
+          ],
+          "route_status": "estimated",
+          "walking_miles": 0.3936,
+          "walking_minutes": 7.4,
+          "route_source": "https://valhalla1.openstreetmap.de/route?json=%7B%22locations%22%3A%5B%7B%22lat%22%3A34.21172373510964%2C%22lon%22%3A-118.51223965224335%7D%2C%7B%22lat%22%3A34.208282%2C%22lon%22%3A-118.513904%7D%5D%2C%22costing%22%3A%22pedestrian%22%2C%22units%22%3A%22miles%22%7D",
+          "directions": [
+            "Walk west on Stagg Street.",
+            "Turn left onto Encino Avenue.",
+            "Turn left onto the walkway.",
+            "You have arrived at your destination."
+          ]
+        },
+        {
+          "title": "Saticoy / Encino",
+          "value": "0.26 mi straight-line",
+          "stop_id": "14462",
+          "straight_line_miles": 0.257,
+          "source_url": "https://api.metro.net/LACMTA/stops/14462",
+          "coordinates": [
+            -118.514567,
+            34.208534
+          ],
+          "route_status": "estimated",
+          "walking_miles": 0.3772,
+          "walking_minutes": 7.1,
+          "route_source": "https://valhalla1.openstreetmap.de/route?json=%7B%22locations%22%3A%5B%7B%22lat%22%3A34.21172373510964%2C%22lon%22%3A-118.51223965224335%7D%2C%7B%22lat%22%3A34.208534%2C%22lon%22%3A-118.514567%7D%5D%2C%22costing%22%3A%22pedestrian%22%2C%22units%22%3A%22miles%22%7D",
+          "directions": [
+            "Walk west on Stagg Street.",
+            "Turn left onto Encino Avenue.",
+            "Turn right onto the walkway.",
+            "You have arrived at your destination."
+          ]
+        }
+      ],
+      "warnings": [
+        "Metro coverage only; other transit operators are not checked.",
+        "Walking routes are Valhalla estimates using © OpenStreetMap contributors, not surveyed access or statutory eligibility. The origin is not a verified entrance.",
+        "Stop presence does not verify current service frequency, major-transit-stop status or parking/height eligibility."
+      ],
+      "association": "Metro stop candidates within one mile of a representative point inside the mapped parcel.",
+      "next_action": "Check the actual property entrance, walkable access, service and the applicable transit definition before claiming an ADU exception.",
+      "origin_point": {
+        "longitude": -118.51223965224335,
+        "latitude": 34.21172373510964,
+        "method": "GIS parcel representative point"
+      },
+      "stops_retrieved_at": "2026-10-22T22:30:38.238297+00:00",
+      "summary": "3 nearest Metro candidates; 3 estimated walking routes. Eligibility not determined.",
+      "id": "807f7c3c-6047-45b3-be1b-45da58b58937",
+      "cached": false
+    }
+  ],
+  "errors": []
+}

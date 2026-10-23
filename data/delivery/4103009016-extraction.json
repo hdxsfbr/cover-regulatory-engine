@@ -1,0 +1,113 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 55,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.405,
+        0.805,
+        0.445,
+        0.835
+      ],
+      "printed_mark": "\" (ditto) on lot 28's Kittyhawk edge, resolving to 55 printed on lot 27's Kittyhawk edge",
+      "reason": "Identity: map header reads 4103 / 9. Tract label 'TRACT NO 11569 M B 303-17' is split across the row. Lot 28 contains circled assessor number 16, matching AIN 4103-009-016. Width: the Kittyhawk frontage of lot 28 carries a ditto mark (about x=0.439, y=0.783). The chain runs southwest to the adjacent lot 27, whose Kittyhawk edge has an explicitly printed '55' (about x=0.418, y=0.819). Lot 27's rear edge is also printed '55' (about x=0.37, y=0.75), and lot 28's rear edge carries a ditto mark (about x=0.391, y=0.712). Equal opposite widths are consistent with a rectangular lot. The printed bearings and the 125 depth are on other lines, so no depth is derived.",
+      "method": "ditto",
+      "ain": "4103009016",
+      "map_id": "4103-009",
+      "document_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "3490a2fcff8b24908994b0274588b282d475321ccfc5004e8cf3c36259935640"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Kittyhawk Ave",
+    "compass": "southeast",
+    "reason": "The north arrow on the left margin points straight up the page. Lot 28 is in the row of lots 26-39 between the common rear line, shared with lots 14-25, and KITTYHAWK AVE. The Kittyhawk Ave street line runs along the lower-right edge of lot 28. With north at the top, that lower-right edge faces southeast. The ditto mark on the street-side edge of lot 28 marks that edge as the frontage."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "Lot 28 has no printed depth. The nearest depth mark, '125', is on the lot 26/27 side line, and another '125' appears at lot 39. Lot 28's own side lines carry no dimension.",
+    "The printed bearings are 'N 46\u00b051'26\"W' (along the lot 34/35 area) and what appears to be 'N 43\u00b008'26\"W' (along the Kittyhawk side). Both read 'W', and the angles sum to 89\u00b059'52\" rather than exactly 90\u00b0. They therefore do not cleanly establish perpendicularity. For that reason the derived-parallel depth and the derived-rectangle area are omitted.",
+    "Lot 28 has no printed area.",
+    "Tract 11569 is confirmed from the split tract label and the 'M B 303' / '17' marks along the row. The label is fragmented across several lots, and the '17' could be part of a different reference.",
+    "The rectangular shape is a visual judgment based on equal opposite widths (55 / ditto). Lot 28 itself has no closure dimensions."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "4103-009",
+      "tract": "11569",
+      "lot": "28",
+      "parcel_number": "016",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Kittyhawk Ave",
+      "compass": "southeast",
+      "reason": "The north arrow on the left margin points straight up the page. Lot 28 is in the row of lots 26-39 between the common rear line, shared with lots 14-25, and KITTYHAWK AVE. The Kittyhawk Ave street line runs along the lower-right edge of lot 28. With north at the top, that lower-right edge faces southeast. The ditto mark on the street-side edge of lot 28 marks that edge as the frontage."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 55,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.405,
+          0.805,
+          0.445,
+          0.835
+        ],
+        "printed_mark": "\" (ditto) on lot 28's Kittyhawk edge, resolving to 55 printed on lot 27's Kittyhawk edge",
+        "reason": "Identity: map header reads 4103 / 9. Tract label 'TRACT NO 11569 M B 303-17' is split across the row. Lot 28 contains circled assessor number 16, matching AIN 4103-009-016. Width: the Kittyhawk frontage of lot 28 carries a ditto mark (about x=0.439, y=0.783). The chain runs southwest to the adjacent lot 27, whose Kittyhawk edge has an explicitly printed '55' (about x=0.418, y=0.819). Lot 27's rear edge is also printed '55' (about x=0.37, y=0.75), and lot 28's rear edge carries a ditto mark (about x=0.391, y=0.712). Equal opposite widths are consistent with a rectangular lot. The printed bearings and the 125 depth are on other lines, so no depth is derived.",
+        "method": "ditto"
+      }
+    ],
+    "uncertainties": [
+      "Lot 28 has no printed depth. The nearest depth mark, '125', is on the lot 26/27 side line, and another '125' appears at lot 39. Lot 28's own side lines carry no dimension.",
+      "The printed bearings are 'N 46\u00b051'26\"W' (along the lot 34/35 area) and what appears to be 'N 43\u00b008'26\"W' (along the Kittyhawk side). Both read 'W', and the angles sum to 89\u00b059'52\" rather than exactly 90\u00b0. They therefore do not cleanly establish perpendicularity. For that reason the derived-parallel depth and the derived-rectangle area are omitted.",
+      "Lot 28 has no printed area.",
+      "Tract 11569 is confirmed from the split tract label and the 'M B 303' / '17' marks along the row. The label is fragmented across several lots, and the '17' could be part of a different reference.",
+      "The rectangular shape is a visual judgment based on equal opposite widths (55 / ditto). Lot 28 itself has no closure dimensions."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2501,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4807,
+        "webSearchRequests": 0,
+        "costUSD": 0.08848400000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1509,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "e5076c956f086abc14a501b09ecf21a033cc8adb9500f7bca43e5adbac41d0eb",
+    "elapsed_seconds": 26.516
+  },
+  "document": {
+    "map_id": "4103-009",
+    "ain": "4103009016",
+    "legal_description": "TRACT # 11569 LOT   28",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+    "retrieved_at": "2026-10-22T17:10:36.055418+00:00",
+    "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d"
+  },
+  "elapsed_seconds": 27.021565654082224
+}

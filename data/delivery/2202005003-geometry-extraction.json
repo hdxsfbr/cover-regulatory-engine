@@ -1,0 +1,262 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 62.56,
+      "units": "ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.66,
+        0.39,
+        0.7,
+        0.43
+      ],
+      "printed_mark": "62.56'",
+      "reason": "The tract map prints 62.56' on lot 3's east boundary along Louise Avenue. The assessor sheet (document 0) agrees through a ditto chain. Lot 3's top (Louise Ave) edge and bottom (alley) edge carry only ditto marks. Each chain ends at lot 2, where 62.56 is printed explicitly on both the top and bottom edges. Equal front and rear widths are consistent with a rectangle.",
+      "method": "printed",
+      "ain": "2202005003",
+      "map_id": "2202-005",
+      "document_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "2f85ebc5badb026215da2b0af953a61ba24dc018baea0f0cbbe717bf19d963d6"
+    },
+    {
+      "key": "lot_depth_ft",
+      "value": 163,
+      "units": "ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.62,
+        0.39,
+        0.67,
+        0.43
+      ],
+      "printed_mark": "163'",
+      "reason": "The tract map prints 163' on lot 3's north side line (shared with lot 2) and its south side line (shared with lot 4). These side lines run between the common Louise Avenue frontage line (N 0\u00b002'42\" E) and the common alley rear line. The parallel interior lot lines carry the printed bearing N 89\u00b058'50\" W, for example at lots 1/2 and 12/13. Assumption: lot 3's side lines share that bearing and run between common parallel front and rear boundaries. The assessor map also prints 163 on the row's side lines, at lots 1/2 and 12/13. Lot 3 has no 163 mark of its own there.",
+      "method": "printed",
+      "ain": "2202005003",
+      "map_id": "2202-005",
+      "document_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "95f5e1277a6db32e632007c91bf23a5a381db14d1e6b1c14b5dd1027f638a1fb"
+    },
+    {
+      "key": "lot_area_sqft",
+      "value": 10197.28,
+      "units": "sq ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.59,
+        0.39,
+        0.7,
+        0.43
+      ],
+      "printed_mark": "62.56' / 163'",
+      "reason": "No area is printed for lot 3 on either map. This value is derived as a rectangle: 62.56 ft frontage multiplied by 163 ft depth.",
+      "method": "derived-rectangle",
+      "dimensions_ft": {
+        "lot_width_ft": 62.56,
+        "lot_depth_ft": 163
+      },
+      "ain": "2202005003",
+      "map_id": "2202-005",
+      "document_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "069270d526ce738be0e887ea2267cb7f1855d6e8396be93423f516b0638261be"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "confirmed": true,
+    "street": "Louise Avenue",
+    "compass": "east",
+    "reason": "On the recorded tract map (document 1, page 2), the north arrow points up. Louise Avenue runs along the east side of the tract, and its edge bearing is printed as N 0\u00b002'42\" E. Lots 1-13 run in a column between Louise Avenue on the east and an alley on the west, with lot 1 at the north end. Lot 3 is the third lot down. Its long east edge is on Louise Avenue, and its printed frontage there is 62.56'. The assessor sheet (document 0) is rotated 90 degrees. Its north-arrow symbol at the bottom points left, which puts Stagg St on the left (north) and Louise Ave across the top (east). This agrees with the tract map. The situs address, 7745 Louise Ave, is consistent with Louise Avenue as the frontage street."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "The two printed bearings, N 0\u00b002'42\" E and N 89\u00b058'50\" W, differ from exactly 90 degrees by about 1.5 arc-minutes. Treating 163 ft as the perpendicular depth therefore assumes the lot is effectively rectangular. The resulting difference is negligible.",
+    "The N 89\u00b058'50\" W bearing is printed on some interior lot lines in this column, not specifically on lot 3's side lines. Lot 3 is assumed to share it as a common parallel boundary.",
+    "The assessor map's north symbol is stylized and rotated. Orientation was confirmed mainly from the tract map's clear north arrow.",
+    "The recording stamp on sheet 2 is hard to read (it looks like '258'), but the header says 358-31, consistent with M.B. 358-30-31 on the assessor map. This tract recording reference is separate from the assessor map_id."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2202-005",
+      "tract": "14432",
+      "lot": "3",
+      "parcel_number": "3",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "confirmed": true,
+      "street": "Louise Avenue",
+      "compass": "east",
+      "reason": "On the recorded tract map (document 1, page 2), the north arrow points up. Louise Avenue runs along the east side of the tract, and its edge bearing is printed as N 0\u00b002'42\" E. Lots 1-13 run in a column between Louise Avenue on the east and an alley on the west, with lot 1 at the north end. Lot 3 is the third lot down. Its long east edge is on Louise Avenue, and its printed frontage there is 62.56'. The assessor sheet (document 0) is rotated 90 degrees. Its north-arrow symbol at the bottom points left, which puts Stagg St on the left (north) and Louise Ave across the top (east). This agrees with the tract map. The situs address, 7745 Louise Ave, is consistent with Louise Avenue as the frontage street."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 62.56,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.66,
+          0.39,
+          0.7,
+          0.43
+        ],
+        "printed_mark": "62.56'",
+        "reason": "The tract map prints 62.56' on lot 3's east boundary along Louise Avenue. The assessor sheet (document 0) agrees through a ditto chain. Lot 3's top (Louise Ave) edge and bottom (alley) edge carry only ditto marks. Each chain ends at lot 2, where 62.56 is printed explicitly on both the top and bottom edges. Equal front and rear widths are consistent with a rectangle.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_depth_ft",
+        "value": 163,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.62,
+          0.39,
+          0.67,
+          0.43
+        ],
+        "printed_mark": "163'",
+        "reason": "The tract map prints 163' on lot 3's north side line (shared with lot 2) and its south side line (shared with lot 4). These side lines run between the common Louise Avenue frontage line (N 0\u00b002'42\" E) and the common alley rear line. The parallel interior lot lines carry the printed bearing N 89\u00b058'50\" W, for example at lots 1/2 and 12/13. Assumption: lot 3's side lines share that bearing and run between common parallel front and rear boundaries. The assessor map also prints 163 on the row's side lines, at lots 1/2 and 12/13. Lot 3 has no 163 mark of its own there.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_area_sqft",
+        "value": 10197.28,
+        "units": "sq ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.59,
+          0.39,
+          0.7,
+          0.43
+        ],
+        "printed_mark": "62.56' / 163'",
+        "reason": "No area is printed for lot 3 on either map. This value is derived as a rectangle: 62.56 ft frontage multiplied by 163 ft depth.",
+        "method": "derived-rectangle",
+        "dimensions_ft": {
+          "lot_width_ft": 62.56,
+          "lot_depth_ft": 163
+        }
+      }
+    ],
+    "uncertainties": [
+      "The two printed bearings, N 0\u00b002'42\" E and N 89\u00b058'50\" W, differ from exactly 90 degrees by about 1.5 arc-minutes. Treating 163 ft as the perpendicular depth therefore assumes the lot is effectively rectangular. The resulting difference is negligible.",
+      "The N 89\u00b058'50\" W bearing is printed on some interior lot lines in this column, not specifically on lot 3's side lines. Lot 3 is assumed to share it as a common parallel boundary.",
+      "The assessor map's north symbol is stylized and rotated. Orientation was confirmed mainly from the tract map's clear north arrow.",
+      "The recording stamp on sheet 2 is hard to read (it looks like '258'), but the header says 358-31, consistent with M.B. 358-30-31 on the assessor map. This tract recording reference is separate from the assessor map_id."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 3098,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 12743,
+        "webSearchRequests": 0,
+        "costUSD": 0.163912,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1566,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "024019bf427b865460a4061d6ca28ddb11d0ccb1795f674fec55e3b061aa528c",
+    "elapsed_seconds": 31.334
+  },
+  "document": {
+    "map_id": "2202-005",
+    "ain": "2202005003",
+    "legal_description": "TRACT # 14432 LOT    3",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+    "retrieved_at": "2026-10-22T18:13:20.778372+00:00",
+    "content_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40"
+  },
+  "documents": [
+    {
+      "map_id": "2202-005",
+      "ain": "2202005003",
+      "legal_description": "TRACT # 14432 LOT    3",
+      "status": "available",
+      "vintage": "unknown",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+      "retrieved_at": "2026-10-22T18:13:20.778372+00:00",
+      "content_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "14432",
+      "status": "available",
+      "retrieved_at": "2026-10-22T18:13:30.140673+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+      "content_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "14432",
+    "status": "available",
+    "retrieved_at": "2026-10-22T18:13:30.140673+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+    "content_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "section": "12.08",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+    "publisher": "American Legal Publishing for City of Los Angeles",
+    "access_probe": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "web_reader_access": "12.08, 12.21.1 and 12.03 readable through web research tool; 12.22 lapz timed out, lamc alternative indexed",
+    "edition_observed": "2026 Rev. 9",
+    "reuse_terms": "No specific license verified. Official legislative text only; no publisher commentary or images retained. Automated snapshot ingestion not yet verified.",
+    "successful_acquisition": {
+      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+      "retrieved_at": "2026-10-22T02:14:16.529151+00:00",
+      "content_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "edition": "2026 Rev. 9"
+    },
+    "snapshot": "data/sources/regulations/12.08-6cfef74864f8.json",
+    "http_status": 200
+  },
+  {
+    "section": "12.21.1",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+    "publisher": "American Legal Publishing for City of Los Angeles",
+    "access_probe": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "web_reader_access": "12.08, 12.21.1 and 12.03 readable through web research tool; 12.22 lapz timed out, lamc alternative indexed",
+    "edition_observed": "2026 Rev. 9",
+    "reuse_terms": "No specific license verified. Official legislative text only; no publisher commentary or images retained. Automated snapshot ingestion not yet verified.",
+    "successful_acquisition": {
+      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+      "retrieved_at": "2026-10-22T02:14:17.281335+00:00",
+      "content_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+      "edition": "2026 Rev. 9"
+    },
+    "snapshot": "data/sources/regulations/12.21.1-1ed7d5f4997d.json",
+    "http_status": 200
+  },
+  {
+    "section": "12.03",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+    "publisher": "American Legal Publishing for City of Los Angeles",
+    "access_probe": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "web_reader_access": "12.08, 12.21.1 and 12.03 readable through web research tool; 12.22 lapz timed out, lamc alternative indexed",
+    "edition_observed": "2026 Rev. 9",
+    "reuse_terms": "No specific license verified. Official legislative text only; no publisher commentary or images retained. Automated snapshot ingestion not yet verified.",
+    "successful_acquisition": {
+      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+      "retrieved_at": "2026-10-22T02:14:23.330317+00:00",
+      "content_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+      "edition": "2026 Rev. 9"
+    },
+    "snapshot": "data/sources/regulations/12.03-6eafeb53d83d.json",
+    "http_status": 200
+  },
+  {
+    "section": "12.22",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6561",
+    "publisher": "American Legal Publishing for City of Los Angeles",
+    "access_probe": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "web_reader_access": "12.08, 12.21.1 and 12.03 readable through web research tool; 12.22 lapz timed out, lamc alternative indexed",
+    "edition_observed": "2026 Rev. 9",
+    "reuse_terms": "No specific license verified. Official legislative text only; no publisher commentary or images retained. Automated snapshot ingestion not yet verified.",
+    "successful_acquisition": {
+      "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-114455",
+      "retrieved_at": "2026-10-22T02:14:46.686868+00:00",
+      "content_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+      "edition": "2026 Rev. 9"
+    },
+    "snapshot": "data/sources/regulations/12.22-61fa24da4298.json",
+    "http_status": 200
+  }
+]

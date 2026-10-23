@@ -1,0 +1,275 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 55,
+      "units": "ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.47,
+        0.67,
+        0.51,
+        0.72
+      ],
+      "printed_mark": "55'",
+      "reason": "Tract 11569 sheet 2 (303-18) prints 55' on lot 28's Kittyhawk Avenue frontage. A matching 55' is printed on the opposite alley edge. Lot 28 is confirmed by its printed tract lot number on this sheet. On the assessor map, the Kittyhawk edge of lot 28 carries a ditto mark that chains to the explicit '55' printed on lot 27's Kittyhawk edge. This is consistent with the tract map.",
+      "method": "printed",
+      "ain": "4103009016",
+      "map_id": "4103-009",
+      "document_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "bea87aa9a7f00762dd87065bfa8d3a4251e1e337daad7b2dcc6bc9a4640aa085"
+    },
+    {
+      "key": "lot_depth_ft",
+      "value": 125,
+      "units": "ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.38,
+        0.69,
+        0.48,
+        0.72
+      ],
+      "printed_mark": "N.46\u00b051'26\"W. 125'",
+      "reason": "Printed on the common side line between lots 27 and 28 on tract sheet 2. This line is lot 28's own southwesterly boundary. The side-line bearing N.46\u00b051'26\"W and the front/rear bearing N.43\u00b008'34\"E differ by exactly 90\u00b0. With equal 55' widths at front and rear, this confirms a rectangle whose side length equals the perpendicular depth.",
+      "method": "printed",
+      "ain": "4103009016",
+      "map_id": "4103-009",
+      "document_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "9a7a834f397fd4fc12dfd0f2599f890a27fd5a36b4c7c857aeeb3701044b5646"
+    },
+    {
+      "key": "lot_area_sqft",
+      "value": 6875,
+      "units": "sq ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.36,
+        0.63,
+        0.51,
+        0.72
+      ],
+      "printed_mark": "55' (front/rear); N.46\u00b051'26\"W. 125' (side)",
+      "reason": "No area is printed for lot 28. The area is derived for a rectangular lot as 55 ft \u00d7 125 ft = 6,875 sq ft. The rectangle is established by perpendicular printed bearings (N.43\u00b008'34\"E and N.46\u00b051'26\"W) and equal printed opposite widths.",
+      "method": "derived-rectangle",
+      "dimensions_ft": {
+        "lot_width_ft": 55,
+        "lot_depth_ft": 125
+      },
+      "ain": "4103009016",
+      "map_id": "4103-009",
+      "document_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "d0d2a7fda4942446da5f8a3abe7b92bcda9080391945860afa67fb4b173ae942"
+    }
+  ],
+  "rejected": [],
+  "uncertainties": [
+    "The situs address (7137 Kittyhawk Ave) is not printed on either map and cannot be verified from the images.",
+    "On the assessor map, lot 28's dimensions are shown only by ditto marks; the depth 125 is printed explicitly only on lot 27. The values are therefore taken from the recorded tract map (303-18).",
+    "The assessor map labels 'TRACT ... 303' near lots 29-30 and '11569' near lot 13. The tract identity for lot 28 is cross-checked on tract sheets labeled 'TRACT No 11569', recorded in Map Book 303, pages 17-20. That recording reference is distinct from the assessor map ID.",
+    "The derived area is a geometric calculation, not a printed area, and does not account for any easements or later adjustments."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "4103-009 (Assessor Book 4103, Page 9, Sheet 1)",
+      "tract": "11569",
+      "lot": "28",
+      "parcel_number": "16",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Kittyhawk Ave",
+      "compass": "southeast",
+      "reason": "The assessor map's north arrow points straight up. Kittyhawk Ave runs diagonally from lower-left to upper-right (northeast-southwest), and lot 28 lies on its upper-left (northwest) side, between the alley and Kittyhawk. On tract sheet 2 the Kittyhawk edge of lot 28 runs along N.43\u00b008'34\"E, and the side lines run N.46\u00b051'26\"W. The lot therefore fronts its southeast edge onto Kittyhawk Avenue. The alley is the rear (northwest) boundary."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 55,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.47,
+          0.67,
+          0.51,
+          0.72
+        ],
+        "printed_mark": "55'",
+        "reason": "Tract 11569 sheet 2 (303-18) prints 55' on lot 28's Kittyhawk Avenue frontage. A matching 55' is printed on the opposite alley edge. Lot 28 is confirmed by its printed tract lot number on this sheet. On the assessor map, the Kittyhawk edge of lot 28 carries a ditto mark that chains to the explicit '55' printed on lot 27's Kittyhawk edge. This is consistent with the tract map.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_depth_ft",
+        "value": 125,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.38,
+          0.69,
+          0.48,
+          0.72
+        ],
+        "printed_mark": "N.46\u00b051'26\"W. 125'",
+        "reason": "Printed on the common side line between lots 27 and 28 on tract sheet 2. This line is lot 28's own southwesterly boundary. The side-line bearing N.46\u00b051'26\"W and the front/rear bearing N.43\u00b008'34\"E differ by exactly 90\u00b0. With equal 55' widths at front and rear, this confirms a rectangle whose side length equals the perpendicular depth.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_area_sqft",
+        "value": 6875,
+        "units": "sq ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.36,
+          0.63,
+          0.51,
+          0.72
+        ],
+        "printed_mark": "55' (front/rear); N.46\u00b051'26\"W. 125' (side)",
+        "reason": "No area is printed for lot 28. The area is derived for a rectangular lot as 55 ft \u00d7 125 ft = 6,875 sq ft. The rectangle is established by perpendicular printed bearings (N.43\u00b008'34\"E and N.46\u00b051'26\"W) and equal printed opposite widths.",
+        "method": "derived-rectangle",
+        "dimensions_ft": {
+          "lot_width_ft": 55,
+          "lot_depth_ft": 125
+        }
+      }
+    ],
+    "uncertainties": [
+      "The situs address (7137 Kittyhawk Ave) is not printed on either map and cannot be verified from the images.",
+      "On the assessor map, lot 28's dimensions are shown only by ditto marks; the depth 125 is printed explicitly only on lot 27. The values are therefore taken from the recorded tract map (303-18).",
+      "The assessor map labels 'TRACT ... 303' near lots 29-30 and '11569' near lot 13. The tract identity for lot 28 is cross-checked on tract sheets labeled 'TRACT No 11569', recorded in Map Book 303, pages 17-20. That recording reference is distinct from the assessor map ID.",
+      "The derived area is a geometric calculation, not a printed area, and does not account for any easements or later adjustments."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2605,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 19762,
+        "webSearchRequests": 0,
+        "costUSD": 0.210204,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1170,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "aca89f72994fc3e807e8a92601b82b3db8ee3362dbc7e94aaa5ddf5898ef32fb",
+    "elapsed_seconds": 27.04
+  },
+  "document": {
+    "map_id": "4103-009",
+    "ain": "4103009016",
+    "legal_description": "TRACT # 11569 LOT   28",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+    "retrieved_at": "2026-10-22T17:31:19.769040+00:00",
+    "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d"
+  },
+  "documents": [
+    {
+      "map_id": "4103-009",
+      "ain": "4103009016",
+      "legal_description": "TRACT # 11569 LOT   28",
+      "status": "available",
+      "vintage": "unknown",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+      "retrieved_at": "2026-10-22T17:31:19.769040+00:00",
+      "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "11569",
+      "status": "available",
+      "retrieved_at": "2026-10-22T17:56:40.473273+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+      "content_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "11569",
+    "status": "available",
+    "retrieved_at": "2026-10-22T17:56:40.473273+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+    "content_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    },
+    {
+      "image": 4,
+      "document_index": 1,
+      "page": 3,
+      "kind": "tract-map"
+    },
+    {
+      "image": 5,
+      "document_index": 1,
+      "page": 4,
+      "kind": "tract-map"
+    }
+  ],
+  "total_seconds": 31.188586700940505,
+  "frontage": {
+    "street": "Kittyhawk Ave",
+    "compass": "southeast",
+    "reason": "The assessor map's north arrow points straight up. Kittyhawk Ave runs diagonally from lower-left to upper-right (northeast-southwest), and lot 28 lies on its upper-left (northwest) side, between the alley and Kittyhawk. On tract sheet 2 the Kittyhawk edge of lot 28 runs along N.43\u00b008'34\"E, and the side lines run N.46\u00b051'26\"W. The lot therefore fronts its southeast edge onto Kittyhawk Avenue. The alley is the rear (northwest) boundary."
+  },
+  "shape": "rectangle"
+}

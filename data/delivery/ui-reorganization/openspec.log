@@ -1,0 +1,15 @@
+- Validating...
+✓ change/applicability-evidence
+  ℹ [INFO] buildability-assessment/spec.md: Archive would refuse this delta: buildability-assessment ADDED failed for header "### Requirement: Actionable constraint blockers" - already exists
+✓ spec/assessment-assistant
+✓ spec/buildability-assessment
+✓ change/clarify-assessment-workspace
+✓ change/live-parcel-assessment
+  ℹ [INFO] source-recovery/spec.md: Archive would refuse this delta: source-recovery ADDED failed for header "### Requirement: Preserve regulatory scope during recovery" - already exists
+✓ spec/parcel-context
+✓ change/prd-complete-delivery
+✓ spec/project-workspace
+✓ spec/regulatory-review
+✓ spec/regulatory-rules
+✓ spec/source-recovery
+Totals: 11 passed, 0 failed (11 items)

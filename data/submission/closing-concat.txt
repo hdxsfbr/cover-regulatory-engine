@@ -1,0 +1,2 @@
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/original-av.mp4'
+file '/home/hdx/code/cover-regulatory-engine/data/submission/clips/09-closing.mp4'

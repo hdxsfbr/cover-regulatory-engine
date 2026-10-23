@@ -1,0 +1,253 @@
+{
+  "rules": [
+    {
+      "id": "r1-1-front-yard",
+      "version": 1,
+      "category": "front-yard",
+      "operation": "front-yard",
+      "zone": "R1-1",
+      "units": "ft",
+      "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet",
+      "scope": "Applies to a conventional new main building for a one-family dwelling on an R1-1 lot outside a Hillside Area or Coastal Zone, under LAMC 12.08 C.1. Supported expression: minimum front yard = min(0.2 * lot_depth_ft, 20). Lot depth is measured as defined in 12.03. The same 12.08 C.1 paragraph replaces this baseline with a prevailing front-yard average when developed lots with front yards varying by no more than ten feet make up 40% or more of the frontage, and that average can reach 40 feet. Key lots follow a separate computation. The baseline expression is valid only after frontage review confirms neither branch applies. Every exclusion must be checked, never presumed.",
+      "exclusions": [
+        "special approvals (variances, adjustments, specific plans, HPOZ, subdivision or other discretionary conditions)",
+        "frontage averaging of developed lots comprising 40% or more of the frontage (12.08 C.1)",
+        "key lots (12.08 C.1 second paragraph)",
+        "sloping front lots (12.22 C.6)",
+        "unit development of a frontage (12.22 C.8)",
+        "established building or setback lines (12.22 C.1)",
+        "lots affected by acquisition for public use (12.22 C.13)",
+        "through lots (12.22 C.19) and flag lots"
+      ],
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "frontage_reviewed"
+      ],
+      "required_inputs": [
+        "lot_depth_ft"
+      ],
+      "unresolved_references": [],
+      "source_versions": {
+        "12.21.1": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+        "12.08": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "12.22": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "12.03": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+      },
+      "supporting_citations": []
+    },
+    {
+      "id": "r1-1-side-yard",
+      "version": 1,
+      "category": "side-yard",
+      "operation": "side-yard",
+      "zone": "R1-1",
+      "units": "ft",
+      "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.  For a building more than two stories in height, 1 foot shall be added to the width of each yard for each additional story above the second story.\nAll portions of a building that have a side wall exceeding 14 feet in height and a continuous length greater than 45 feet shall have an offset/plane break that is a minimum depth of five feet beyond the required yard and a minimum length of 10 feet.  For the purpose of this Subdivision, height shall be measured from the existing or finished grade, whichever is lower, at each point along the perimeter of the building.\nFigure 12.08 C.2.(a): Plane break diagram.\n(b)\u00a0\u00a0\u00a0In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.",
+      "scope": "New R1-1 main building outside Hillside/Coastal areas. Base side yard is 5 feet, or max(3,10% of lot width) for lots narrower than 50 feet. Section 12.08 C.2(b) replaces the story increment with one foot for each ten feet or fraction above 18 feet. Excluded conditions must be checked.",
+      "exclusions": [
+        "special approvals, and side yard requirements in specific plans, HPOZs or subdivision approvals that take precedence (12.08 C.2.(c))",
+        "side wall offset/plane break requirement for walls over 14 feet high and longer than 45 feet (12.08 C.2.(a)); not resolved by this rule",
+        "occupied rooftop deck setback (12.08 C.2.(d))",
+        "reduced side yards for frontages developed as a unit (12.22 C.9)",
+        "side yard waiver for a first-story garage (12.22 C.2)",
+        "established building or setback lines (12.22 C.1)",
+        "lots affected by acquisition for public use (12.22 C.13)",
+        "through lots (12.22 C.19) and flag lots"
+      ],
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "side_conditions_reviewed"
+      ],
+      "required_inputs": [
+        "lot_width_ft",
+        "building_height_ft"
+      ],
+      "unresolved_references": [],
+      "source_versions": {
+        "12.21.1": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+        "12.08": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "12.22": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "12.03": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+      },
+      "supporting_citations": []
+    },
+    {
+      "id": "r1-1-rear-yard",
+      "version": 1,
+      "category": "rear-yard",
+      "operation": "rear-yard",
+      "zone": "R1-1",
+      "units": "ft",
+      "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "quote": "There shall be a rear yard of not less than 15 feet in depth.",
+      "scope": "Applies to a conventional new main building on an R1-1 lot outside a Hillside Area or Coastal Zone, under LAMC 12.08 C.3. Supported expression: minimum rear yard = 15. 12.22 C.10 states that in R1 the rear yard does not include half of an abutting alley. Every exclusion must be checked, never presumed.",
+      "exclusions": [
+        "special approvals (variances, adjustments, specific plans, HPOZ, subdivision or other discretionary conditions)",
+        "established building or setback lines (12.22 C.1)",
+        "lots affected by acquisition for public use (12.22 C.13)",
+        "through lots split into two building sites (12.22 C.19) and flag lots",
+        "unit developments"
+      ],
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal"
+      ],
+      "required_inputs": [],
+      "unresolved_references": [],
+      "source_versions": {
+        "12.21.1": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+        "12.08": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "12.22": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "12.03": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+      },
+      "supporting_citations": []
+    },
+    {
+      "id": "r1-1-height",
+      "version": 1,
+      "category": "height",
+      "operation": "height",
+      "zone": "R1-1",
+      "units": "ft",
+      "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+      "quote": "In the R1, RS, or RE9 Zones, no Building or Structure shall exceed 33 feet in height; except that when the roof of the uppermost Story of a Building or Structure or portion of the Building or Structure has a Slope of less than 25 percent, the maximum height shall be 28 feet.",
+      "scope": "Ordinary R1-1 new main building outside Hillside/Coastal areas, uniform uppermost roof slope across all portions: below 25 percent gives 28 feet; otherwise 33 feet. Height and grade follow 12.03. Mixed roof portions require separate analysis and are excluded from this scalar rule. Ground-slope definition does not substitute for roof pitch. All listed exceptions must be checked.",
+      "exclusions": [
+        "special approvals, and height limits in Specific Plans, HPOZs or subdivision approvals that take precedence (12.21.1)",
+        "block-average height when 40% or more of existing one-family dwellings exceed the limit (12.21.1)",
+        "R1V, R1F and R1R zone variations (12.21.6)",
+        "Height District 1-L, 1-VL, 1-XL or 1-SS designations (12.21.1 A.1)",
+        "roof decks, and solar structures shading roof decks (12.21.1 B.3.(c))",
+        "roof structures and equipment allowances (12.21.1 B.3)",
+        "adjoining-grade exception (12.21.1 B.2)",
+        "Mixed uppermost roof slopes; portions require separate height analysis"
+      ],
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "height_conditions_reviewed"
+      ],
+      "required_inputs": [
+        "roof_slope_percent"
+      ],
+      "unresolved_references": [],
+      "source_versions": {
+        "12.21.1": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+        "12.08": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "12.22": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "12.03": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+      },
+      "supporting_citations": [
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "GRADE (ADJACENT GROUND LEVEL).\nIs the lowest point of elevation of the finished surface of the ground, paving or sidewalk within the area between the building and the property line, or when the property line is more than 5 feet from the building, between the building and a line 5 feet from the building. This definition does not apply to any building or structure located within the boundaries of the Century City North or Century City South Specific Plans and which is subject to Section\n12.21.2\nof this Code.\n(Amended by Ord. No. 160,657, Eff. 2/17/86, Oper. 6/17/86.)"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "HEIGHT OF BUILDING OR STRUCTURE.\nIs the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest. Retaining walls shall not be used for the purpose of raising the effective elevation of the finished grade for purposes of measuring the height of a building or structure. This definition does not apply to any building or structure located within the boundaries of the Century City North and Century City South Specific Plans and which is subject to Section\n12.21.2\nof this Code.\n(Added by Ord. No. 160,657, Eff. 2/17/86, Oper. 6/17/86.)"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "SLOPE.\nAn inclined ground surface the inclination of which is expressed as a ratio of horizontal distance to vertical distance (i.e. 2:1 or 1:1) or as a percentage (i.e. 50% or 100%).\n(Added by Ord. No. 181,624, Eff. 5/9/11.)"
+        }
+      ]
+    },
+    {
+      "id": "r1-1-floor-area",
+      "version": 1,
+      "category": "floor-area",
+      "operation": "floor-area",
+      "zone": "R1-1",
+      "units": "sq ft",
+      "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "quote": "For lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45).",
+      "scope": "Ordinary R1-1 outside Hillside/Coastal areas: cap is 0.45 times legal lot area across all buildings. The complete 12.03 Residential Floor Area definition governs counted area and exemptions. This rule calculates only the cap, not proposal compliance or remaining development area; the encroachment plane remains a separate constraint.",
+      "exclusions": [
+        "special approvals (variances, specific plans, HPOZ, subdivision or other discretionary conditions)",
+        "encroachment plane (12.08 C.5.(a)); not resolved by the floor area cap",
+        "R1V, R1F, R1R and R1H zone variations (12.08 C.5.(b)-(e))",
+        "existing floor area verification for additions and remodels (12.08 C.6)",
+        "lots affected by acquisition for public use (12.22 C.13)",
+        "through lots (12.22 C.19) and flag lots",
+        "unit developments"
+      ],
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal"
+      ],
+      "required_inputs": [
+        "lot_area_sqft"
+      ],
+      "unresolved_references": [],
+      "source_versions": {
+        "12.21.1": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+        "12.08": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "12.22": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "12.03": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+      },
+      "supporting_citations": [
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "FLOOR AREA, RESIDENTIAL.  (Amended by Ord. No. 184,802, Eff. 3/17/17.)\nThe area in square feet confined within the exterior walls of a residential or non-residential Building on a Lot in an RA, RE, RS, or R1 Zone.  Any floor or portion of a floor with a ceiling height greater than 14 feet shall count as twice the square footage of that area.  The area of stairways and elevator shafts shall only be counted once regardless of ceiling height.  Area of an attic or portion of an attic with a ceiling height of more than 7 feet shall be included in the Residential Floor Area calculation.\nExcept that the following areas shall not be counted:\n1.\nRequired Covered Parking.\n(a)\u00a0\u00a0\u00a0The total area of 200 square feet per parking space that is required to be covered, up to a maximum of 400 square feet, shall be exempted from being counted as Residential Floor Area if all of said parking, whether detached or attached, is located in accordance with the following criteria:\n(1)\u00a0\u00a0\u00a0Said parking is located within the rear half of the Lot, or at least 55 feet from a Front Lot Line.\n(2)\u00a0\u00a0\u00a0On a Through Lot with no Rear Lot Line, said parking is set back from both Front Lot Lines a distance of at least 40 feet.\n(b)\u00a0\u00a0\u00a0If the parking that is required to be covered is not located in accordance with Paragraph (a) above, then only 200 square feet shall be exempted from being counted as Residential Floor Area.\n(c)\u00a0\u00a0\u00a0In any event, the required parking area exempted from counting as Residential Floor Area by this exception shall be limited to 400 square feet per Lot.\n2.\nDetached Accessory Buildings.\nDetached Accessory Buildings not exceeding 200 square feet; however, the total combined area exempted of all the Detached Accessory Buildings on a Lot shall not exceed 400 square feet.\n3.\nLattice Roof Porches, Patios, and Breezeways.\nPorches, patios, and breezeways that have a Lattice Roof, as defined in this section.\n4.\nBasements.\nFor Lots not located in the Hillside Area or Coastal Zone, any Basement when the Elevation of the upper surface of the floor or roof above the Basement does not exceed 2 feet in height at any point above the finished or natural Grade, whichever is lower.\nFor Lots located in the Hillside Area, any Basement when the Elevation of the upper surface of the floor or roof above the Basement does not exceed 3 feet in height at any point above the finished or natural Grade, whichever is lower, for at least 60 percent of the perimeter length of the exterior Basement walls.\nFor all Lots, the following shall not disqualify said Basement from this exemption:\n(a)\u00a0\u00a0\u00a0A maximum of one (1), 20-foot wide depressed driveway with direct access to the required covered parking spaces; and\n(b)\u00a0\u00a0\u00a0A maximum of two (2) light- wells which are not visible from a public right-of-way and do not project more than three feet from the exterior walls of the Basement and no wider than 6 feet."
+        }
+      ]
+    }
+  ],
+  "extraction": {
+    "at": "2026-10-22T02:20:47.279533+00:00",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 6904,
+        "cacheReadInputTokens": 254634,
+        "cacheCreationInputTokens": 35869,
+        "webSearchRequests": 0,
+        "costUSD": 0.4759668,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 3396,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "instructions_hash": "84978b0fb41e6b8800cad278995938305d960b0eb1ca3c1f037600ac08f8d484",
+    "source_versions": [
+      "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+      "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+      "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+      "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+    ],
+    "validation": "rejected",
+    "errors": [
+      {
+        "rule": "r1-1-side-yard",
+        "error": "Unresolved rule references"
+      },
+      {
+        "rule": "r1-1-height",
+        "error": "Unresolved rule references"
+      },
+      {
+        "rule": "r1-1-floor-area",
+        "error": "Unresolved rule references"
+      }
+    ],
+    "auth_method": "claude.ai"
+  },
+  "manual_resolution": {
+    "at": "2026-10-22T02:23:05.697194+00:00",
+    "reviewer": "Codex source comparison; not a professional zoning approval",
+    "original_candidate": "initial.json",
+    "changes": [
+      "Side quote expanded through C.2(b) to include height increment.",
+      "Complete height/grade definitions added; uniform-roof assertion explicitly excludes mixed portions.",
+      "Complete residential floor area definition added; result is a cap, not measured proposal area.",
+      "All four source dependencies pinned and invalidated together on refresh."
+    ]
+  }
+}

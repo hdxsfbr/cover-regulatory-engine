@@ -1,0 +1,9 @@
+{
+  "query": "7137 Kittyhawk Ave Los Angeles",
+  "initialMs": 10653,
+  "coldMs": 50148,
+  "reuseMs": 133,
+  "job": "7c93069a-725c-45c6-ae4a-94a8b0e7fb21",
+  "answer": "The map reading recorded a lot depth of 125 ft for lot 28. That figure is printed on the recorded tract map along the side line between lots 28 and 27. The reading treats that side line as the perpendicular depth because its bearing is at right angles to the frontage and alley lines, and the front and rear widths are both 55 ft. The value is machine-corroborated against parcel geometry, but it has not been confirmed by a survey or a legal review. Several uncertainties remain: (1) The source is a scanned 1947 map, and the 125' mark is legible but faint. (2) The assessor sheet's ditto marks along Kittyhawk were not used. (3) The lot area of 6,875 sq ft is calculated from 55 × 125 rather than printed on the map. The parcel GIS area is 6,868.85 sq ft, which is close but not identical. (4) The depth feeds the front-yard formula, but the 20 ft front yard is only a conditional result, not an established requirement. Zoning, specific-plan applicability, ordinary context and frontage review are all unresolved. The geometry is also withheld because a required setback is unresolved.\n\nEvidence 1 · map-reading-1\nEvidence 2 · map-reading-1\nEvidence 3 · map-reading-1\nEvidence 4 · map-reading-1\nEvidence 5 · map-uncertainties\nEvidence 6 · map-uncertainties\nEvidence 7 · map-uncertainties\nEvidence 8 · parcel\nEvidence 9 · front-yard\nEvidence 10 · front-yard\nEvidence 11 · front-yard\nEvidence 12 · geometry-limitations\n\nSuggested scenario change: Confirm the 125 ft depth against a survey or the legible original recorded map before relying on it.",
+  "errors": []
+}

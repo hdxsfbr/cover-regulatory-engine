@@ -1,0 +1,21 @@
+TITLE
+Cover Regulatory Engine | Property Research & ADU Design Demo
+
+DESCRIPTION
+A walkthrough of my Cover Regulatory Engine prototype: bringing Los Angeles parcel research, public records, and traceable residential calculations into one workspace.
+
+Using 7661 Penfield Avenue, I demonstrate address search, map-derived dimensions, planning and permit records, engineering research, and a hypothetical detached-ADU height comparison. Saved scenarios preserve the inputs, results, and evidence behind each decision.
+
+00:00 Introduction
+00:18 Find a real property
+00:40 Inspect map evidence
+01:03 Explore public records
+01:30 Set up a hypothetical ADU
+01:57 Check proposed building height
+02:20 Compare saved designs
+02:42 Reopen the project and review the workflow
+03:10 Closing
+
+This is a prototype demonstration. The ADU scenarios use explicitly stated hypothetical assumptions; results are limited to supported rules and do not establish permit approval. Map readings remain machine interpretations, and this example reuses a completed extraction.
+
+Recorded from the working application. Narration generated locally with standard Chatterbox using my own voice reference.

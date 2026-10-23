@@ -1,0 +1,267 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 50,
+      "units": "ft",
+      "document_index": 1,
+      "page": 3,
+      "region": [
+        0.66,
+        0.44,
+        0.785,
+        0.48
+      ],
+      "printed_mark": "50'",
+      "reason": "Tract map sheet 3 prints 50' directly on both the west (alley) and east (Louise Ave) edges of lot 111. This agrees with the assessor map: lot 111 carries a ditto mark (\") at its Louise Ave edge, and the chain runs back to the explicitly printed '50' on lot 107 at the start of the row.",
+      "method": "printed",
+      "ain": "2202010009",
+      "map_id": "2202-010",
+      "document_hash": "49427d4762e66dff2b6cc6ea8989855e66c298eb7f5148c9d4a53778239d9d57",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0354/TR0354-034.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "2774ef49014655d6dc6e5df29368d2e07e7490d271746bf7a59010bf4fdba7e6"
+    },
+    {
+      "key": "lot_depth_ft",
+      "value": 120,
+      "units": "ft",
+      "document_index": 1,
+      "page": 3,
+      "region": [
+        0.68,
+        0.325,
+        0.755,
+        0.35
+      ],
+      "printed_mark": "East 120'",
+      "reason": "Lot 111 has no depth printed on its own lines. The same bounded row (lots 107-123) is set between the Alley line and the Louise Ave line, and both are marked with the bearing 'North'. Interior lot lines carry the bearing 'East', as printed with 120' on the 107/108 line. A matching 'East 120'' is printed on the 122/123 line. Opposite widths of lot 111 are equal (50' and 50'). Assumption: the Alley and Louise Ave lines are common parallel rear and front boundaries for the whole row. Under that assumption, the perpendicular depth of lot 111 is 120'. The assessor map's printed '120' on lots 108 and 122 is consistent with this.",
+      "method": "derived-parallel",
+      "ain": "2202010009",
+      "map_id": "2202-010",
+      "document_hash": "49427d4762e66dff2b6cc6ea8989855e66c298eb7f5148c9d4a53778239d9d57",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0354/TR0354-034.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "dc56da4ce77b8ccf7068e6dba9621d4891a0578a35bd4b5b30ff4eed1c318732"
+    },
+    {
+      "key": "lot_area_sqft",
+      "value": 6000,
+      "units": "sq ft",
+      "document_index": 1,
+      "page": 3,
+      "region": [
+        0.66,
+        0.44,
+        0.785,
+        0.48
+      ],
+      "printed_mark": "50' (width); East 120' (depth, same row)",
+      "reason": "Rectangle with North/East bearings: 50 ft x 120 ft = 6000 sq ft. No area is printed for this lot.",
+      "method": "derived-rectangle",
+      "dimensions_ft": {
+        "lot_width_ft": 50,
+        "lot_depth_ft": 120
+      },
+      "ain": "2202010009",
+      "map_id": "2202-010",
+      "document_hash": "49427d4762e66dff2b6cc6ea8989855e66c298eb7f5148c9d4a53778239d9d57",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0354/TR0354-034.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "ad6a898770933b1b335e3fedab386a65a3a8c20a4855a50ec4bc8849422f7d22"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "confirmed": true,
+    "street": "Louise Ave",
+    "compass": "east",
+    "reason": "On the assessor map (doc 0, sheet labeled 2202 | 10), the north arrow at lower left points to the left of the sheet. LOUISE AVE runs along the top edge of the row of lots 107-123, so the top edge is east. Lot 111 (circled 9) lies in that row, with Louise Ave on its top/east edge. On tract map sheet 3 (doc 1, page 3, 354-36), the north arrow points up. Lot 111 lies between the ALLEY (west) and LOUISE AVENUE (east), and the Louise Ave line is marked 'North'. Both maps independently put the Louise Ave frontage on the east side."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "The depth is not printed on lot 111 itself. It is derived from 'East 120'' printed on the 107/108 and 122/123 lines of the same row, assuming common parallel 'North' front and rear lines.",
+    "Lot 107 has a corner cutoff (14.14) and lot 123 has a curve (R 20), but neither affects lot 111.",
+    "The assessor map sheet label reads '2202 | 10'. The requested Assr_Map '2202-010' is taken to be the same sheet."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2202-10",
+      "tract": "16180",
+      "lot": "111",
+      "parcel_number": "9",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "confirmed": true,
+      "street": "Louise Ave",
+      "compass": "east",
+      "reason": "On the assessor map (doc 0, sheet labeled 2202 | 10), the north arrow at lower left points to the left of the sheet. LOUISE AVE runs along the top edge of the row of lots 107-123, so the top edge is east. Lot 111 (circled 9) lies in that row, with Louise Ave on its top/east edge. On tract map sheet 3 (doc 1, page 3, 354-36), the north arrow points up. Lot 111 lies between the ALLEY (west) and LOUISE AVENUE (east), and the Louise Ave line is marked 'North'. Both maps independently put the Louise Ave frontage on the east side."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 50,
+        "units": "ft",
+        "document_index": 1,
+        "page": 3,
+        "region": [
+          0.66,
+          0.44,
+          0.785,
+          0.48
+        ],
+        "printed_mark": "50'",
+        "reason": "Tract map sheet 3 prints 50' directly on both the west (alley) and east (Louise Ave) edges of lot 111. This agrees with the assessor map: lot 111 carries a ditto mark (\") at its Louise Ave edge, and the chain runs back to the explicitly printed '50' on lot 107 at the start of the row.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_depth_ft",
+        "value": 120,
+        "units": "ft",
+        "document_index": 1,
+        "page": 3,
+        "region": [
+          0.68,
+          0.325,
+          0.755,
+          0.35
+        ],
+        "printed_mark": "East 120'",
+        "reason": "Lot 111 has no depth printed on its own lines. The same bounded row (lots 107-123) is set between the Alley line and the Louise Ave line, and both are marked with the bearing 'North'. Interior lot lines carry the bearing 'East', as printed with 120' on the 107/108 line. A matching 'East 120'' is printed on the 122/123 line. Opposite widths of lot 111 are equal (50' and 50'). Assumption: the Alley and Louise Ave lines are common parallel rear and front boundaries for the whole row. Under that assumption, the perpendicular depth of lot 111 is 120'. The assessor map's printed '120' on lots 108 and 122 is consistent with this.",
+        "method": "derived-parallel"
+      },
+      {
+        "key": "lot_area_sqft",
+        "value": 6000,
+        "units": "sq ft",
+        "document_index": 1,
+        "page": 3,
+        "region": [
+          0.66,
+          0.44,
+          0.785,
+          0.48
+        ],
+        "printed_mark": "50' (width); East 120' (depth, same row)",
+        "reason": "Rectangle with North/East bearings: 50 ft x 120 ft = 6000 sq ft. No area is printed for this lot.",
+        "method": "derived-rectangle",
+        "dimensions_ft": {
+          "lot_width_ft": 50,
+          "lot_depth_ft": 120
+        }
+      }
+    ],
+    "uncertainties": [
+      "The depth is not printed on lot 111 itself. It is derived from 'East 120'' printed on the 107/108 and 122/123 lines of the same row, assuming common parallel 'North' front and rear lines.",
+      "Lot 107 has a corner cutoff (14.14) and lot 123 has a curve (R 20), but neither affects lot 111.",
+      "The assessor map sheet label reads '2202 | 10'. The requested Assr_Map '2202-010' is taken to be the same sheet."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2430,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 16563,
+        "webSearchRequests": 0,
+        "costUSD": 0.181112,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1092,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "0192d48174bf9605cd807fa57ec7d69974b759f2e88336a9b3ed2baae798aa4a",
+    "elapsed_seconds": 25.124
+  },
+  "document": {
+    "map_id": "2202-010",
+    "ain": "2202010009",
+    "legal_description": "TRACT # 16180 LOT  111",
+    "status": "available",
+    "vintage": "1985 sheet stamp",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-010-&f=file",
+    "retrieved_at": "2026-10-22T18:12:36.385473+00:00",
+    "content_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26"
+  },
+  "documents": [
+    {
+      "map_id": "2202-010",
+      "ain": "2202010009",
+      "legal_description": "TRACT # 16180 LOT  111",
+      "status": "available",
+      "vintage": "1985 sheet stamp",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-010-&f=file",
+      "retrieved_at": "2026-10-22T18:12:36.385473+00:00",
+      "content_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "16180",
+      "status": "available",
+      "retrieved_at": "2026-10-22T18:12:46.719860+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0354/TR0354-034.pdf",
+      "content_hash": "49427d4762e66dff2b6cc6ea8989855e66c298eb7f5148c9d4a53778239d9d57",
+      "pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "16180",
+    "status": "available",
+    "retrieved_at": "2026-10-22T18:12:46.719860+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0354/TR0354-034.pdf",
+    "content_hash": "49427d4762e66dff2b6cc6ea8989855e66c298eb7f5148c9d4a53778239d9d57"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    },
+    {
+      "image": 4,
+      "document_index": 1,
+      "page": 3,
+      "kind": "tract-map"
+    }
+  ]
+}

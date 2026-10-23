@@ -1,0 +1,43 @@
+;FFMETADATA1
+title=Cover — Property intelligence walkthrough
+comment=Real application recording. Synthetic narration uses the author’s authorized voice with standard Chatterbox. ADU scenarios are hypothetical.
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=18520
+title=From address to evidence
+[CHAPTER]
+TIMEBASE=1/1000
+START=18520
+END=40240
+title=Find a real property
+[CHAPTER]
+TIMEBASE=1/1000
+START=40240
+END=62940
+title=Inspect the map evidence
+[CHAPTER]
+TIMEBASE=1/1000
+START=62940
+END=90060
+title=Research in one place
+[CHAPTER]
+TIMEBASE=1/1000
+START=90060
+END=116600
+title=A hypothetical detached ADU
+[CHAPTER]
+TIMEBASE=1/1000
+START=116600
+END=139620
+title=See the design consequence
+[CHAPTER]
+TIMEBASE=1/1000
+START=139620
+END=162040
+title=Compare saved alternatives
+[CHAPTER]
+TIMEBASE=1/1000
+START=162040
+END=189880
+title=Keep the decision trail

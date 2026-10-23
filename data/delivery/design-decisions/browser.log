@@ -1,0 +1,54 @@
+
+> cover-regulatory-engine-ui@0.1.0 test
+> playwright test
+
+[WebServer] INFO:     Started server process [1978214]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:18081 (Press CTRL+C to quit)
+[WebServer] (node:1978279) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 25 tests using 7 workers
+
+(node:1978401) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978425) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978399) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1978419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 tests/loading.spec.ts:5:1 › search, selection and refresh show immediate loading and recover (775ms)
+  ✓   1 tests/recovery.spec.ts:43:1 › recorded failure explains missing evidence and replay (2.9s)
+  ✓   2 tests/workspace-layout.spec.ts:27:1 › decision order, targeted focus and drafts survive secondary disclosures (4.3s)
+  ✓   3 tests/evidence.spec.ts:28:1 › map measurements eliminate transcription and blocker actions focus controls (5.1s)
+  ✓   9 tests/workspace-layout.spec.ts:102:1 › background map reading can cancel and retry while evidence stays collapsed (1.3s)
+  ✓   7 tests/workspace.spec.ts:2:1 › save, compare, reopen and submit revision-linked feedback (5.6s)
+  ✓   5 tests/design-decisions.spec.ts:3:1 › design conflicts, restoration, comparison and revision targeting form one usable workflow (6.4s)
+  ✓  12 tests/workspace.spec.ts:72:1 › operator sources require token and expose actual passages (794ms)
+  ✓   8 tests/recovery.spec.ts:71:1 › same evidence replay preserves inputs and conditional accessory packages (3.9s)
+  ✓  11 tests/workspace-layout.spec.ts:150:1 › completed machine readings, source crops and uncertainties stay reachable (1.4s)
+  ✓   6 tests/assessment.spec.ts:11:1 › recorded lookup, keyboard evidence, five calculations and conditional accessory packages (7.1s)
+  ✓  10 tests/evidence.spec.ts:96:1 › changed and failed refresh clear acceptance while retaining user work (2.5s)
+  ✓  13 tests/recovery.spec.ts:101:1 › changed evidence clears checks and uses replacement snapshot (2.1s)
+  ✓  14 tests/workspace-layout.spec.ts:223:1 › map and constraint links and conditional export survive compact results (1.9s)
+  ✓  15 tests/assessment.spec.ts:85:1 › ambiguous address and stale parcel response (2.9s)
+  ✓  16 tests/evidence.spec.ts:146:1 › late parcel response never restores old observation selection (3.6s)
+  ✓  17 tests/recovery.spec.ts:135:1 › transport failure keeps previous evidence without reevaluating it (2.8s)
+  ✓  18 tests/assessment.spec.ts:113:1 › Rhea ambiguity, Chapter 1A, and source failure stay explicit (2.7s)
+  ✓  19 tests/recovery.spec.ts:163:1 › expired assessment can recover without losing dimensions (3.0s)
+  ✓  20 tests/recovery.spec.ts:187:1 › live labeling and early parcel failure offer whole-context recovery (1.7s)
+  ✓  21 tests/recovery.spec.ts:231:1 › new parcel selection clears entries during pending refresh (3.2s)
+  ✓  22 tests/recovery.spec.ts:270:1 › late assessment cannot overwrite a fresh result (3.7s)
+  ✓  23 tests/recovery.spec.ts:311:3 › handles empty gateway error without a JSON parsing error (1.9s)
+  ✓  24 tests/recovery.spec.ts:311:3 › handles HTML error without a JSON parsing error (2.1s)
+  ✓  25 tests/recovery.spec.ts:311:3 › handles empty successful response without a JSON parsing error (2.1s)
+
+  25 passed (30.5s)

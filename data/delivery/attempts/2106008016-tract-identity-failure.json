@@ -1,0 +1,173 @@
+{
+  "observations": [],
+  "rejected": [
+    {
+      "reason": "Model did not establish the requested map/tract/lot/assessor identity"
+    }
+  ],
+  "uncertainties": [
+    "Model did not establish the requested map/tract/lot/assessor identity"
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "515-41",
+      "tract": "19621",
+      "lot": "100",
+      "parcel_number": "016",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Penfield Ave",
+      "compass": "east",
+      "reason": "On assessor map 2106-008, the north arrow at the left margin points straight up. Lot 100 (circled 16) is in the east column of the block between Quakertown Ave on the west and Penfield Ave (labeled 'AVE.', 54 ft) on the east. Lot 61 lies across the block from it on the Quakertown side. On tract map sheet 2 (515-41), the north arrow also points up. Lot 100's east edge is the west line of PENFIELD AVENUE, bearing N.0\u00b001'18\"E. Its north and south sidelines run S.89\u00b058'42\"E. The legal frontage is therefore the east edge on Penfield Avenue."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 60,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.59,
+          0.49,
+          0.725,
+          0.545
+        ],
+        "printed_mark": "60",
+        "reason": "On tract map sheet 2 (515-41), each lot in the east column (99 through 107) has a '60' printed along its Penfield Avenue frontage, and this includes lot 100. The lot is bounded by N.0\u00b001'18\"E side lines and S.89\u00b058'42\"E sidelines, so it is rectangular and the 60 ft frontage is its width.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_width_ft",
+        "value": 60,
+        "units": "ft",
+        "document_index": 0,
+        "page": 1,
+        "region": [
+          0.475,
+          0.575,
+          0.555,
+          0.685
+        ],
+        "printed_mark": "\" (ditto) on lot 100 east edge, chaining to printed 60 on lot 99 east edge",
+        "reason": "On assessor map 2106-008, the east (Penfield) edge of lot 100 / parcel 16 carries a ditto mark. Following the chain south, the next edge is lot 99 (circled 15), where '60' is printed explicitly on the east edge. The chain also runs north through ditto marks on lots 101\u2013106 to an explicit '60' on lot 107. That gives a 60 ft frontage.",
+        "method": "ditto"
+      }
+    ],
+    "uncertainties": [
+      "Depth is not given. No depth is printed in lot 100's own row on either the assessor map or tract sheet 2. The visible '125' depth marks appear only on the rows for lot 108 (S.89\u00b058'42\"E line under 61/108) and lot 99 (line between 71/99 and 98/72). Transferring 125 from those rows would take a measurement from a different lot. A derived-parallel depth requires a depth printed on the same bounded row, so depth was omitted.",
+      "Area is not given. No area is printed for lot 100 on either map, and depth could not be established.",
+      "The position of the '60' frontage mark for lot 100 on tract sheet 2 is read from a low-resolution scan. The region given is approximate.",
+      "The assessor map shows parcel 16 at lot 100. Tract sheet 2 confirms that lot 100 of Tract No. 19621 lies in the east column on Penfield Avenue between lots 99 and 101. Map book reference: M.B. 515-40-43, and lot 100 appears on page 41."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2517,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 19817,
+        "webSearchRequests": 0,
+        "costUSD": 0.20888400000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1302,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "6be7ac381b9e3deedeb51df1e34ff271767ab00397de27372bd682ac135de815",
+    "elapsed_seconds": 27.752
+  },
+  "document": {
+    "map_id": "2106-008",
+    "ain": "2106008016",
+    "legal_description": "TRACT NO 19621 LOT  100",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+    "retrieved_at": "2026-10-22T17:31:30.663095+00:00",
+    "content_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252"
+  },
+  "documents": [
+    {
+      "map_id": "2106-008",
+      "ain": "2106008016",
+      "legal_description": "TRACT NO 19621 LOT  100",
+      "status": "available",
+      "vintage": "unknown",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+      "retrieved_at": "2026-10-22T17:31:30.663095+00:00",
+      "content_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "19621",
+      "status": "available",
+      "retrieved_at": "2026-10-22T17:54:37.621250+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+      "content_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "19621",
+    "status": "available",
+    "retrieved_at": "2026-10-22T17:54:37.621250+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+    "content_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    },
+    {
+      "image": 4,
+      "document_index": 1,
+      "page": 3,
+      "kind": "tract-map"
+    },
+    {
+      "image": 5,
+      "document_index": 1,
+      "page": 4,
+      "kind": "tract-map"
+    }
+  ],
+  "total_seconds": 32.15357132302597
+}

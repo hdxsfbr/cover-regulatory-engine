@@ -1,0 +1,70 @@
+{
+  "changeName": "enrich-parcel-research",
+  "changeDir": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research",
+  "schemaName": "spec-driven",
+  "contextFiles": {
+    "proposal": [
+      "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/proposal.md"
+    ],
+    "specs": [
+      "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/specs/assessment-assistant/spec.md",
+      "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/specs/parcel-context/spec.md"
+    ],
+    "design": [
+      "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/design.md"
+    ],
+    "tasks": [
+      "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md"
+    ]
+  },
+  "progress": {
+    "total": 5,
+    "complete": 5,
+    "remaining": 0
+  },
+  "tasks": [
+    {
+      "id": "1",
+      "description": "1.1 Document observed source access and implement ZIMAS/Planning and PRISM adapters; verify real APN matches and parser/failure tests.",
+      "done": true,
+      "sourcePath": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md",
+      "line": 4
+    },
+    {
+      "id": "2",
+      "description": "1.2 Implement NavigateLA and Metro/pedestrian screening with coverage and provenance; verify live representative queries, distance calculations and unavailable/partial tests.",
+      "done": true,
+      "sourcePath": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md",
+      "line": 5
+    },
+    {
+      "id": "3",
+      "description": "2.1 Add independent cached research endpoints, immutable scenario capture and Q&A evidence; verify identity isolation, concurrent extraction safety, refresh and saved evidence tests; document APIs.",
+      "done": true,
+      "sourcePath": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md",
+      "line": 8
+    },
+    {
+      "id": "4",
+      "description": "2.2 Add progressive research summaries, expandable records and per-source retry; verify browser loading, parcel switch, save/reload, mobile and error recovery behavior.",
+      "done": true,
+      "sourcePath": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md",
+      "line": 9
+    },
+    {
+      "id": "5",
+      "description": "3.1 Run backend/browser suites, build and strict OpenSpec validation; click through live Stagg and another parcel with all four sources, inspect records and document actual results and limitations.",
+      "done": true,
+      "sourcePath": "/home/hdx/code/cover-regulatory-engine/openspec/changes/enrich-parcel-research/tasks.md",
+      "line": 12
+    }
+  ],
+  "taskTrackingConfigured": true,
+  "state": "all_done",
+  "instruction": "All tracked tasks are complete.\nReview or verify the change as appropriate before archiving.",
+  "context": "Deliver a one-week proof of concept for Cover's Home Building Regulatory Engine.\nThe primary brief is docs/project_1771987446618.pdf.\nTarget architects and engineers assessing residential parcels in the City of Los Angeles.\nUse Python for the backend and JavaScript/TypeScript for the frontend.\nPrioritize regulatory ingestion and synthesis, citations, traceability, and explainability.\nClearly separate verified parcel data from interpretations and inferred conclusions.\nUse a small, well-reasoned subset of regulations; do not imply complete regulatory coverage.\nReasonable mock data is permitted by the brief and must be clearly identified.\nPonytail guidance in AGENTS.md applies: choose the smallest complete implementation.\n",
+  "root": {
+    "path": "/home/hdx/code/cover-regulatory-engine",
+    "source": "nearest"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "observations": [
+    {
+      "key": "lot_area_sqft",
+      "value": 10400,
+      "units": "sq ft",
+      "page": 1,
+      "region": [
+        0.69,
+        0.49,
+        0.75,
+        0.52
+      ],
+      "printed_mark": "10400\u00b1\u25a1'",
+      "reason": "The approximate area is printed directly above circled parcel 12 inside tract lot 12. The \u00b1 marking is kept because the printed area is approximate.",
+      "method": "printed",
+      "ain": "2202004012",
+      "map_id": "2202-004",
+      "document_hash": "85f4afb90d27aae839e742fa9729ea021be967cd35da4638f444e6222e9fb859",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-004-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "fdcba75dd74b481920c02002ec409dff41a0dd8d7376cf240b3ef10c8c95a823"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Lemac St",
+    "compass": "southwest",
+    "reason": "The north arrow at the left margin points straight up the sheet. Lot 12's street edge is its lower-left boundary on Lemac St, marked 60, on the curved section labeled R=170. There the street edge runs from upper-left to lower-right, so the lot faces outward to the southwest. Because the front edge is a curve, this direction is approximate."
+  },
+  "shape": "irregular",
+  "uncertainties": [
+    "Lot 12 is an irregular polygon. Its front edge on Lemac St is a curve (R=170) marked 60. Its sides are marked 170.18 (northwest side) and 18.53 (east side). Its rear edge, on the angled common line with lots 9 and 10, is marked 52.30. No single width or depth is defined, so neither is reported.",
+    "The parcel number is read as '12' from the circle in lot 12. The full AIN 2202-004-012 matches the map number 2202 page 4 and the circled 12.",
+    "The area value is approximate, as the printed \u00b1 shows. Small handwritten digits could be misread, but '10400' appears clear.",
+    "The frontage compass is approximate because the front boundary is curved."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2202-004",
+      "tract": "15254",
+      "lot": "12",
+      "parcel_number": "12",
+      "confirmed": true
+    },
+    "shape": "irregular",
+    "frontage": {
+      "street": "Lemac St",
+      "compass": "southwest",
+      "reason": "The north arrow at the left margin points straight up the sheet. Lot 12's street edge is its lower-left boundary on Lemac St, marked 60, on the curved section labeled R=170. There the street edge runs from upper-left to lower-right, so the lot faces outward to the southwest. Because the front edge is a curve, this direction is approximate."
+    },
+    "observations": [
+      {
+        "key": "lot_area_sqft",
+        "value": 10400,
+        "units": "sq ft",
+        "page": 1,
+        "region": [
+          0.69,
+          0.49,
+          0.75,
+          0.52
+        ],
+        "printed_mark": "10400\u00b1\u25a1'",
+        "reason": "The approximate area is printed directly above circled parcel 12 inside tract lot 12. The \u00b1 marking is kept because the printed area is approximate.",
+        "method": "printed"
+      }
+    ],
+    "uncertainties": [
+      "Lot 12 is an irregular polygon. Its front edge on Lemac St is a curve (R=170) marked 60. Its sides are marked 170.18 (northwest side) and 18.53 (east side). Its rear edge, on the angled common line with lots 9 and 10, is marked 52.30. No single width or depth is defined, so neither is reported.",
+      "The parcel number is read as '12' from the circle in lot 12. The full AIN 2202-004-012 matches the map number 2202 page 4 and the circled 12.",
+      "The area value is approximate, as the printed \u00b1 shows. Small handwritten digits could be misread, but '10400' appears clear.",
+      "The frontage compass is approximate because the front boundary is curved."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1009,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4803,
+        "webSearchRequests": 0,
+        "costUSD": 0.058612,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 349,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "455b10096062d0fe392121747e2d729eac7ac9d34b18648fb75853e501279752",
+    "elapsed_seconds": 13.175
+  },
+  "document": {
+    "map_id": "2202-004",
+    "ain": "2202004012",
+    "legal_description": "TRACT # 15254 LOT   12",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-004-&f=file",
+    "retrieved_at": "2026-10-22T17:38:38.717858+00:00",
+    "content_hash": "85f4afb90d27aae839e742fa9729ea021be967cd35da4638f444e6222e9fb859"
+  }
+}

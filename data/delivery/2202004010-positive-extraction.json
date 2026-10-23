@@ -1,0 +1,108 @@
+{
+  "observations": [
+    {
+      "key": "lot_area_sqft",
+      "value": 10720,
+      "units": "sq ft",
+      "page": 1,
+      "region": [
+        0.736,
+        0.225,
+        0.772,
+        0.25
+      ],
+      "printed_mark": "10720",
+      "reason": "A printed area figure appears directly above circled assessor number 10 inside tract Lot 10. It is followed by a small square-foot suffix mark. No ditto chain is involved.",
+      "method": "printed",
+      "ain": "2202004010",
+      "map_id": "2202-004",
+      "document_hash": "85f4afb90d27aae839e742fa9729ea021be967cd35da4638f444e6222e9fb859",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-004-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "1cf903be04bd8cbac9163c670457b6a0caedc2965838f407b3aa7607f9656b05"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Stagg St",
+    "compass": "north",
+    "reason": "The north arrow at the left margin ('N') points straight up the sheet. Lot 10 is in the upper-right block, and its top edge (printed 59.71) lies on the south line of STAGG ST, the street labeled across the top of the map. The frontage is therefore on the north side of the lot. This matches the requested situs address on Stagg St."
+  },
+  "shape": "irregular",
+  "uncertainties": [
+    "The small suffix after '10720' is hard to read. Lots 15, 14, 13, 12 and 11 clearly show '\u00b1' before the square-foot mark, but for Lot 10 the presence or absence of '\u00b1' cannot be confirmed. The printed area may be approximate.",
+    "Lot 10 is not rectangular. Its frontage on Stagg St is printed as 59.71, its east side as 188, and its west side (shared with Lot 9) as 171.10. The rear line is skewed and printed as 61.96. Because the opposite sides are unequal and the rear is not parallel to the front, no scalar lot width or depth is reported.",
+    "Identity was confirmed from visible labels: map header '2202 | 4', 'TRACT NO. 15254', tract lot number '10', and circled assessor number '10'. In this block the tract lot number and the circled assessor number are the same."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2202-004",
+      "tract": "15254",
+      "lot": "10",
+      "parcel_number": "10",
+      "confirmed": true
+    },
+    "shape": "irregular",
+    "frontage": {
+      "street": "Stagg St",
+      "compass": "north",
+      "reason": "The north arrow at the left margin ('N') points straight up the sheet. Lot 10 is in the upper-right block, and its top edge (printed 59.71) lies on the south line of STAGG ST, the street labeled across the top of the map. The frontage is therefore on the north side of the lot. This matches the requested situs address on Stagg St."
+    },
+    "observations": [
+      {
+        "key": "lot_area_sqft",
+        "value": 10720,
+        "units": "sq ft",
+        "page": 1,
+        "region": [
+          0.736,
+          0.225,
+          0.772,
+          0.25
+        ],
+        "printed_mark": "10720",
+        "reason": "A printed area figure appears directly above circled assessor number 10 inside tract Lot 10. It is followed by a small square-foot suffix mark. No ditto chain is involved.",
+        "method": "printed"
+      }
+    ],
+    "uncertainties": [
+      "The small suffix after '10720' is hard to read. Lots 15, 14, 13, 12 and 11 clearly show '\u00b1' before the square-foot mark, but for Lot 10 the presence or absence of '\u00b1' cannot be confirmed. The printed area may be approximate.",
+      "Lot 10 is not rectangular. Its frontage on Stagg St is printed as 59.71, its east side as 188, and its west side (shared with Lot 9) as 171.10. The rear line is skewed and printed as 61.96. Because the opposite sides are unequal and the rear is not parallel to the front, no scalar lot width or depth is reported.",
+      "Identity was confirmed from visible labels: map header '2202 | 4', 'TRACT NO. 15254', tract lot number '10', and circled assessor number '10'. In this block the tract lot number and the circled assessor number are the same."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1080,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4802,
+        "webSearchRequests": 0,
+        "costUSD": 0.060024,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 367,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "cc703ca43626a6854724127cdba69f22b0157c7679abac2452bbb7ed6f561787",
+    "elapsed_seconds": 12.302
+  },
+  "document": {
+    "map_id": "2202-004",
+    "ain": "2202004010",
+    "legal_description": "TRACT # 15254 LOT   10",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-004-&f=file",
+    "retrieved_at": "2026-10-22T17:38:28.239858+00:00",
+    "content_hash": "85f4afb90d27aae839e742fa9729ea021be967cd35da4638f444e6222e9fb859"
+  }
+}

@@ -1,0 +1,1494 @@
+[
+  {
+    "name": "Parcels",
+    "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
+    "retrieved_at": "2026-10-22T02:06:46.355934+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "AIN",
+        "type": "esriFieldTypeString",
+        "alias": "AIN",
+        "length": 10,
+        "domain": null
+      },
+      {
+        "name": "APN",
+        "type": "esriFieldTypeString",
+        "alias": "APN",
+        "length": 12,
+        "domain": null
+      },
+      {
+        "name": "SitusHouseNo",
+        "type": "esriFieldTypeString",
+        "alias": "SitusHouseNo",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "SitusFraction",
+        "type": "esriFieldTypeString",
+        "alias": "SitusFraction",
+        "length": 3,
+        "domain": null
+      },
+      {
+        "name": "SitusDirection",
+        "type": "esriFieldTypeString",
+        "alias": "SitusDirection",
+        "length": 1,
+        "domain": null
+      },
+      {
+        "name": "SitusUnit",
+        "type": "esriFieldTypeString",
+        "alias": "SitusUnit",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "SitusStreet",
+        "type": "esriFieldTypeString",
+        "alias": "SitusStreet",
+        "length": 32,
+        "domain": null
+      },
+      {
+        "name": "SitusAddress",
+        "type": "esriFieldTypeString",
+        "alias": "SADDR",
+        "length": 55,
+        "domain": null
+      },
+      {
+        "name": "SitusCity",
+        "type": "esriFieldTypeString",
+        "alias": "CITY",
+        "length": 24,
+        "domain": null
+      },
+      {
+        "name": "SitusZIP",
+        "type": "esriFieldTypeString",
+        "alias": "ZIP",
+        "length": 10,
+        "domain": null
+      },
+      {
+        "name": "SitusFullAddress",
+        "type": "esriFieldTypeString",
+        "alias": "SitusFullAddress",
+        "length": 84,
+        "domain": null
+      },
+      {
+        "name": "TaxRateArea",
+        "type": "esriFieldTypeString",
+        "alias": "TaxRateArea",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "TaxRateCity",
+        "type": "esriFieldTypeString",
+        "alias": "TaxRateCity",
+        "length": 21,
+        "domain": null
+      },
+      {
+        "name": "AgencyClassNo",
+        "type": "esriFieldTypeInteger",
+        "alias": "AgencyClassNo",
+        "domain": null
+      },
+      {
+        "name": "AgencyName",
+        "type": "esriFieldTypeString",
+        "alias": "AgencyName",
+        "length": 255,
+        "domain": null
+      },
+      {
+        "name": "AgencyType",
+        "type": "esriFieldTypeString",
+        "alias": "AgencyType",
+        "length": 255,
+        "domain": null
+      },
+      {
+        "name": "UseCode",
+        "type": "esriFieldTypeString",
+        "alias": "UseCode",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "UseCode_2",
+        "type": "esriFieldTypeString",
+        "alias": "UseCode_2",
+        "length": 2,
+        "domain": null
+      },
+      {
+        "name": "UseType",
+        "type": "esriFieldTypeString",
+        "alias": "UseType",
+        "length": 14,
+        "domain": null
+      },
+      {
+        "name": "UseDescription",
+        "type": "esriFieldTypeString",
+        "alias": "UseDescription",
+        "length": 61,
+        "domain": null
+      },
+      {
+        "name": "DesignType1",
+        "type": "esriFieldTypeString",
+        "alias": "DesignType1",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "YearBuilt1",
+        "type": "esriFieldTypeString",
+        "alias": "YearBuilt1",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "EffectiveYear1",
+        "type": "esriFieldTypeString",
+        "alias": "EffectiveYear1",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Units1",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Units1",
+        "domain": null
+      },
+      {
+        "name": "Bedrooms1",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bedrooms1",
+        "domain": null
+      },
+      {
+        "name": "Bathrooms1",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bathrooms1",
+        "domain": null
+      },
+      {
+        "name": "SQFTmain1",
+        "type": "esriFieldTypeInteger",
+        "alias": "SQFTmain1",
+        "domain": null
+      },
+      {
+        "name": "DesignType2",
+        "type": "esriFieldTypeString",
+        "alias": "DesignType2",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "YearBuilt2",
+        "type": "esriFieldTypeString",
+        "alias": "YearBuilt2",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "EffectiveYear2",
+        "type": "esriFieldTypeString",
+        "alias": "EffectiveYear2",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Units2",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Units2",
+        "domain": null
+      },
+      {
+        "name": "Bedrooms2",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bedrooms2",
+        "domain": null
+      },
+      {
+        "name": "Bathrooms2",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bathrooms2",
+        "domain": null
+      },
+      {
+        "name": "SQFTmain2",
+        "type": "esriFieldTypeInteger",
+        "alias": "SQFTmain2",
+        "domain": null
+      },
+      {
+        "name": "DesignType3",
+        "type": "esriFieldTypeString",
+        "alias": "DesignType3",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "YearBuilt3",
+        "type": "esriFieldTypeString",
+        "alias": "YearBuilt3",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "EffectiveYear3",
+        "type": "esriFieldTypeString",
+        "alias": "EffectiveYear3",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Units3",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Units3",
+        "domain": null
+      },
+      {
+        "name": "Bedrooms3",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bedrooms3",
+        "domain": null
+      },
+      {
+        "name": "Bathrooms3",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bathrooms3",
+        "domain": null
+      },
+      {
+        "name": "SQFTmain3",
+        "type": "esriFieldTypeInteger",
+        "alias": "SQFTmain3",
+        "domain": null
+      },
+      {
+        "name": "DesignType4",
+        "type": "esriFieldTypeString",
+        "alias": "DesignType4",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "YearBuilt4",
+        "type": "esriFieldTypeString",
+        "alias": "YearBuilt4",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "EffectiveYear4",
+        "type": "esriFieldTypeString",
+        "alias": "EffectiveYear4",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Units4",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Units4",
+        "domain": null
+      },
+      {
+        "name": "Bedrooms4",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bedrooms4",
+        "domain": null
+      },
+      {
+        "name": "Bathrooms4",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bathrooms4",
+        "domain": null
+      },
+      {
+        "name": "SQFTmain4",
+        "type": "esriFieldTypeInteger",
+        "alias": "SQFTmain4",
+        "domain": null
+      },
+      {
+        "name": "DesignType5",
+        "type": "esriFieldTypeString",
+        "alias": "DesignType5",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "YearBuilt5",
+        "type": "esriFieldTypeString",
+        "alias": "YearBuilt5",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "EffectiveYear5",
+        "type": "esriFieldTypeString",
+        "alias": "EffectiveYear5",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Units5",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Units5",
+        "domain": null
+      },
+      {
+        "name": "Bedrooms5",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bedrooms5",
+        "domain": null
+      },
+      {
+        "name": "Bathrooms5",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "Bathrooms5",
+        "domain": null
+      },
+      {
+        "name": "SQFTmain5",
+        "type": "esriFieldTypeInteger",
+        "alias": "SQFTmain5",
+        "domain": null
+      },
+      {
+        "name": "Roll_Year",
+        "type": "esriFieldTypeString",
+        "alias": "Roll_Year",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Roll_LandValue",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_LandValue",
+        "domain": null
+      },
+      {
+        "name": "Roll_ImpValue",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_ImpValue",
+        "domain": null
+      },
+      {
+        "name": "Roll_PersPropValue",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_PersPropValue",
+        "domain": null
+      },
+      {
+        "name": "Roll_FixtureValue",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_FixtureValue",
+        "domain": null
+      },
+      {
+        "name": "Roll_HomeOwnersExemp",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_HomeOwnersExemp",
+        "domain": null
+      },
+      {
+        "name": "Roll_RealEstateExemp",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_RealEstateExemp",
+        "domain": null
+      },
+      {
+        "name": "Roll_PersPropExemp",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_PersPropExemp",
+        "domain": null
+      },
+      {
+        "name": "Roll_FixtureExemp",
+        "type": "esriFieldTypeInteger",
+        "alias": "Roll_FixtureExemp",
+        "domain": null
+      },
+      {
+        "name": "Roll_LandBaseYear",
+        "type": "esriFieldTypeString",
+        "alias": "Roll_LandBaseYear",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "Roll_ImpBaseYear",
+        "type": "esriFieldTypeString",
+        "alias": "Roll_ImpBaseYear",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "SpatialChangeDate",
+        "type": "esriFieldTypeDate",
+        "alias": "SpatialChangeDate",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "ParcelCreateDate",
+        "type": "esriFieldTypeInteger",
+        "alias": "ParcelCreateDate",
+        "domain": null
+      },
+      {
+        "name": "ParcelTypeCode",
+        "type": "esriFieldTypeInteger",
+        "alias": "ParcelTypeCode",
+        "domain": null
+      },
+      {
+        "name": "Assr_Map",
+        "type": "esriFieldTypeString",
+        "alias": "Assr_Map",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "Assr_Index_Map",
+        "type": "esriFieldTypeString",
+        "alias": "Assr_Index_Map",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "QualityClass1",
+        "type": "esriFieldTypeString",
+        "alias": "QualityClass1",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "QualityClass2",
+        "type": "esriFieldTypeString",
+        "alias": "QualityClass2",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "QualityClass3",
+        "type": "esriFieldTypeString",
+        "alias": "QualityClass3",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "QualityClass4",
+        "type": "esriFieldTypeString",
+        "alias": "QualityClass4",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "QualityClass5",
+        "type": "esriFieldTypeString",
+        "alias": "QualityClass5",
+        "length": 5,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLine1",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLine1",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLine2",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLine2",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLine3",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLine3",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLine4",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLine4",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLine5",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLine5",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescLineLast",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescLineLast",
+        "length": 40,
+        "domain": null
+      },
+      {
+        "name": "LegalDescription",
+        "type": "esriFieldTypeString",
+        "alias": "LegalDescription",
+        "length": 500,
+        "domain": null
+      },
+      {
+        "name": "CENTER_LAT",
+        "type": "esriFieldTypeDouble",
+        "alias": "CENTER_LAT",
+        "domain": null
+      },
+      {
+        "name": "CENTER_LON",
+        "type": "esriFieldTypeDouble",
+        "alias": "CENTER_LON",
+        "domain": null
+      },
+      {
+        "name": "CENTER_X",
+        "type": "esriFieldTypeDouble",
+        "alias": "CENTER_X",
+        "domain": null
+      },
+      {
+        "name": "CENTER_Y",
+        "type": "esriFieldTypeDouble",
+        "alias": "CENTER_Y",
+        "domain": null
+      },
+      {
+        "name": "LAT_LON",
+        "type": "esriFieldTypeString",
+        "alias": "LAT_LON",
+        "length": 62,
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "Shape.STArea()",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape.STArea()",
+        "domain": null
+      },
+      {
+        "name": "Shape.STLength()",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape.STLength()",
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.92838538,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 1000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "AIN",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Buildings",
+    "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/LARIAC_Buildings_2020/MapServer/0",
+    "retrieved_at": "2026-10-22T02:06:46.356375+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "CODE",
+        "type": "esriFieldTypeString",
+        "alias": "CODE",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "BLD_ID",
+        "type": "esriFieldTypeString",
+        "alias": "BLD_ID",
+        "length": 20,
+        "domain": null
+      },
+      {
+        "name": "HEIGHT",
+        "type": "esriFieldTypeDouble",
+        "alias": "HEIGHT",
+        "domain": null
+      },
+      {
+        "name": "ELEV",
+        "type": "esriFieldTypeDouble",
+        "alias": "ELEV",
+        "domain": null
+      },
+      {
+        "name": "SOURCE",
+        "type": "esriFieldTypeString",
+        "alias": "SOURCE",
+        "length": 25,
+        "domain": null
+      },
+      {
+        "name": "DATE_",
+        "type": "esriFieldTypeString",
+        "alias": "DATE_",
+        "length": 4,
+        "domain": null
+      },
+      {
+        "name": "STATUS",
+        "type": "esriFieldTypeString",
+        "alias": "STATUS",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "OLD_BLD_ID",
+        "type": "esriFieldTypeString",
+        "alias": "OLD_BLD_ID",
+        "length": 20,
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "AREA",
+        "type": "esriFieldTypeDouble",
+        "alias": "AREA",
+        "domain": null
+      },
+      {
+        "name": "Shape_Length",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape_Length",
+        "domain": null
+      },
+      {
+        "name": "Shape_Area",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape_Area",
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102645,
+      "latestWkid": 2229,
+      "xyTolerance": 0.003280833333333333,
+      "zTolerance": 2,
+      "mTolerance": 0.001,
+      "falseX": -117608900,
+      "falseY": -91881400,
+      "xyUnits": 36269466.69214637,
+      "falseZ": 0,
+      "zUnits": 1,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 1000,
+    "vintage": "2020",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "CODE",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "City boundary",
+    "url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/19",
+    "retrieved_at": "2026-10-22T02:06:46.356716+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "CITY_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "CITY_TYPE",
+        "length": 25,
+        "domain": null
+      },
+      {
+        "name": "CITY_NAME",
+        "type": "esriFieldTypeString",
+        "alias": "CITY_NAME",
+        "length": 25,
+        "domain": null
+      },
+      {
+        "name": "CITY_LABEL",
+        "type": "esriFieldTypeString",
+        "alias": "CITY_LABEL",
+        "length": 21,
+        "domain": null
+      },
+      {
+        "name": "ABBR",
+        "type": "esriFieldTypeString",
+        "alias": "ABBR",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "URL",
+        "type": "esriFieldTypeString",
+        "alias": "URL",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "PHONE",
+        "type": "esriFieldTypeString",
+        "alias": "PHONE",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "OF_AREA_SM",
+        "type": "esriFieldTypeDouble",
+        "alias": "OF_AREA_SM",
+        "domain": null
+      },
+      {
+        "name": "FEAT_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "FEAT_TYPE",
+        "length": 100,
+        "domain": null
+      },
+      {
+        "name": "COLOR_EGIS",
+        "type": "esriFieldTypeString",
+        "alias": "COLOR_EGIS",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "Shape.STArea()",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape.STArea()",
+        "domain": null
+      },
+      {
+        "name": "Shape.STLength()",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape.STLength()",
+        "domain": null
+      },
+      {
+        "name": "last_edited_date",
+        "type": "esriFieldTypeDate",
+        "alias": "last_edited_date",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "created_user",
+        "type": "esriFieldTypeString",
+        "alias": "created_user",
+        "length": 255,
+        "domain": null
+      },
+      {
+        "name": "created_date",
+        "type": "esriFieldTypeDate",
+        "alias": "created_date",
+        "length": 8,
+        "domain": null
+      },
+      {
+        "name": "last_edited_user",
+        "type": "esriFieldTypeString",
+        "alias": "last_edited_user",
+        "length": 255,
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102645,
+      "latestWkid": 2229,
+      "xyTolerance": 0.003280833333333333,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -117608900,
+      "falseY": -91881400,
+      "xyUnits": 3048.0060960121928,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 1000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "CITY_NAME",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 2674
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Chapter 1 zoning",
+    "url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1102",
+    "retrieved_at": "2026-10-22T02:06:46.356988+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "ZONE_CMPLT",
+        "type": "esriFieldTypeString",
+        "alias": "ZONE_CMPLT",
+        "length": 75,
+        "domain": null
+      },
+      {
+        "name": "ZONE_CLASS",
+        "type": "esriFieldTypeString",
+        "alias": "ZONE_CLASS",
+        "length": 75,
+        "domain": null
+      },
+      {
+        "name": "ZONE_CODE",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "ZONE_CODE",
+        "domain": null
+      },
+      {
+        "name": "ZONELEGEND",
+        "type": "esriFieldTypeString",
+        "alias": "ZONELEGEND",
+        "length": 80,
+        "domain": null
+      },
+      {
+        "name": "Shape_Length",
+        "type": "esriFieldTypeDouble",
+        "alias": "SHAPE_Length",
+        "domain": null
+      },
+      {
+        "name": "Shape_Area",
+        "type": "esriFieldTypeDouble",
+        "alias": "SHAPE_Area",
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102645,
+      "latestWkid": 2229,
+      "xyTolerance": 0.003280833333333333,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -117608900,
+      "falseY": -91881400,
+      "xyUnits": 1600.0000000000002,
+      "falseZ": -100000,
+      "zUnits": 8191.9992549420085,
+      "falseM": -100000,
+      "mUnits": 8191.9992549420085
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 2000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "ZONE_CMPLT",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Chapter 1A zoning",
+    "url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1101",
+    "retrieved_at": "2026-10-22T02:06:46.357393+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "ZONELEGEND",
+        "type": "esriFieldTypeString",
+        "alias": "ZONELEGEND",
+        "length": 80,
+        "domain": null
+      },
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "ZONE_CMPLT",
+        "type": "esriFieldTypeString",
+        "alias": "ZONE_CMPLT",
+        "length": 75,
+        "domain": null
+      },
+      {
+        "name": "ZONE_CLASS",
+        "type": "esriFieldTypeString",
+        "alias": "ZONE_CLASS",
+        "length": 75,
+        "domain": null
+      },
+      {
+        "name": "ZONE_CODE",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "ZONE_CODE",
+        "domain": null
+      },
+      {
+        "name": "Shape_Length",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape_Length",
+        "domain": null
+      },
+      {
+        "name": "Shape_Area",
+        "type": "esriFieldTypeDouble",
+        "alias": "Shape_Area",
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102645,
+      "latestWkid": 2229,
+      "xyTolerance": 0.003280833333333333,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -117608900,
+      "falseY": -91881400,
+      "xyUnits": 1600.0000000000002,
+      "falseZ": -100000,
+      "zUnits": 8191.9992549420085,
+      "falseM": -100000,
+      "mUnits": 8191.9992549420085
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 2000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "ZONE_CODE",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 56630
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Historic overlays",
+    "url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/10",
+    "retrieved_at": "2026-10-22T02:06:46.357697+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "NAME",
+        "type": "esriFieldTypeString",
+        "alias": "NAME",
+        "length": 200,
+        "domain": null
+      },
+      {
+        "name": "DIST_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "DIST_TYPE",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "TOOLTIP",
+        "type": "esriFieldTypeString",
+        "alias": "TOOLTIP",
+        "length": 210,
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.92838538,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 5000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "NAME",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Specific plans",
+    "url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/19",
+    "retrieved_at": "2026-10-22T02:06:46.358268+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "NAME",
+        "type": "esriFieldTypeString",
+        "alias": "NAME",
+        "length": 150,
+        "domain": null
+      },
+      {
+        "name": "DIST_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "DIST_TYPE",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "TOOLTIP",
+        "type": "esriFieldTypeString",
+        "alias": "TOOLTIP",
+        "length": 156,
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.92838538,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 5000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "NAME",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Design overlays",
+    "url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/2",
+    "retrieved_at": "2026-10-22T02:06:46.358558+00:00",
+    "origin": "live",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "domain": null
+      },
+      {
+        "name": "Shape",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape",
+        "domain": null
+      },
+      {
+        "name": "NAME",
+        "type": "esriFieldTypeString",
+        "alias": "NAME",
+        "length": 75,
+        "domain": null
+      },
+      {
+        "name": "DIST_TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "DIST_TYPE",
+        "length": 50,
+        "domain": null
+      },
+      {
+        "name": "TOOLTIP",
+        "type": "esriFieldTypeString",
+        "alias": "TOOLTIP",
+        "length": 81,
+        "domain": null
+      }
+    ],
+    "spatial_reference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 148923141.92838538,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    },
+    "copyright_text": "",
+    "description": "",
+    "editing_info": null,
+    "max_record_count": 5000,
+    "vintage": "unknown",
+    "probe": {
+      "parameters": {
+        "where": "1=1",
+        "resultRecordCount": 1,
+        "returnGeometry": false
+      },
+      "response": {
+        "displayFieldName": "NAME",
+        "fieldAliases": {
+          "OBJECTID": "OBJECTID"
+        },
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "OBJECTID": 1
+            }
+          }
+        ],
+        "exceededTransferLimit": true
+      }
+    },
+    "access": "public query succeeded",
+    "reuse_terms": "Public query access verified where successful; layer metadata does not establish a blanket redistribution license. Preserve attribution; verify publisher terms before distributing raw datasets."
+  },
+  {
+    "name": "Hillside Ordinance",
+    "url": "https://maps.lacity.org/lahub/rest/services/Special_Areas/MapServer/6",
+    "vintage": "unknown",
+    "coverage": "Screening only; no-match does not establish statutory absence."
+  },
+  {
+    "name": "Coastal Commission Permit Area",
+    "url": "https://zimas.lacity.org/arcgis/rest/services/zma/zimas/MapServer/1605",
+    "vintage": "unknown",
+    "coverage": "Screening only; no-match does not establish statutory absence."
+  },
+  {
+    "name": "Coastal Zone (state boundary)",
+    "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhqenvi/DEA_Coastal_Zone_Boundary/FeatureServer/0",
+    "origin": "live",
+    "retrieved_at": "2026-10-22T17:40:00Z",
+    "vintage": "Publisher current service; individual updates unspecified",
+    "geometry_type": "esriGeometryPolygon",
+    "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Public Resources Code (PRC) Section 30103(a) specifically defines California's Coastal Zone as that land and water area of the State of California from the Oregon border to the border of the Republic of Mexico depicted on maps identified and set forth in Section 17 of that chapter of the Statutes of the 1975-76 Regular Session enacting PRC Division 20 (the Coastal Act of 1976). PRC Section 30103(b) directed the Coastal Commission to prepare and adopt more detailed 1:24,000 scale Coastal Zone Boundary (CZB) maps, which occurred March 1, 1977. These 161 adopted maps provide the official basis for all other representations of the landward CZB. The digital version of the CZB created by developing this data is a conformed copy of the official boundary, and in some locations reflects legislative changes and Coastal Commission minor adjustments adopted from time to time since March 1977.</SPAN></P></DIV></DIV></DIV>",
+    "copyright": "California Coastal Commission",
+    "scope": "Statewide conformed copy of California Coastal Commission boundary; PRC30103"
+  },
+  {
+    "name": "CPD Building Lines",
+    "url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/3",
+    "origin": "live",
+    "retrieved_at": "2026-10-22T17:40:00Z",
+    "vintage": "unknown",
+    "geometry_type": "esriGeometryPolyline",
+    "scope": "Mapped City Planning building lines only; no-match does not exclude unrecorded approvals"
+  }
+]

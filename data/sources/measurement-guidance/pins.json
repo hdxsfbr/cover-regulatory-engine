@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/sources/regulations/12.03-6eafeb53d83d.json",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-108304",
+    "section": "LAMC 12.03 \u2014 lot depth and lot lines",
+    "source_hash": "aaa708a1188ab9bbdbe17876d73d93689413a5453e12da8e13595489b91be0bd"
+  },
+  {
+    "path": "data/sources/measurement-guidance/zi2391.pdf",
+    "url": "https://zimas.lacity.org/zoneinfo/zi2391.pdf",
+    "section": "City Planning ZI2391 \u2014 PDF page 24, figures 3\u20134",
+    "source_hash": "14cac476728f56077577313f295611ddad36bc49f7aa71f26868712b90029d57"
+  },
+  {
+    "path": "data/sources/measurement-guidance/zoning-manual.pdf",
+    "url": "https://dbs.lacity.gov/sites/default/files/efs/pdf/publications/zoning/zoning-code-manual-and-commentary.pdf",
+    "section": "LADBS Zoning Manual \u2014 printed page 31, rear lot line",
+    "source_hash": "de00a0fc22d7cf08d04f14e1ad9b033a05f9fecc80290914dab128b9154d1d26"
+  }
+]

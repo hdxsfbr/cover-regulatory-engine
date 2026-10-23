@@ -1,0 +1,12 @@
+{
+  "reviewer": "Codex visual inspection, independent of extraction output; not professional survey validation",
+  "reviewed_at": "2026-10-22",
+  "cases": {
+    "4103011002": {"map":"4103-011","tract":"11569","lot":"71","shape":"trapezoid","expected_scalar_dimensions":{},"boundary_readings_ft":{"front":60,"rear":60.2,"side_a":120.88,"side_b":115.91},"note":"Unequal sides; do not substitute one side as legal average depth. Frozen case retained as potentially failing useful-dimensions gate."},
+    "4103009016": {"map":"4103-009","tract":"11569","lot":"28","shape":"rectangle","expected_scalar_dimensions":{"lot_width_ft":55,"lot_depth_ft":125,"lot_area_sqft":6875},"frontage":"Kittyhawk Ave, southeast","note":"Width ditto chain to 55 at lot 27 and lot 39; depth ditto chain to 125 at lot 27/39."},
+    "2034022051": {"map":"2034-022","tract":"21892","lot":"155","shape":"rectangle","expected_scalar_dimensions":{"lot_width_ft":60,"lot_depth_ft":125,"lot_area_sqft":7500},"frontage":"Haynes St, north","note":"60 on north and south; 125 at east side."},
+    "2034022052": {"map":"2034-022","tract":"21892","lot":"156","shape":"rectangle","expected_scalar_dimensions":{"lot_width_ft":60,"lot_depth_ft":125,"lot_area_sqft":7500},"frontage":"Haynes St, north","note":"60 repeated by ditto chain, 125 common straight parallel depth."},
+    "2106008015": {"map":"2106-008","tract":"19621","lot":"99","shape":"rectangle","expected_scalar_dimensions":{"lot_width_ft":60,"lot_depth_ft":125,"lot_area_sqft":7500},"frontage":"Penfield Ave, east","note":"60 east street edge;125 south boundary."},
+    "2106008016": {"map":"2106-008","tract":"19621","lot":"100","shape":"rectangle","expected_scalar_dimensions":{"lot_width_ft":60,"lot_depth_ft":125,"lot_area_sqft":7500},"frontage":"Penfield Ave, east","note":"60 ditto edge from lot99;125 shared parallel boundary."}
+  }
+}

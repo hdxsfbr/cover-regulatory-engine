@@ -1,0 +1,112 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 62.56,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.235,
+        0.135,
+        0.26,
+        0.165
+      ],
+      "printed_mark": "\u2033 (ditto) on Lot 3 Louise Ave. frontage; explicit 62.56 on adjacent Lot 2 frontage",
+      "reason": "Lot 3's Louise Ave. frontage carries a ditto mark, not a number. The chain ends one lot to the left: Lot 2's frontage has the printed figure 62.56 at about [0.19, 0.14, 0.215, 0.165]. The ditto therefore carries 62.56 ft to Lot 3. The rear edge of Lot 3 also shows a ditto, which resolves to the 62.56 printed on Lot 2's rear edge. That makes the front and rear widths equal.",
+      "method": "ditto",
+      "ain": "2202005003",
+      "map_id": "2202-005",
+      "document_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "0057d4b78b4f4fa32b7679538911610dc23bc52decff671e938c0015c515bb71"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "LOUISE AVE.",
+    "compass": "east",
+    "reason": "The north arrow at the bottom centre of the sheet appears to point toward the left of the page. That puts north at page-left (toward Stagg St.) and east at page-top. Lot 3 sits in the top row of lots 1-13. Its top edge borders LOUISE AVE., so the frontage faces page-top, which is east. Lot 3 is an interior lot, so Louise Ave. is its only street edge. The opposite edge borders the 20 ft strip, likely an alley, above Lots 20-14. The arrow is drawn in an unusual rotated style, so the compass reading depends on how that arrow is interpreted."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "Depth is omitted. A side line of '163' is printed on the Lot 1/Lot 2 line and near the Lot 12/13 line of the same row, which runs between Louise Ave. and the 20 ft strip. However, no bearings are printed, so the side lines cannot be shown geometrically to be perpendicular and parallel. The derived-parallel method is therefore not permitted.",
+    "Area is omitted. No area is printed for Lot 3, and a rectangle-derived area needs a confirmed depth.",
+    "Shape is called 'rectangle' because the opposite widths are equal (62.56 by ditto, front and rear) and the drafted outline looks rectangular. Without printed bearings, the right angles are not proven.",
+    "The compass direction of the frontage depends on reading the rotated north arrow at the bottom of the sheet as pointing to page-left.",
+    "The circled assessor number (3) and the tract lot number (3) are the same for this parcel. Both appear inside the lot."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2202-5",
+      "tract": "14432",
+      "lot": "3",
+      "parcel_number": "3",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "LOUISE AVE.",
+      "compass": "east",
+      "reason": "The north arrow at the bottom centre of the sheet appears to point toward the left of the page. That puts north at page-left (toward Stagg St.) and east at page-top. Lot 3 sits in the top row of lots 1-13. Its top edge borders LOUISE AVE., so the frontage faces page-top, which is east. Lot 3 is an interior lot, so Louise Ave. is its only street edge. The opposite edge borders the 20 ft strip, likely an alley, above Lots 20-14. The arrow is drawn in an unusual rotated style, so the compass reading depends on how that arrow is interpreted."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 62.56,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.235,
+          0.135,
+          0.26,
+          0.165
+        ],
+        "printed_mark": "\u2033 (ditto) on Lot 3 Louise Ave. frontage; explicit 62.56 on adjacent Lot 2 frontage",
+        "reason": "Lot 3's Louise Ave. frontage carries a ditto mark, not a number. The chain ends one lot to the left: Lot 2's frontage has the printed figure 62.56 at about [0.19, 0.14, 0.215, 0.165]. The ditto therefore carries 62.56 ft to Lot 3. The rear edge of Lot 3 also shows a ditto, which resolves to the 62.56 printed on Lot 2's rear edge. That makes the front and rear widths equal.",
+        "method": "ditto"
+      }
+    ],
+    "uncertainties": [
+      "Depth is omitted. A side line of '163' is printed on the Lot 1/Lot 2 line and near the Lot 12/13 line of the same row, which runs between Louise Ave. and the 20 ft strip. However, no bearings are printed, so the side lines cannot be shown geometrically to be perpendicular and parallel. The derived-parallel method is therefore not permitted.",
+      "Area is omitted. No area is printed for Lot 3, and a rectangle-derived area needs a confirmed depth.",
+      "Shape is called 'rectangle' because the opposite widths are equal (62.56 by ditto, front and rear) and the drafted outline looks rectangular. Without printed bearings, the right angles are not proven.",
+      "The compass direction of the frontage depends on reading the rotated north arrow at the bottom of the sheet as pointing to page-left.",
+      "The circled assessor number (3) and the tract lot number (3) are the same for this parcel. Both appear inside the lot."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2161,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4804,
+        "webSearchRequests": 0,
+        "costUSD": 0.08166000000000001,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1157,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "2620b61ae1d89a998caa7ae481224bf70b04916284e7abd33e6bf669299b8b03",
+    "elapsed_seconds": 23.685
+  },
+  "document": {
+    "map_id": "2202-005",
+    "ain": "2202005003",
+    "legal_description": "TRACT # 14432 LOT    3",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+    "retrieved_at": "2026-10-22T17:39:05.957106+00:00",
+    "content_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 60,
+      "units": "ft",
+      "document_index": 1,
+      "page": 2,
+      "region": [
+        0.69,
+        0.5,
+        0.73,
+        0.55
+      ],
+      "printed_mark": "60",
+      "reason": "On tract sheet 2, '60' is printed directly on Lot 100's east (Penfield Avenue) line. On the assessor map, Lot 100's east edge has only a ditto mark '\"'. That ditto chain runs through Lots 101\u2013106 to the explicitly printed '60' on Lot 107's east edge, and through Lot 99's printed '60' to the south. The tract map printing confirms the 60 ft width directly.",
+      "method": "printed",
+      "ain": "2106008016",
+      "map_id": "2106-008",
+      "document_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "7cedf0c2a6bffb94f02dfaf26bcad224884b3c92b8a75919d564d6226fcdce0d"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Penfield Avenue",
+    "compass": "east",
+    "reason": "The north arrow points toward the top of the page on both the assessor map (document 0, page 1) and tract sheet 2 (document 1, page 2). Lot 100 sits in the east column of the block between Quakertown Avenue (west) and the street to its east. The assessor map labels that eastern street only 'AVE.' near Lot 100, with 'PENFIELD' printed further south. Tract sheet 2 labels the same street 'PENFIELD AVENUE', and the situs address is on Penfield Ave. So Lot 100's street edge is its east line, bearing N0\u00b001'18\"E."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "No depth is printed on Lot 100's own bounded row. A '125' appears on the Lot 61/108 row and the Lot 70/99 row, and all side lines bear S89\u00b058'42\"E. A 125 ft depth is therefore likely, but it is not printed for Lot 100, so depth is omitted under the same-row rule. For the same reason, no area is derived.",
+    "The assessor map does not print the name 'Penfield' adjacent to Lot 100; that street name comes from tract sheet 2 and the situs address.",
+    "The tract recording reference (M.B. 515-40-43, Lot 100 shown on page 515-41) is a different identifier from the assessor map 2106-008."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2106-008",
+      "tract": "19621",
+      "lot": "100",
+      "parcel_number": "16",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Penfield Avenue",
+      "compass": "east",
+      "reason": "The north arrow points toward the top of the page on both the assessor map (document 0, page 1) and tract sheet 2 (document 1, page 2). Lot 100 sits in the east column of the block between Quakertown Avenue (west) and the street to its east. The assessor map labels that eastern street only 'AVE.' near Lot 100, with 'PENFIELD' printed further south. Tract sheet 2 labels the same street 'PENFIELD AVENUE', and the situs address is on Penfield Ave. So Lot 100's street edge is its east line, bearing N0\u00b001'18\"E."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 60,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.69,
+          0.5,
+          0.73,
+          0.55
+        ],
+        "printed_mark": "60",
+        "reason": "On tract sheet 2, '60' is printed directly on Lot 100's east (Penfield Avenue) line. On the assessor map, Lot 100's east edge has only a ditto mark '\"'. That ditto chain runs through Lots 101\u2013106 to the explicitly printed '60' on Lot 107's east edge, and through Lot 99's printed '60' to the south. The tract map printing confirms the 60 ft width directly.",
+        "method": "printed"
+      }
+    ],
+    "uncertainties": [
+      "No depth is printed on Lot 100's own bounded row. A '125' appears on the Lot 61/108 row and the Lot 70/99 row, and all side lines bear S89\u00b058'42\"E. A 125 ft depth is therefore likely, but it is not printed for Lot 100, so depth is omitted under the same-row rule. For the same reason, no area is derived.",
+      "The assessor map does not print the name 'Penfield' adjacent to Lot 100; that street name comes from tract sheet 2 and the situs address.",
+      "The tract recording reference (M.B. 515-40-43, Lot 100 shown on page 515-41) is a different identifier from the assessor map 2106-008."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1913,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 19904,
+        "webSearchRequests": 0,
+        "costUSD": 0.1975,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1170,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "9471a2e7fc2ed625ffb190b6dd42d98d3618be6af2eef156b460052a891d3954",
+    "elapsed_seconds": 22.479
+  },
+  "document": {
+    "map_id": "2106-008",
+    "ain": "2106008016",
+    "legal_description": "TRACT NO 19621 LOT  100",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+    "retrieved_at": "2026-10-22T17:31:30.663095+00:00",
+    "content_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252"
+  },
+  "documents": [
+    {
+      "map_id": "2106-008",
+      "ain": "2106008016",
+      "legal_description": "TRACT NO 19621 LOT  100",
+      "status": "available",
+      "vintage": "unknown",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2106-008-&f=file",
+      "retrieved_at": "2026-10-22T17:31:30.663095+00:00",
+      "content_hash": "6bb7eb4b3a166f55f2d6ff41dcae72c894fded1fa547d8aa75620dd9dc71b252",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "19621",
+      "status": "available",
+      "retrieved_at": "2026-10-22T17:56:13.103930+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+      "content_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "19621",
+    "status": "available",
+    "retrieved_at": "2026-10-22T17:56:13.103930+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+    "content_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    },
+    {
+      "image": 4,
+      "document_index": 1,
+      "page": 3,
+      "kind": "tract-map"
+    },
+    {
+      "image": 5,
+      "document_index": 1,
+      "page": 4,
+      "kind": "tract-map"
+    }
+  ],
+  "total_seconds": 27.355341941001825
+}

@@ -1,0 +1,136 @@
+[
+  {
+    "ain": "2202010006",
+    "at": "2026-10-22T14:50:14.418609+00:00",
+    "elapsed_seconds": 10.6330373310484,
+    "jurisdiction": "Los Angeles",
+    "zone": "R1-1",
+    "zoning_status": "resolved",
+    "diagnostics": [],
+    "sources": {
+      "Parcels": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:03.818571+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
+        "error": null
+      },
+      "City boundary": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.095875+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/19",
+        "error": null
+      },
+      "Specific plans": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.096750+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/19",
+        "error": null
+      },
+      "Historic overlays": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.096540+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/10",
+        "error": null
+      },
+      "Design overlays": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.096947+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/2",
+        "error": null
+      },
+      "Buildings": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.095600+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/LARIAC_Buildings_2020/MapServer/0",
+        "error": null
+      },
+      "Chapter 1 zoning": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.096079+00:00",
+        "source_url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1102",
+        "error": null
+      },
+      "Chapter 1A zoning": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.096281+00:00",
+        "source_url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1101",
+        "error": null
+      }
+    }
+  },
+  {
+    "ain": "2202010009",
+    "at": "2026-10-22T14:50:13.420435+00:00",
+    "elapsed_seconds": 9.610424523008987,
+    "jurisdiction": "Los Angeles",
+    "zone": "R1-1",
+    "zoning_status": "resolved",
+    "diagnostics": [],
+    "sources": {
+      "Parcels": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:03.828047+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Cache/LACounty_Parcel/MapServer/0",
+        "error": null
+      },
+      "Specific plans": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.069147+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/19",
+        "error": null
+      },
+      "City boundary": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.068296+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/Political_Boundaries/MapServer/19",
+        "error": null
+      },
+      "Design overlays": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.069360+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/2",
+        "error": null
+      },
+      "Historic overlays": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.068947+00:00",
+        "source_url": "https://maps.lacity.org/lahub/rest/services/City_Planning_Department/MapServer/10",
+        "error": null
+      },
+      "Buildings": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.067972+00:00",
+        "source_url": "https://public.gis.lacounty.gov/public/rest/services/LACounty_Dynamic/LARIAC_Buildings_2020/MapServer/0",
+        "error": null
+      },
+      "Chapter 1 zoning": {
+        "status": "matched",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.068520+00:00",
+        "source_url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1102",
+        "error": null
+      },
+      "Chapter 1A zoning": {
+        "status": "no-match",
+        "origin": "live",
+        "retrieved_at": "2026-10-22T14:50:04.068740+00:00",
+        "source_url": "https://zimas.lacity.org/arcgis/rest/services/zma/zoning/MapServer/1101",
+        "error": null
+      }
+    }
+  }
+]

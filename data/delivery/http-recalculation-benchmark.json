@@ -1,0 +1,9 @@
+{
+  "runs": 100,
+  "p95_seconds": 0.006529771955683827,
+  "median_seconds": 0.005446058523375541,
+  "max_seconds": 0.013991691987030208,
+  "includes": "local HTTP, saved context load, source/rule checks, evaluation and geometry",
+  "source_network": false,
+  "rule_version": "9a768dd18c0c882a"
+}

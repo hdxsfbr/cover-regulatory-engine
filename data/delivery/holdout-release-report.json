@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "ain": "4103011002",
+      "useful_dimensions": false,
+      "observations": [],
+      "errors": [],
+      "total_seconds": 52.849,
+      "job_seconds": 30.819582392112352,
+      "shape": "irregular",
+      "manual_transcriptions": 0
+    },
+    {
+      "ain": "4103009016",
+      "useful_dimensions": true,
+      "observations": [
+        [
+          "lot_width_ft",
+          55,
+          "ft"
+        ],
+        [
+          "lot_depth_ft",
+          125,
+          "ft"
+        ],
+        [
+          "lot_area_sqft",
+          6875,
+          "sq ft"
+        ]
+      ],
+      "errors": [],
+      "total_seconds": 59.893,
+      "job_seconds": 40.16445925808512,
+      "shape": "rectangle",
+      "manual_transcriptions": 0
+    },
+    {
+      "ain": "2034022051",
+      "useful_dimensions": true,
+      "observations": [
+        [
+          "lot_width_ft",
+          60,
+          "ft"
+        ],
+        [
+          "lot_depth_ft",
+          125,
+          "ft"
+        ],
+        [
+          "lot_area_sqft",
+          7500,
+          "sq ft"
+        ]
+      ],
+      "errors": [],
+      "total_seconds": 62.911,
+      "job_seconds": 42.436422822996974,
+      "shape": "rectangle",
+      "manual_transcriptions": 0
+    },
+    {
+      "ain": "2034022052",
+      "useful_dimensions": true,
+      "observations": [
+        [
+          "lot_width_ft",
+          60,
+          "ft"
+        ],
+        [
+          "lot_depth_ft",
+          125,
+          "ft"
+        ],
+        [
+          "lot_area_sqft",
+          7500,
+          "sq ft"
+        ]
+      ],
+      "errors": [],
+      "total_seconds": 66.404,
+      "job_seconds": 46.602999128983356,
+      "shape": "rectangle",
+      "manual_transcriptions": 0
+    },
+    {
+      "ain": "2106008015",
+      "useful_dimensions": true,
+      "observations": [
+        [
+          "lot_width_ft",
+          60,
+          "ft"
+        ],
+        [
+          "lot_depth_ft",
+          125,
+          "ft"
+        ],
+        [
+          "lot_area_sqft",
+          7500,
+          "sq ft"
+        ]
+      ],
+      "errors": [],
+      "total_seconds": 52.861,
+      "job_seconds": 39.8701211810112,
+      "shape": "rectangle",
+      "manual_transcriptions": 0
+    },
+    {
+      "ain": "2106008016",
+      "useful_dimensions": true,
+      "observations": [
+        [
+          "lot_width_ft",
+          60,
+          "ft"
+        ]
+      ],
+      "errors": [],
+      "total_seconds": 56.863,
+      "job_seconds": 44.59906117094215,
+      "shape": "rectangle",
+      "manual_transcriptions": 0
+    }
+  ],
+  "complete": true,
+  "useful": 5,
+  "accepted_field_errors": 0,
+  "cold_total_max_seconds": 66.404,
+  "note": "Actual browser full-address searches, live document jobs; general retry after address-query optimization. Original failed search and development-server run retained in attempts/logs. Trapezoid correctly withheld. Reference readings were agent-inspected before model outputs, not professional survey review."
+}

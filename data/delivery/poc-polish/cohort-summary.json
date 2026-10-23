@@ -1,0 +1,117 @@
+{
+  "kind": "current-code replay of retained public-source contexts; not newly fetched GIS",
+  "parcels": 16,
+  "assessments": 96,
+  "counts": {
+    "source-facts-and-design-only": {
+      "single-family": {
+        "partial": 16
+      },
+      "adu": {
+        "partial": 10,
+        "evaluated": 6
+      },
+      "guest-house": {
+        "partial": 16
+      }
+    },
+    "hypothetical-applicability": {
+      "single-family": {
+        "partial": 16
+      },
+      "adu": {
+        "partial": 10,
+        "evaluated": 6
+      },
+      "guest-house": {
+        "partial": 16
+      }
+    }
+  },
+  "map_reference_checks": [
+    {
+      "ain": "4103011002",
+      "observed": {},
+      "expected": {},
+      "missing": [],
+      "errors": {}
+    },
+    {
+      "ain": "4103009016",
+      "observed": {
+        "lot_width_ft": 55
+      },
+      "expected": {
+        "lot_width_ft": 55,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 6875
+      },
+      "missing": [
+        "lot_area_sqft",
+        "lot_depth_ft"
+      ],
+      "errors": {}
+    },
+    {
+      "ain": "2034022051",
+      "observed": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "expected": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "missing": [],
+      "errors": {}
+    },
+    {
+      "ain": "2034022052",
+      "observed": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "expected": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "missing": [],
+      "errors": {}
+    },
+    {
+      "ain": "2106008015",
+      "observed": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "expected": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "missing": [],
+      "errors": {}
+    },
+    {
+      "ain": "2106008016",
+      "observed": {
+        "lot_width_ft": 60
+      },
+      "expected": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125,
+        "lot_area_sqft": 7500
+      },
+      "missing": [
+        "lot_area_sqft",
+        "lot_depth_ft"
+      ],
+      "errors": {}
+    }
+  ]
+}

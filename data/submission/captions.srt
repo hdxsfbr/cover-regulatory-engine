@@ -1,0 +1,167 @@
+1
+00:00:00,000 --> 00:00:05,080
+Welcome to this property intelligence prototype. It brings parcel research,
+
+2
+00:00:05,480 --> 00:00:11,460
+public records, and traceable residential calculations into one workspace. I'll
+
+3
+00:00:11,460 --> 00:00:15,540
+walk through a real Los Angeles property, then compare two
+
+4
+00:00:15,540 --> 00:00:16,660
+hypothetical designs.
+
+5
+00:00:18,520 --> 00:00:24,180
+Let's search for 7661 Penfield Avenue. The matching parcel opens
+
+6
+00:00:24,180 --> 00:00:28,560
+with its address, assessor parcel number, zoning, and mapped buildings.
+
+7
+00:00:29,720 --> 00:00:34,120
+This property is zoned RS1. Finding a parcel does not
+
+8
+00:00:34,120 --> 00:00:38,300
+mean every calculation is supported. The app keeps those limits
+
+9
+00:00:38,300 --> 00:00:38,720
+visible.
+
+10
+00:00:40,240 --> 00:00:42,820
+The public map reading gives us a width of 60
+
+11
+00:00:42,820 --> 00:00:46,640
+feet, a depth of 125 feet, and a derived area
+
+12
+00:00:46,640 --> 00:00:51,700
+of 7,500 square feet. These are machine interpretations, with
+
+13
+00:00:51,700 --> 00:00:57,180
+explanations and source references. This example reuses a completed reading.
+
+14
+00:00:57,800 --> 00:01:01,500
+On a new property, available results appear while extraction runs.
+
+15
+00:01:02,940 --> 00:01:08,200
+Property research brings together planning, permit history, engineering, and transit
+
+16
+00:01:08,200 --> 00:01:13,600
+information. Penfield has 11 permit and building records, including four
+
+17
+00:01:13,600 --> 00:01:19,500
+downloadable documents. Here is the recent certificate of occupancy. Engineering
+
+18
+00:01:19,500 --> 00:01:25,000
+also returns mapped easement features and nearby sewer records. Each
+
+19
+00:01:25,000 --> 00:01:28,160
+source stays visible so the user can inspect the underlying
+
+20
+00:01:28,160 --> 00:01:28,600
+evidence.
+
+21
+00:01:30,060 --> 00:01:34,200
+Now I'll switch to a detached ADU. This is a
+
+22
+00:01:34,200 --> 00:01:38,780
+hypothetical design exercise, not a finding that this particular proposal
+
+23
+00:01:38,780 --> 00:01:45,160
+is approved. I'm documenting the assumptions about an existing dwelling,
+
+24
+00:01:45,920 --> 00:01:52,000
+detached construction, kitchen facilities, and coastal requirements. The app distinguishes
+
+25
+00:01:52,000 --> 00:01:54,960
+these user-supplied assumptions from source evidence.
+
+26
+00:01:56,600 --> 00:02:00,160
+With a proposed height of 19 feet, the selected rule
+
+27
+00:02:00,160 --> 00:02:04,640
+branch shows a 16-foot limit. The design exceeds that
+
+28
+00:02:04,640 --> 00:02:09,560
+limit by 3 feet. Opening the explanation reveals the calculation,
+
+29
+00:02:10,240 --> 00:02:15,720
+assumptions, and cited provisions. That makes the answer inspectable, instead
+
+30
+00:02:15,720 --> 00:02:18,200
+of presenting an unexplained number.
+
+31
+00:02:19,620 --> 00:02:23,120
+I'll save the 19-foot option, change the proposed height
+
+32
+00:02:23,120 --> 00:02:27,980
+to 16 feet, and save a second version. The comparison
+
+33
+00:02:27,980 --> 00:02:32,260
+now shows one option exceeding the height limit and the
+
+34
+00:02:32,260 --> 00:02:35,720
+other within it. That result applies to this height check
+
+35
+00:02:35,720 --> 00:02:40,140
+under the stated assumptions. It is not an overall permit
+
+36
+00:02:40,140 --> 00:02:40,540
+approval.
+
+37
+00:02:42,040 --> 00:02:47,820
+Saved scenarios retain their inputs, results, and evidence references. Reopening
+
+38
+00:02:47,820 --> 00:02:51,360
+the project brings the comparison back, so the reasoning can
+
+39
+00:02:51,360 --> 00:02:55,780
+be reviewed later. The workflow connects public source retrieval and
+
+40
+00:02:55,780 --> 00:03:00,540
+model-assisted map reading to deterministic calculations and saved decisions.
+
+41
+00:03:01,740 --> 00:03:07,320
+Missing evidence stays explicit. The goal is faster, more explainable
+
+42
+00:03:07,320 --> 00:03:08,460
+feasibility research.

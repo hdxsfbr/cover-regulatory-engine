@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-22T18:23:57.751085+00:00",
+  "python": "3.13.2",
+  "machine": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Core(TM) i9-14900KF",
+  "backend_tests": 86,
+  "browser_tests": 20,
+  "implementation_start_evidence": "2026-10-22T17:10:35Z corpus freeze; earlier project work predates this run",
+  "original_project_start": "not recorded; one-week target cannot be independently reconstructed"
+}

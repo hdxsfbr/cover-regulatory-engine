@@ -1,0 +1,7 @@
+{
+  "savedAlternative": "POC demo — 15 ft alternative",
+  "conflict": "19 versus16ft, changed to15ft and saved",
+  "mobileOverflow": false,
+  "recovery": "Controlled HTTP503 on search followed by successful real public lookup",
+  "passed": true
+}

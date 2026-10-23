@@ -1,0 +1,1449 @@
+{
+  "ain": "4103009016",
+  "context_seconds": 10.91168371308595,
+  "zone": null,
+  "jurisdiction": "Los Angeles",
+  "regime": null,
+  "results": {
+    "single-family": {
+      "status": "partial",
+      "rule_set_version": "0902e8139c64cd4d",
+      "constraints": [
+        {
+          "category": "front-yard",
+          "status": "needs-review",
+          "confidence": "undetermined",
+          "value": null,
+          "units": "ft",
+          "reasons": [
+            "Zoning requires review",
+            "Specific plans: matched; applicability requires review",
+            "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+          ],
+          "citations": [
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+              "section": "12.08",
+              "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet",
+              "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+            }
+          ],
+          "inputs": {},
+          "derivation": null,
+          "rule_version": "r1-1-front-yard:2",
+          "scope": "Applies to a conventional new main building for a one-family dwelling on an R1-1 lot outside a Hillside Area or Coastal Zone, under LAMC 12.08 C.1. Supported expression: minimum front yard = min(0.2 * lot_depth_ft, 20). Lot depth is measured as defined in 12.03. The same 12.08 C.1 paragraph replaces this baseline with a prevailing front-yard average when developed lots with front yards varying by no more than ten feet make up 40% or more of the frontage, and that average can reach 40 feet. Key lots follow a separate computation. The baseline expression is valid only after frontage review confirms neither branch applies. Every exclusion must be checked, never presumed.",
+          "exclusions": [
+            "special approvals (variances, adjustments, specific plans, HPOZ, subdivision or other discretionary conditions)",
+            "frontage averaging of developed lots comprising 40% or more of the frontage (12.08 C.1)",
+            "key lots (12.08 C.1 second paragraph)",
+            "sloping front lots (12.22 C.6)",
+            "unit development of a frontage (12.22 C.8)",
+            "established building or setback lines (12.22 C.1)",
+            "lots affected by acquisition for public use (12.22 C.13)",
+            "through lots (12.22 C.19) and flag lots"
+          ],
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Zoning requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Specific plans: matched; applicability requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "missing-input",
+              "message": "Supply legal lot depth and its basis. A public map is available for review.",
+              "target": "input-lot_depth_ft",
+              "action": "input",
+              "label": "Enter legal lot depth"
+            },
+            {
+              "code": "applicability",
+              "message": "Confirm ordinary interior-lot conditions and review special approvals or building lines.",
+              "target": "check-ordinary_context",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Establish non-hillside and non-coastal applicability; screening no-matches alone do not establish it.",
+              "target": "check-outside_hillside_coastal",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Review frontage averaging, key-lot and sloping-lot exceptions.",
+              "target": "check-frontage_reviewed",
+              "action": "review",
+              "label": "Review this condition"
+            }
+          ]
+        },
+        {
+          "category": "side-yard",
+          "status": "needs-review",
+          "confidence": "undetermined",
+          "value": null,
+          "units": "ft",
+          "reasons": [
+            "Zoning requires review",
+            "Specific plans: matched; applicability requires review",
+            "Missing or unresolved: ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+          ],
+          "citations": [
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+              "section": "12.08",
+              "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.  For a building more than two stories in height, 1 foot shall be added to the width of each yard for each additional story above the second story.\nAll portions of a building that have a side wall exceeding 14 feet in height and a continuous length greater than 45 feet shall have an offset/plane break that is a minimum depth of five feet beyond the required yard and a minimum length of 10 feet.  For the purpose of this Subdivision, height shall be measured from the existing or finished grade, whichever is lower, at each point along the perimeter of the building.\nFigure 12.08 C.2.(a): Plane break diagram.\n(b)\u00a0\u00a0\u00a0In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.",
+              "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "units": "ft",
+              "origin": "machine-corroborated",
+              "evidence": "Identity: map header reads 4103 / 9. Tract label 'TRACT NO 11569 M B 303-17' is split across the row. Lot 28 contains circled assessor number 16, matching AIN 4103-009-016. Width: the Kittyhawk frontage of lot 28 carries a ditto mark (about x=0.439, y=0.783). The chain runs southwest to the adjacent lot 27, whose Kittyhawk edge has an explicitly printed '55' (about x=0.418, y=0.819). Lot 27's rear edge is also printed '55' (about x=0.37, y=0.75), and lot 28's rear edge carries a ditto mark (about x=0.391, y=0.712). Equal opposite widths are consistent with a rectangular lot. The printed bearings and the 125 depth are on other lines, so no depth is derived.",
+              "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+              "document_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d",
+              "observation_id": "3490a2fcff8b24908994b0274588b282d475321ccfc5004e8cf3c36259935640"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "units": "ft",
+              "origin": "user-supplied",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": null,
+          "rule_version": "r1-1-side-yard:2",
+          "scope": "New R1-1 main building outside Hillside/Coastal areas. Base side yard is 5 feet, or max(3,10% of lot width) for lots narrower than 50 feet. Section 12.08 C.2(b) replaces the story increment with one foot for each ten feet or fraction above 18 feet. Excluded conditions must be checked.",
+          "exclusions": [
+            "special approvals, and side yard requirements in specific plans, HPOZs or subdivision approvals that take precedence (12.08 C.2.(c))",
+            "side wall offset/plane break requirement for walls over 14 feet high and longer than 45 feet (12.08 C.2.(a)); not resolved by this rule",
+            "occupied rooftop deck setback (12.08 C.2.(d))",
+            "reduced side yards for frontages developed as a unit (12.22 C.9)",
+            "side yard waiver for a first-story garage (12.22 C.2)",
+            "established building or setback lines (12.22 C.1)",
+            "lots affected by acquisition for public use (12.22 C.13)",
+            "through lots (12.22 C.19) and flag lots"
+          ],
+          "conditional": {
+            "value": 5,
+            "units": "ft",
+            "derivation": "{\"op\": \"add\", \"args\": [{\"op\": \"if\", \"args\": [{\"op\": \"lt\", \"args\": [{\"op\": \"input\", \"name\": \"lot_width_ft\", \"unit\": \"ft\"}, {\"op\": \"constant\", \"value\": 50, \"unit\": \"ft\"}]}, {\"op\": \"max\", \"args\": [{\"op\": \"constant\", \"value\": 3, \"unit\": \"ft\"}, {\"op\": \"multiply\", \"args\": [{\"op\": \"constant\", \"value\": 0.1, \"unit\": \"scalar\"}, {\"op\": \"input\", \"name\": \"lot_width_ft\", \"unit\": \"ft\"}]}]}, {\"op\": \"constant\", \"value\": 5, \"unit\": \"ft\"}]}, {\"op\": \"multiply\", \"args\": [{\"op\": \"constant\", \"value\": 1, \"unit\": \"ft\"}, {\"op\": \"ceil\", \"args\": [{\"op\": \"divide\", \"args\": [{\"op\": \"max\", \"args\": [{\"op\": \"constant\", \"value\": 0, \"unit\": \"ft\"}, {\"op\": \"subtract\", \"args\": [{\"op\": \"input\", \"name\": \"building_height_ft\", \"unit\": \"ft\"}, {\"op\": \"constant\", \"value\": 18, \"unit\": \"ft\"}]}]}, {\"op\": \"constant\", \"value\": 10, \"unit\": \"ft\"}]}]}]}]}",
+            "assumptions": [
+              "Conventional new main building on a legally established ordinary interior R1-1 lot (not a flag, through, or key lot); no special approvals, building lines, unit-development, public acquisition, or other exceptions apply.",
+              "Evidence establishes that the property is outside Hillside Areas and Coastal Zones.",
+              "Side-wall plane breaks, rooftop decks and first-story garage exceptions do not affect the requested side yard.",
+              "Zoning requires review",
+              "Specific plans: matched; applicability requires review"
+            ],
+            "label": "Conditional scenario \u2014 applicability unresolved"
+          },
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Zoning requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Specific plans: matched; applicability requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Confirm ordinary interior-lot conditions and review special approvals or building lines.",
+              "target": "check-ordinary_context",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Establish non-hillside and non-coastal applicability; screening no-matches alone do not establish it.",
+              "target": "check-outside_hillside_coastal",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Review the proposed wall planes, rooftop decks and garage exceptions.",
+              "target": "check-side_conditions_reviewed",
+              "action": "review",
+              "label": "Review this condition"
+            }
+          ]
+        },
+        {
+          "category": "rear-yard",
+          "status": "needs-review",
+          "confidence": "undetermined",
+          "value": null,
+          "units": "ft",
+          "reasons": [
+            "Zoning requires review",
+            "Specific plans: matched; applicability requires review",
+            "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+          ],
+          "citations": [
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+              "section": "12.08",
+              "quote": "There shall be a rear yard of not less than 15 feet in depth.",
+              "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+            }
+          ],
+          "inputs": {},
+          "derivation": null,
+          "rule_version": "r1-1-rear-yard:2",
+          "scope": "Applies to a conventional new main building on an R1-1 lot outside a Hillside Area or Coastal Zone, under LAMC 12.08 C.3. Supported expression: minimum rear yard = 15. 12.22 C.10 states that in R1 the rear yard does not include half of an abutting alley. Every exclusion must be checked, never presumed.",
+          "exclusions": [
+            "special approvals (variances, adjustments, specific plans, HPOZ, subdivision or other discretionary conditions)",
+            "established building or setback lines (12.22 C.1)",
+            "lots affected by acquisition for public use (12.22 C.13)",
+            "through lots split into two building sites (12.22 C.19) and flag lots",
+            "unit developments"
+          ],
+          "conditional": {
+            "value": 15,
+            "units": "ft",
+            "derivation": "{\"op\": \"constant\", \"value\": 15, \"unit\": \"ft\"}",
+            "assumptions": [
+              "Conventional new main building on a legally established ordinary interior R1-1 lot (not a flag, through, or key lot); no special approvals, building lines, unit-development, public acquisition, or other exceptions apply.",
+              "Evidence establishes that the property is outside Hillside Areas and Coastal Zones.",
+              "Zoning requires review",
+              "Specific plans: matched; applicability requires review"
+            ],
+            "label": "Conditional scenario \u2014 applicability unresolved"
+          },
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Zoning requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Specific plans: matched; applicability requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Confirm ordinary interior-lot conditions and review special approvals or building lines.",
+              "target": "check-ordinary_context",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Establish non-hillside and non-coastal applicability; screening no-matches alone do not establish it.",
+              "target": "check-outside_hillside_coastal",
+              "action": "review",
+              "label": "Review this condition"
+            }
+          ]
+        },
+        {
+          "category": "height",
+          "status": "needs-review",
+          "confidence": "undetermined",
+          "value": null,
+          "units": "ft",
+          "reasons": [
+            "Zoning requires review",
+            "Specific plans: matched; applicability requires review",
+            "Missing or unresolved: ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+          ],
+          "citations": [
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+              "section": "12.21.1",
+              "quote": "In the R1, RS, or RE9 Zones, no Building or Structure shall exceed 33 feet in height; except that when the roof of the uppermost Story of a Building or Structure or portion of the Building or Structure has a Slope of less than 25 percent, the maximum height shall be 28 feet.",
+              "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb"
+            },
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+              "section": "12.03",
+              "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+              "quote": "GRADE (ADJACENT GROUND LEVEL).\nIs the lowest point of elevation of the finished surface of the ground, paving or sidewalk within the area between the building and the property line, or when the property line is more than 5 feet from the building, between the building and a line 5 feet from the building. This definition does not apply to any building or structure located within the boundaries of the Century City North or Century City South Specific Plans and which is subject to Section\n12.21.2\nof this Code.\n(Amended by Ord. No. 160,657, Eff. 2/17/86, Oper. 6/17/86.)"
+            },
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+              "section": "12.03",
+              "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+              "quote": "HEIGHT OF BUILDING OR STRUCTURE.\nIs the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest. Retaining walls shall not be used for the purpose of raising the effective elevation of the finished grade for purposes of measuring the height of a building or structure. This definition does not apply to any building or structure located within the boundaries of the Century City North and Century City South Specific Plans and which is subject to Section\n12.21.2\nof this Code.\n(Added by Ord. No. 160,657, Eff. 2/17/86, Oper. 6/17/86.)"
+            },
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+              "section": "12.03",
+              "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+              "quote": "SLOPE.\nAn inclined ground surface the inclination of which is expressed as a ratio of horizontal distance to vertical distance (i.e. 2:1 or 1:1) or as a percentage (i.e. 50% or 100%).\n(Added by Ord. No. 181,624, Eff. 5/9/11.)"
+            }
+          ],
+          "inputs": {
+            "roof_slope_percent": {
+              "value": 20,
+              "units": "%",
+              "origin": "user-supplied",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": null,
+          "rule_version": "r1-1-height:2",
+          "scope": "Ordinary R1-1 new main building outside Hillside/Coastal areas, uniform uppermost roof slope across all portions: below 25 percent gives 28 feet; otherwise 33 feet. Height and grade follow 12.03. Mixed roof portions require separate analysis and are excluded from this scalar rule. Ground-slope definition does not substitute for roof pitch. All listed exceptions must be checked.",
+          "exclusions": [
+            "special approvals, and height limits in Specific Plans, HPOZs or subdivision approvals that take precedence (12.21.1)",
+            "block-average height when 40% or more of existing one-family dwellings exceed the limit (12.21.1)",
+            "R1V, R1F and R1R zone variations (12.21.6)",
+            "Height District 1-L, 1-VL, 1-XL or 1-SS designations (12.21.1 A.1)",
+            "roof decks, and solar structures shading roof decks (12.21.1 B.3.(c))",
+            "roof structures and equipment allowances (12.21.1 B.3)",
+            "adjoining-grade exception (12.21.1 B.2)",
+            "Mixed uppermost roof slopes; portions require separate height analysis"
+          ],
+          "conditional": {
+            "value": 28,
+            "units": "ft",
+            "derivation": "{\"op\": \"if\", \"args\": [{\"op\": \"lt\", \"args\": [{\"op\": \"input\", \"name\": \"roof_slope_percent\", \"unit\": \"%\"}, {\"op\": \"constant\", \"value\": 25, \"unit\": \"%\"}]}, {\"op\": \"constant\", \"value\": 28, \"unit\": \"ft\"}, {\"op\": \"constant\", \"value\": 33, \"unit\": \"ft\"}]}",
+            "assumptions": [
+              "Conventional new main building on a legally established ordinary interior R1-1 lot (not a flag, through, or key lot); no special approvals, building lines, unit-development, public acquisition, or other exceptions apply.",
+              "Evidence establishes that the property is outside Hillside Areas and Coastal Zones.",
+              "Block-height averaging, special height restrictions and terrain/roof-structure exceptions do not affect the ordinary height limit; the uppermost roof has a uniform slope across all portions.",
+              "Zoning requires review",
+              "Specific plans: matched; applicability requires review"
+            ],
+            "label": "Conditional scenario \u2014 applicability unresolved"
+          },
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Zoning requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Specific plans: matched; applicability requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Confirm ordinary interior-lot conditions and review special approvals or building lines.",
+              "target": "check-ordinary_context",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Establish non-hillside and non-coastal applicability; screening no-matches alone do not establish it.",
+              "target": "check-outside_hillside_coastal",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Review block-height restrictions, terrain exceptions and uniform uppermost roof slope.",
+              "target": "check-height_conditions_reviewed",
+              "action": "review",
+              "label": "Review this condition"
+            }
+          ]
+        },
+        {
+          "category": "floor-area",
+          "status": "needs-review",
+          "confidence": "undetermined",
+          "value": null,
+          "units": "sq ft",
+          "reasons": [
+            "Zoning requires review",
+            "Specific plans: matched; applicability requires review",
+            "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+          ],
+          "citations": [
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+              "section": "12.08",
+              "quote": "For lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45).",
+              "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+            },
+            {
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+              "section": "12.03",
+              "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+              "quote": "FLOOR AREA, RESIDENTIAL.  (Amended by Ord. No. 184,802, Eff. 3/17/17.)\nThe area in square feet confined within the exterior walls of a residential or non-residential Building on a Lot in an RA, RE, RS, or R1 Zone.  Any floor or portion of a floor with a ceiling height greater than 14 feet shall count as twice the square footage of that area.  The area of stairways and elevator shafts shall only be counted once regardless of ceiling height.  Area of an attic or portion of an attic with a ceiling height of more than 7 feet shall be included in the Residential Floor Area calculation.\nExcept that the following areas shall not be counted:\n1.\nRequired Covered Parking.\n(a)\u00a0\u00a0\u00a0The total area of 200 square feet per parking space that is required to be covered, up to a maximum of 400 square feet, shall be exempted from being counted as Residential Floor Area if all of said parking, whether detached or attached, is located in accordance with the following criteria:\n(1)\u00a0\u00a0\u00a0Said parking is located within the rear half of the Lot, or at least 55 feet from a Front Lot Line.\n(2)\u00a0\u00a0\u00a0On a Through Lot with no Rear Lot Line, said parking is set back from both Front Lot Lines a distance of at least 40 feet.\n(b)\u00a0\u00a0\u00a0If the parking that is required to be covered is not located in accordance with Paragraph (a) above, then only 200 square feet shall be exempted from being counted as Residential Floor Area.\n(c)\u00a0\u00a0\u00a0In any event, the required parking area exempted from counting as Residential Floor Area by this exception shall be limited to 400 square feet per Lot.\n2.\nDetached Accessory Buildings.\nDetached Accessory Buildings not exceeding 200 square feet; however, the total combined area exempted of all the Detached Accessory Buildings on a Lot shall not exceed 400 square feet.\n3.\nLattice Roof Porches, Patios, and Breezeways.\nPorches, patios, and breezeways that have a Lattice Roof, as defined in this section.\n4.\nBasements.\nFor Lots not located in the Hillside Area or Coastal Zone, any Basement when the Elevation of the upper surface of the floor or roof above the Basement does not exceed 2 feet in height at any point above the finished or natural Grade, whichever is lower.\nFor Lots located in the Hillside Area, any Basement when the Elevation of the upper surface of the floor or roof above the Basement does not exceed 3 feet in height at any point above the finished or natural Grade, whichever is lower, for at least 60 percent of the perimeter length of the exterior Basement walls.\nFor all Lots, the following shall not disqualify said Basement from this exemption:\n(a)\u00a0\u00a0\u00a0A maximum of one (1), 20-foot wide depressed driveway with direct access to the required covered parking spaces; and\n(b)\u00a0\u00a0\u00a0A maximum of two (2) light- wells which are not visible from a public right-of-way and do not project more than three feet from the exterior walls of the Basement and no wider than 6 feet."
+            }
+          ],
+          "inputs": {},
+          "derivation": null,
+          "rule_version": "r1-1-floor-area:2",
+          "scope": "Ordinary R1-1 outside Hillside/Coastal areas: cap is 0.45 times legal lot area across all buildings. The complete 12.03 Residential Floor Area definition governs counted area and exemptions. This rule calculates only the cap, not proposal compliance or remaining development area; the encroachment plane remains a separate constraint.",
+          "exclusions": [
+            "special approvals (variances, specific plans, HPOZ, subdivision or other discretionary conditions)",
+            "encroachment plane (12.08 C.5.(a)); not resolved by the floor area cap",
+            "R1V, R1F, R1R and R1H zone variations (12.08 C.5.(b)-(e))",
+            "existing floor area verification for additions and remodels (12.08 C.6)",
+            "lots affected by acquisition for public use (12.22 C.13)",
+            "through lots (12.22 C.19) and flag lots",
+            "unit developments"
+          ],
+          "additional_constraint": "The 20-foot encroachment-plane origin and other massing requirements are not evaluated by this scalar floor-area cap.",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Zoning requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "applicability",
+              "message": "Specific plans: matched; applicability requires review",
+              "target": "source-evidence",
+              "action": "review",
+              "label": "Inspect source evidence"
+            },
+            {
+              "code": "missing-input",
+              "message": "Supply legal lot area and its basis. A public map is available for review.",
+              "target": "input-lot_area_sqft",
+              "action": "input",
+              "label": "Enter legal lot area"
+            },
+            {
+              "code": "applicability",
+              "message": "Confirm ordinary interior-lot conditions and review special approvals or building lines.",
+              "target": "check-ordinary_context",
+              "action": "review",
+              "label": "Review this condition"
+            },
+            {
+              "code": "applicability",
+              "message": "Establish non-hillside and non-coastal applicability; screening no-matches alone do not establish it.",
+              "target": "check-outside_hillside_coastal",
+              "action": "review",
+              "label": "Review this condition"
+            }
+          ]
+        }
+      ],
+      "project_type": "single-family",
+      "coverage": "Five ordinary-case Chapter 1 R1-1 scalar constraints only. Not a full buildability or permit determination.",
+      "checked_sources": [
+        "Parcels",
+        "Hillside Ordinance",
+        "Historic overlays",
+        "Specific plans",
+        "City boundary",
+        "Buildings",
+        "Design overlays",
+        "Chapter 1 zoning",
+        "Coastal Commission Permit Area",
+        "Chapter 1A zoning"
+      ],
+      "applicability_assertions": {},
+      "applicability_evidence": {},
+      "evidence_note": "Design proposal"
+    },
+    "adu": {
+      "status": "partial",
+      "project_type": "adu",
+      "coverage": "Selected new detached ADU state-exempt dimensional branch",
+      "constraints": [
+        {
+          "category": "side-yard",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Independent living facilities including cooking must be proposed for an ADU"
+          ],
+          "citations": [
+            {
+              "section": "HCD-ADU-2026",
+              "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+              "quote": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+              "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "State-exempt detached ADU side setback",
+          "rule_version": "d37c601484caab05",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Independent living facilities including cooking must be proposed for an ADU",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 4,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Independent living facilities including cooking must be proposed for an ADU"
+            ],
+            "derivation": "State-exempt detached ADU side setback"
+          }
+        },
+        {
+          "category": "rear-yard",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Independent living facilities including cooking must be proposed for an ADU"
+          ],
+          "citations": [
+            {
+              "section": "HCD-ADU-2026",
+              "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+              "quote": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+              "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "State-exempt detached ADU rear setback",
+          "rule_version": "c38111fa69f360cb",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Independent living facilities including cooking must be proposed for an ADU",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 4,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Independent living facilities including cooking must be proposed for an ADU"
+            ],
+            "derivation": "State-exempt detached ADU rear setback"
+          }
+        },
+        {
+          "category": "height",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Independent living facilities including cooking must be proposed for an ADU"
+          ],
+          "citations": [
+            {
+              "section": "HCD-ADU-2026",
+              "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+              "quote": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+              "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+            },
+            {
+              "section": "HCD-ADU-2026",
+              "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+              "quote": "Height Requirements\nIs there a limit on the height of an ADU?\nThere is no height limit contained in State ADU Law, but local agencies may impose height\nlimits pursuant to Government Code section 66321, subdivision (b)(4). A local agency may\nimpose a height limit by adopting a compliant ADU ordinance.\n\nA local agency may not impose a height limit that is less than the following:\n\nDetached ADUs\n\n16 feet on a lot with a proposed or existing single-family or multifamily dwelling unit (Gov.\nCode, \u00a7 66321, subd. (b)(4)(A)).\n\n18 feet on a lot with an existing or proposed single-family or multifamily dwelling, including an\nadditional 2 feet to accommodate roof pitch that aligns with the primary dwelling, when the lot\nis a half-mile from a major transit stop or high-quality transit corridor (Gov. Code, \u00a7 66321,\nsubd. (b)(4)(B)). Please see the ADU Glossary for definitions of these terms.\n\n                                                24\n\f18 feet height on a lot with an existing or proposed multifamily, multistory dwelling (Gov. Code,\n\u00a7 66321, subd. (b)(4)(C)).\n\nIf a detached two-story ADU can be built according to the height allowances required under\nState ADU Law while remaining compliant with the building code, a local agency cannot deny\nan ADU application to create a two-story ADU, irrespective of the underlying zoning that might\nrestrict a primary dwelling to one story. (Gov. Code, \u00a7\u00a7 66321, subd. (b)(4)(D); 66314, subd.\n(d)(8).)\n\n",
+              "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Selected state-exempt height allowance; transit and matching-roof branches require project evidence. This is not a claim that every larger local ADU is prohibited.",
+          "rule_version": "7b3f33397e803a7e",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Independent living facilities including cooking must be proposed for an ADU",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 16,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Independent living facilities including cooking must be proposed for an ADU"
+            ],
+            "derivation": "Selected state-exempt height allowance; transit and matching-roof branches require project evidence. This is not a claim that every larger local ADU is prohibited."
+          }
+        },
+        {
+          "category": "floor-area",
+          "status": "conditional",
+          "value": null,
+          "units": "sq ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Independent living facilities including cooking must be proposed for an ADU"
+          ],
+          "citations": [
+            {
+              "section": "HCD-ADU-2026",
+              "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+              "quote": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+              "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Maximum for this state-exempt branch; larger ADUs require the separate local-ordinance branch",
+          "rule_version": "8688f24d5601cb7b",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Independent living facilities including cooking must be proposed for an ADU",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 800,
+            "units": "sq ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Independent living facilities including cooking must be proposed for an ADU"
+            ],
+            "derivation": "Maximum for this state-exempt branch; larger ADUs require the separate local-ordinance branch"
+          }
+        }
+      ],
+      "summary": {
+        "notes": [
+          "This package models Government Code 66323(a)(2) as explained by the March2026 HCD handbook. Front setback and lot coverage are not imposed on that state-exempt branch. Building code, health/safety, easements and Coastal Act obligations still apply."
+        ],
+        "issues": [
+          "Chapter 1 applicability is not established",
+          "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+          "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+          "Package applies only to new detached construction",
+          "Independent living facilities including cooking must be proposed for an ADU"
+        ],
+        "citations": [
+          {
+            "section": "HCD-ADU-2026",
+            "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+            "quote": "HCD uses the term \u201c66323 Units\u201d to refer to ADUs and JADUs that are created pursuant to\nGovernment Code section 66323. They have also been referred to as \u201cState mandated\u201d or\n\u201cState exempt\u201d ADUs. Government Code section 66323 creates four categories of ADUs (and\nJADUs) that must be approved ministerially and are only subject to standards set forth in\nGovernment Code section 66323. (Gov. Code, \u00a7 66323, subd. (b).) For example, 66323 Units\ndo not have to comply with lot coverage, front setbacks, and design standards. However, these\nADUs must comply with building code and health and safety requirements for dwellings. ",
+            "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+          },
+          {
+            "section": "HCD-ADU-2026",
+            "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/adu-handbook-update.pdf",
+            "quote": "   2. Single-Family Detached ADUs\n      One detached new construction ADU that does not exceed four-foot side and rear yard\n      setbacks is permitted on lots with an existing or proposed single-family dwelling (Gov.\n      Code, \u00a7 66323, subd. (a)(2)). The maximum unit size is 800 square feet with a height\n      limitation of 16, 18, or 20 feet depending on conditions specified in Government Code\n      section 66321, subdivision (b)(4). (Gov. Code, \u00a7 66323, subd. (a)(2)(B).)\n\n\n\n\n                                              16\n\f",
+            "source_hash": "521ae0c079c1e9ba274e5b1961d94a051a01938f63ae1ca48d56102be9ab333d"
+          }
+        ],
+        "design_implications": []
+      },
+      "rule_set_version": "9a768dd18c0c882a",
+      "checked_sources": [
+        "Parcels",
+        "Hillside Ordinance",
+        "Historic overlays",
+        "Specific plans",
+        "City boundary",
+        "Buildings",
+        "Design overlays",
+        "Chapter 1 zoning",
+        "Coastal Commission Permit Area",
+        "Chapter 1A zoning"
+      ]
+    },
+    "guest-house": {
+      "status": "partial",
+      "project_type": "guest-house",
+      "coverage": "Selected R1 detached accessory living quarters use and location rules",
+      "constraints": [
+        {
+          "category": "rear-yard",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Explicitly confirm no kitchen and no rental or separate dwelling use",
+            "Use must be solely temporary guests of the main dwelling occupants",
+            "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+            "Review rear-half siting, alley clearance, building separation and passageway requirements",
+            "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+          ],
+          "citations": [
+            {
+              "section": "12.21",
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+              "quote": "\u00a0\u00a0\u00a0(b)\u00a0\u00a0\u00a0In the A and R Zones, all other accessory buildings (not regulated by Paragraph (a) above or permitted in the front yard of a sloping lot) shall be located on the rear half of a lot but need not be located more than 55 feet from a front lot line.\nIn the A1 and A2 Zones, such accessory building shall be located not less than ten feet from any side street lot line, and in the RA and R Zones shall be located not closer to the side street lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(c)\u00a0\u00a0\u00a0On a reversed corner lot, an accessory building shall not be located nearer to the side lot line on the street side of such corner lot than the front yard depth required on the lot in the rear, nor be located nearer than five feet to the side lot line of such lot. (Amended by Ord. No. 138,685, Eff. 7/10/69.)\n\u00a0\u00a0\u00a0(d)\u00a0\u00a0\u00a0In the A and R Zones, all accessory buildings shall be located not less than ten feet from any main building or accessory living quarters on the same lot. Provided, however, that where an accessory building (other than a residential building) is not nearer to the adjacent lot line than the width of the side yard required for a main building of the same height, said accessory building and all its projections may be not less than five feet from the side of a main building and all of its projections.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(e)\u00a0\u00a0\u00a0In the A and R Zones, any recreation room in an accessory building and any accessory building designed or used in whole or in part as a residential building or accessory living quarters shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\u00a0\u00a0\u00a0(f)\u00a0\u00a0\u00a0Two-story accessory buildings shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\n\u00a0\u00a0\u00a0(g)\u00a0\u00a0\u00a0No accessory building shall be erected or maintained within ten feet from the center line of an alley. (Amended by Ord. No. 125,278, Eff. 9/16/63.)\n",
+              "source_hash": "6dfb90daf3a7f2c838878ef5feec15707052c3b55300a4030a06a4a2b439e6ab"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Accessory living quarters rear-yard requirement",
+          "rule_version": "74197d293195b12c",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Use must be solely temporary guests of the main dwelling occupants",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 5,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "Use must be solely temporary guests of the main dwelling occupants",
+              "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+            ],
+            "derivation": "Accessory living quarters rear-yard requirement"
+          }
+        },
+        {
+          "category": "separation",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Explicitly confirm no kitchen and no rental or separate dwelling use",
+            "Use must be solely temporary guests of the main dwelling occupants",
+            "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+            "Review rear-half siting, alley clearance, building separation and passageway requirements",
+            "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+          ],
+          "citations": [
+            {
+              "section": "12.21",
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+              "quote": "\u00a0\u00a0\u00a0(b)\u00a0\u00a0\u00a0In the A and R Zones, all other accessory buildings (not regulated by Paragraph (a) above or permitted in the front yard of a sloping lot) shall be located on the rear half of a lot but need not be located more than 55 feet from a front lot line.\nIn the A1 and A2 Zones, such accessory building shall be located not less than ten feet from any side street lot line, and in the RA and R Zones shall be located not closer to the side street lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(c)\u00a0\u00a0\u00a0On a reversed corner lot, an accessory building shall not be located nearer to the side lot line on the street side of such corner lot than the front yard depth required on the lot in the rear, nor be located nearer than five feet to the side lot line of such lot. (Amended by Ord. No. 138,685, Eff. 7/10/69.)\n\u00a0\u00a0\u00a0(d)\u00a0\u00a0\u00a0In the A and R Zones, all accessory buildings shall be located not less than ten feet from any main building or accessory living quarters on the same lot. Provided, however, that where an accessory building (other than a residential building) is not nearer to the adjacent lot line than the width of the side yard required for a main building of the same height, said accessory building and all its projections may be not less than five feet from the side of a main building and all of its projections.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(e)\u00a0\u00a0\u00a0In the A and R Zones, any recreation room in an accessory building and any accessory building designed or used in whole or in part as a residential building or accessory living quarters shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\u00a0\u00a0\u00a0(f)\u00a0\u00a0\u00a0Two-story accessory buildings shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\n\u00a0\u00a0\u00a0(g)\u00a0\u00a0\u00a0No accessory building shall be erected or maintained within ten feet from the center line of an alley. (Amended by Ord. No. 125,278, Eff. 9/16/63.)\n",
+              "source_hash": "6dfb90daf3a7f2c838878ef5feec15707052c3b55300a4030a06a4a2b439e6ab"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Minimum separation from main building or accessory living quarters, before other passageway requirements",
+          "rule_version": "ff3eb4d15bf23ff8",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Use must be solely temporary guests of the main dwelling occupants",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 10,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "Use must be solely temporary guests of the main dwelling occupants",
+              "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+            ],
+            "derivation": "Minimum separation from main building or accessory living quarters, before other passageway requirements"
+          }
+        },
+        {
+          "category": "side-yard",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Explicitly confirm no kitchen and no rental or separate dwelling use",
+            "Use must be solely temporary guests of the main dwelling occupants",
+            "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+            "Review rear-half siting, alley clearance, building separation and passageway requirements",
+            "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+          ],
+          "citations": [
+            {
+              "section": "12.21",
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+              "quote": "\u00a0\u00a0\u00a0(b)\u00a0\u00a0\u00a0In the A and R Zones, all other accessory buildings (not regulated by Paragraph (a) above or permitted in the front yard of a sloping lot) shall be located on the rear half of a lot but need not be located more than 55 feet from a front lot line.\nIn the A1 and A2 Zones, such accessory building shall be located not less than ten feet from any side street lot line, and in the RA and R Zones shall be located not closer to the side street lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(c)\u00a0\u00a0\u00a0On a reversed corner lot, an accessory building shall not be located nearer to the side lot line on the street side of such corner lot than the front yard depth required on the lot in the rear, nor be located nearer than five feet to the side lot line of such lot. (Amended by Ord. No. 138,685, Eff. 7/10/69.)\n\u00a0\u00a0\u00a0(d)\u00a0\u00a0\u00a0In the A and R Zones, all accessory buildings shall be located not less than ten feet from any main building or accessory living quarters on the same lot. Provided, however, that where an accessory building (other than a residential building) is not nearer to the adjacent lot line than the width of the side yard required for a main building of the same height, said accessory building and all its projections may be not less than five feet from the side of a main building and all of its projections.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(e)\u00a0\u00a0\u00a0In the A and R Zones, any recreation room in an accessory building and any accessory building designed or used in whole or in part as a residential building or accessory living quarters shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\u00a0\u00a0\u00a0(f)\u00a0\u00a0\u00a0Two-story accessory buildings shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\n\u00a0\u00a0\u00a0(g)\u00a0\u00a0\u00a0No accessory building shall be erected or maintained within ten feet from the center line of an alley. (Amended by Ord. No. 125,278, Eff. 9/16/63.)\n",
+              "source_hash": "6dfb90daf3a7f2c838878ef5feec15707052c3b55300a4030a06a4a2b439e6ab"
+            },
+            {
+              "section": "12.08",
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+              "quote": "Side Yards.  (Amended by Ord. No. 184,802, Eff. 3/17/17.)\n(a)\u00a0\u00a0\u00a0For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.  For a building more than two stories in height, 1 foot shall be added to the width of each yard for each additional story above the second story.\nAll portions of a building that have a side wall exceeding 14 feet in height and a continuous length greater than 45 feet shall have an offset/plane break that is a minimum depth of five feet beyond the required yard and a minimum length of 10 feet.  For the purpose of this Subdivision, height shall be measured from the existing or finished grade, whichever is lower, at each point along the perimeter of the building.\nFigure 12.08 C.2.(a): Plane break diagram.\n(b)\u00a0\u00a0\u00a0In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.\n(c)\u00a0\u00a0\u00a0Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision.  This subdivision shall apply in these areas, however, when there are no such side yard requirements.\n(d)\u00a0\u00a0\u00a0Any occupied rooftop deck shall be set back at least three feet from the minimum required side yard.  This provision shall not apply to any rooftop deck located on the street side of a Corner Lot.\n3.\n",
+              "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Main-building side yard of the same height, incorporated by12.21C5(e)",
+          "rule_version": "0a58de88f8490808",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Use must be solely temporary guests of the main dwelling occupants",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": {
+            "value": 5,
+            "units": "ft",
+            "label": "Conditional on the stated facts",
+            "assumptions": [
+              "Chapter 1 applicability is not established",
+              "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "Package applies only to new detached construction",
+              "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "Use must be solely temporary guests of the main dwelling occupants",
+              "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+            ],
+            "derivation": "Main-building side yard of the same height, incorporated by12.21C5(e)"
+          }
+        },
+        {
+          "category": "front-yard",
+          "status": "conditional",
+          "value": null,
+          "units": "ft",
+          "confidence": "conditional",
+          "reasons": [
+            "Chapter 1 applicability is not established",
+            "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+            "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+            "Package applies only to new detached construction",
+            "Explicitly confirm no kitchen and no rental or separate dwelling use",
+            "Use must be solely temporary guests of the main dwelling occupants",
+            "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+            "Review rear-half siting, alley clearance, building separation and passageway requirements",
+            "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation",
+            "Documented lot depth is needed"
+          ],
+          "citations": [
+            {
+              "section": "12.21",
+              "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+              "quote": "\u00a0\u00a0\u00a0(b)\u00a0\u00a0\u00a0In the A and R Zones, all other accessory buildings (not regulated by Paragraph (a) above or permitted in the front yard of a sloping lot) shall be located on the rear half of a lot but need not be located more than 55 feet from a front lot line.\nIn the A1 and A2 Zones, such accessory building shall be located not less than ten feet from any side street lot line, and in the RA and R Zones shall be located not closer to the side street lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(c)\u00a0\u00a0\u00a0On a reversed corner lot, an accessory building shall not be located nearer to the side lot line on the street side of such corner lot than the front yard depth required on the lot in the rear, nor be located nearer than five feet to the side lot line of such lot. (Amended by Ord. No. 138,685, Eff. 7/10/69.)\n\u00a0\u00a0\u00a0(d)\u00a0\u00a0\u00a0In the A and R Zones, all accessory buildings shall be located not less than ten feet from any main building or accessory living quarters on the same lot. Provided, however, that where an accessory building (other than a residential building) is not nearer to the adjacent lot line than the width of the side yard required for a main building of the same height, said accessory building and all its projections may be not less than five feet from the side of a main building and all of its projections.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(e)\u00a0\u00a0\u00a0In the A and R Zones, any recreation room in an accessory building and any accessory building designed or used in whole or in part as a residential building or accessory living quarters shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\u00a0\u00a0\u00a0(f)\u00a0\u00a0\u00a0Two-story accessory buildings shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\n\u00a0\u00a0\u00a0(g)\u00a0\u00a0\u00a0No accessory building shall be erected or maintained within ten feet from the center line of an alley. (Amended by Ord. No. 125,278, Eff. 9/16/63.)\n",
+              "source_hash": "6dfb90daf3a7f2c838878ef5feec15707052c3b55300a4030a06a4a2b439e6ab"
+            }
+          ],
+          "inputs": {
+            "lot_width_ft": {
+              "value": 55,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "building_height_ft": {
+              "value": 16,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            },
+            "roof_slope_percent": {
+              "value": 20,
+              "origin": "project-input",
+              "evidence": "Design proposal"
+            }
+          },
+          "derivation": "Rear-half siting with55ft ceiling",
+          "rule_version": "c3275f97c5f0c47b",
+          "blockers": [
+            {
+              "code": "applicability",
+              "message": "Chapter 1 applicability is not established",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Package applies only to new detached construction",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Explicitly confirm no kitchen and no rental or separate dwelling use",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Use must be solely temporary guests of the main dwelling occupants",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Review rear-half siting, alley clearance, building separation and passageway requirements",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            },
+            {
+              "code": "applicability",
+              "message": "Documented lot depth is needed",
+              "target": "input-panel",
+              "action": "review",
+              "label": "Review project facts"
+            }
+          ],
+          "conditional": null
+        }
+      ],
+      "summary": {
+        "notes": [
+          "Guest house means accessory living quarters: no kitchen, no rental or separate dwelling, temporary guests only. R1 permits this use only on lots at least10,000sqft. Two-story cap is not a height-in-feet determination. Residential floor area includes accessory buildings subject to defined exemptions."
+        ],
+        "issues": [
+          "Chapter 1 applicability is not established",
+          "This package is reviewed for Chapter 1 R1-1; other designations require a package review",
+          "Existing single-family primary dwelling must be established; mapped footprints do not prove use",
+          "Package applies only to new detached construction",
+          "Explicitly confirm no kitchen and no rental or separate dwelling use",
+          "Use must be solely temporary guests of the main dwelling occupants",
+          "R1 accessory living quarters require at least10,000 sq ft of documented lot area",
+          "Review rear-half siting, alley clearance, building separation and passageway requirements",
+          "Ordinary interior-lot conditions must apply; reversed corner/through lots require separate interpretation"
+        ],
+        "citations": [
+          {
+            "section": "12.03",
+            "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+            "quote": "An accessory building used solely as the temporary dwelling of guests of the occupants of the premises; such dwelling having no kitchen facilities and not rented or otherwise used as a separate dwelling unit.\n",
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025"
+          },
+          {
+            "section": "12.08",
+            "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+            "quote": "7.\u00a0\u00a0\u00a0Accessory buildings, including private garages, accessory living quarters, servant\u2019s quarters, recreation rooms, or private stables, provided that:\n(a)\u00a0\u00a0\u00a0No accessory living quarters nor servant\u2019s quarters are located or maintained on a lot having an area less than 10,000 square feet;\n(b)\u00a0\u00a0\u00a0No stable is located or maintained on a lot having an area of less than 20,000 square feet and its capacity does not exceed one equine for each 5,000 square feet of lot area.\n(Amended by Ord. No. 157,144, Eff. 11/22/82.)\n(c)\u00a0\u00a0\u00a0An accessory living quarters, servant\u2019s quarters, recreation room or private garage or any combination of said uses may be included in one building not exceeding two stories in height;\n(d)\u00a0\u00a0\u00a0Automobile parking space is required in connection with permitted uses and additional space may be provided in accordance with the provisions of Sec.\n12.21\nA.\nFor the location of accessory buildings, refer to Sec.\n12.21\nC. and Sec.\n12.22\nC.\n(Amended by Ord. No. 107,884, Eff. 9/23/56.)\n",
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7"
+          },
+          {
+            "section": "12.21",
+            "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-113040",
+            "quote": "\u00a0\u00a0\u00a0(b)\u00a0\u00a0\u00a0In the A and R Zones, all other accessory buildings (not regulated by Paragraph (a) above or permitted in the front yard of a sloping lot) shall be located on the rear half of a lot but need not be located more than 55 feet from a front lot line.\nIn the A1 and A2 Zones, such accessory building shall be located not less than ten feet from any side street lot line, and in the RA and R Zones shall be located not closer to the side street lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(c)\u00a0\u00a0\u00a0On a reversed corner lot, an accessory building shall not be located nearer to the side lot line on the street side of such corner lot than the front yard depth required on the lot in the rear, nor be located nearer than five feet to the side lot line of such lot. (Amended by Ord. No. 138,685, Eff. 7/10/69.)\n\u00a0\u00a0\u00a0(d)\u00a0\u00a0\u00a0In the A and R Zones, all accessory buildings shall be located not less than ten feet from any main building or accessory living quarters on the same lot. Provided, however, that where an accessory building (other than a residential building) is not nearer to the adjacent lot line than the width of the side yard required for a main building of the same height, said accessory building and all its projections may be not less than five feet from the side of a main building and all of its projections.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\u00a0\u00a0\u00a0(e)\u00a0\u00a0\u00a0In the A and R Zones, any recreation room in an accessory building and any accessory building designed or used in whole or in part as a residential building or accessory living quarters shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\u00a0\u00a0\u00a0(f)\u00a0\u00a0\u00a0Two-story accessory buildings shall be located not less than five feet from the rear lot line and not nearer to any side lot line than the width of the side yard required for a main building of the same height. (Amended by Ord. No. 121,925, Eff. 6/4/62.)\n\n\n\n\u00a0\u00a0\u00a0(g)\u00a0\u00a0\u00a0No accessory building shall be erected or maintained within ten feet from the center line of an alley. (Amended by Ord. No. 125,278, Eff. 9/16/63.)\n",
+            "source_hash": "6dfb90daf3a7f2c838878ef5feec15707052c3b55300a4030a06a4a2b439e6ab"
+          }
+        ],
+        "design_implications": []
+      },
+      "rule_set_version": "6c3ff8a885d358a5",
+      "checked_sources": [
+        "Parcels",
+        "Hillside Ordinance",
+        "Historic overlays",
+        "Specific plans",
+        "City boundary",
+        "Buildings",
+        "Design overlays",
+        "Chapter 1 zoning",
+        "Coastal Commission Permit Area",
+        "Chapter 1A zoning"
+      ]
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "observations": [],
+  "rejected": [
+    {
+      "reason": "Model did not establish the requested map/tract/lot/assessor identity"
+    }
+  ],
+  "uncertainties": [
+    "Model did not establish the requested map/tract/lot/assessor identity"
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "303-18",
+      "tract": "11569",
+      "lot": "28",
+      "parcel_number": "4103-009-016",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Kittyhawk Avenue",
+      "compass": "southeast",
+      "reason": "On assessor map 4103-009 (sheet 1), the north arrow points straight up. Tract lot 28 holds circled assessor parcel 16 and sits between the alley on its northwest side and KITTYHAWK AVE on its southeast (lower-right) side. Kittyhawk runs N.43\u00b008'34\"E., so the street edge of lot 28 faces southeast. Recorded map 303-18 (sheet 2 of Tract 11569) shows the same arrangement: lot 28 lies between the alley and Kittyhawk Avenue."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 55,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.47,
+          0.68,
+          0.5,
+          0.71
+        ],
+        "printed_mark": "55'",
+        "reason": "Recorded map 303-18 prints 55' on lot 28's Kittyhawk Avenue frontage and also 55' on its opposite alley edge (about region [0.36,0.67,0.39,0.70]). The assessor map shows only a ditto mark on lot 28's Kittyhawk edge. That ditto chain ends at the explicitly printed 55 on lot 27's Kittyhawk edge, which agrees with the tract map.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_depth_ft",
+        "value": 125,
+        "units": "ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.39,
+          0.695,
+          0.47,
+          0.72
+        ],
+        "printed_mark": "N.46\u00b051'26\"W. 125'",
+        "reason": "Depth is taken from the side line shared by lots 28 and 27, which is printed N.46\u00b051'26\"W. 125'. The front line (Kittyhawk) and rear line (alley) both bear N.43\u00b008'34\"E. on this sheet, so they are parallel. The side line's bearing is exactly 90\u00b0 from them (43\u00b008'34\" + 46\u00b051'26\" = 90\u00b0). The opposite widths are equal (55' and 55'). This assumes lot 28's other side line, shared with lot 29, is parallel to the 27/28 line. It is not separately dimensioned, but it lies within the same parallel Kittyhawk/alley row. Consistent with the 125 printed on lot 27 on the assessor map.",
+        "method": "derived-parallel"
+      },
+      {
+        "key": "lot_area_sqft",
+        "value": 6875,
+        "units": "sq ft",
+        "document_index": 1,
+        "page": 2,
+        "region": [
+          0.36,
+          0.67,
+          0.5,
+          0.72
+        ],
+        "printed_mark": "55' / N.46\u00b051'26\"W. 125'",
+        "reason": "No area is printed for lot 28. Area is derived as 55 ft \u00d7 125 ft for a rectangle, using the width and depth established above.",
+        "method": "derived-rectangle",
+        "dimensions_ft": {
+          "lot_width_ft": 55,
+          "lot_depth_ft": 125
+        }
+      }
+    ],
+    "uncertainties": [
+      "The side line between lots 28 and 29 has no printed dimension or bearing. Depth assumes it is parallel to the printed N.46\u00b051'26\"W. 125' line shared with lot 27.",
+      "Lot area is derived, not printed. Neither map prints an area for lot 28.",
+      "Assessor map reading: the circled 16 sits inside tract lot 28 near MB 303 labels. The assessor map uses ditto marks for lot 28's dimensions rather than printing them."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2187,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 19673,
+        "webSearchRequests": 0,
+        "costUSD": 0.201132,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1004,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "69b14913f80dce9edd2c486ef7da91dcbfe34aaa3cfd5adc38b30067890ba7b1",
+    "elapsed_seconds": 23.55
+  },
+  "document": {
+    "map_id": "4103-009",
+    "ain": "4103009016",
+    "legal_description": "TRACT # 11569 LOT   28",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+    "retrieved_at": "2026-10-22T17:31:19.769040+00:00",
+    "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d"
+  },
+  "documents": [
+    {
+      "map_id": "4103-009",
+      "ain": "4103009016",
+      "legal_description": "TRACT # 11569 LOT   28",
+      "status": "available",
+      "vintage": "unknown",
+      "origin": "live",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+      "retrieved_at": "2026-10-22T17:31:19.769040+00:00",
+      "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "kind": "tract-map",
+      "tract": "11569",
+      "status": "available",
+      "retrieved_at": "2026-10-22T17:55:09.788898+00:00",
+      "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+      "origin": "live",
+      "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+      "content_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "supplemental_document": {
+    "kind": "tract-map",
+    "tract": "11569",
+    "status": "available",
+    "retrieved_at": "2026-10-22T17:55:09.788898+00:00",
+    "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+    "origin": "live",
+    "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0303/TR0303-017.pdf",
+    "content_hash": "1fb1e5037f0babd57acef8eeb622152d31ae53667cef0c87d1fb1bd29788275f"
+  },
+  "image_manifest": [
+    {
+      "image": 1,
+      "document_index": 0,
+      "page": 1,
+      "kind": "assessor-map"
+    },
+    {
+      "image": 2,
+      "document_index": 1,
+      "page": 1,
+      "kind": "tract-map"
+    },
+    {
+      "image": 3,
+      "document_index": 1,
+      "page": 2,
+      "kind": "tract-map"
+    },
+    {
+      "image": 4,
+      "document_index": 1,
+      "page": 3,
+      "kind": "tract-map"
+    },
+    {
+      "image": 5,
+      "document_index": 1,
+      "page": 4,
+      "kind": "tract-map"
+    }
+  ],
+  "total_seconds": 27.433076987974346
+}

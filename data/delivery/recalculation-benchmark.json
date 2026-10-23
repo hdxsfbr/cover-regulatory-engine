@@ -1,0 +1,6 @@
+{
+  "runs": 100,
+  "p95_seconds": 0.00501588499173522,
+  "max_seconds": 0.005725008086301386,
+  "method": "Loaded synchronous evaluator; no network or extraction; includes SQLite active-package lookup and source validation"
+}

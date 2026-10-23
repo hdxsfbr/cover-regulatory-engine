@@ -1,0 +1,11 @@
+{
+  "job_id": "9f50169f-93fd-47f8-bb85-4f3f5ec1e795",
+  "before_status": "running",
+  "before_stage": "extracting-rules",
+  "after_status": "failed",
+  "after_stage": "interrupted",
+  "saved_scenario_hash_before": "0017eb8f389ccc8092263a05344392f28fe2c52d9f47a6544a2b7a191d216ab0",
+  "saved_scenario_hash_after": "0017eb8f389ccc8092263a05344392f28fe2c52d9f47a6544a2b7a191d216ab0",
+  "new_backend_pid": 921131,
+  "reopened_project": "8133bdb4-b825-4319-98bf-decb289ec72e"
+}

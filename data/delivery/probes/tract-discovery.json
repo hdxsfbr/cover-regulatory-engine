@@ -1,0 +1,10 @@
+{
+  "kind": "tract-map",
+  "tract": "19621",
+  "status": "available",
+  "retrieved_at": "2026-10-22T17:48:36.793649+00:00",
+  "discovery_url": "https://pw.lacounty.gov/smpm/landrecords/TractMaps.aspx",
+  "origin": "live",
+  "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0515/TR0515-040.pdf",
+  "content_hash": "5ce17aecd53d4e26b58df2306cd32dcdba582c29e80fefa7ba11d3851bfa12bd"
+}

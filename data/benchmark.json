@@ -1,0 +1,12 @@
+{
+  "runs": 100,
+  "p95_ms": 0.712884939275682,
+  "median_ms": 0.6790634943172336,
+  "max_ms": 0.8574050152674317,
+  "python": "3.11.13",
+  "machine": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Core(TM) i9-14900KF",
+  "rule_version": "2080a2f281e3f841",
+  "network": false,
+  "fact_origin": "recorded GIS + hypothetical project assertions"
+}

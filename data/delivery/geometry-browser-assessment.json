@@ -1,0 +1,505 @@
+{
+  "status": "partial",
+  "constraints": [
+    {
+      "category": "front-yard",
+      "value": null,
+      "units": "ft",
+      "status": "needs-review",
+      "confidence": "conditional",
+      "reasons": [
+        "CPD Building Lines: matched; front-yard applicability requires review"
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet; provided, however that where all of the developed lots which have front yards that vary in depth by not more than ten feet comprise 40% or more of the frontage, the minimum front yard shall be the average depth of the front yard of such lots.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "provided, however, that nothing contained in this paragraph shall be deemed to require front yards which exceed 40 feet in depth.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the front and rear lot lines measured in the mean direction of the side lot lines.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "A lot other than a corner lot.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        }
+      ],
+      "inputs": {
+        "lot_depth_ft": {
+          "value": 163,
+          "origin": "machine-corroborated",
+          "evidence": "'163'' is printed on the lot line between lots 2 and 3. Lot lines in this row bear N89°58'50\"W ('N 89°58'50\"W' is printed on the lot 1/2 line). The front line bears N0°02'42\"E (printed along Louise Avenue). This assumes lots 1-13 share common parallel front (Louise Ave) and rear (alley) boundaries. With equal 62.56 opposite widths and parallel side lines, the marked 163 along the side line is taken as the depth. The deviation from perpendicular is about 0°01'32\", which is negligible (under 0.001 ft).",
+          "units": "ft",
+          "source_url": "https://pw.lacounty.gov/sur/nas/landrecords/tract/MB0358/TR0358-030.pdf",
+          "document_hash": "d9d86d0b6f2cea82b47eef4186a4c148f851fb3d35e78034c5fd8749404b1e61",
+          "observation_id": "2b35a9fd921fe49c6eb5e54a635858418c824481d7abf73f4be05399b8fa2452"
+        }
+      },
+      "derivation": "min((0.2 × lot depth), 20 ft)",
+      "rule_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "conditional": {
+        "value": 20,
+        "units": "ft",
+        "assumptions": [
+          "CPD Building Lines: matched; front-yard applicability requires review"
+        ],
+        "derivation": "min((0.2 × lot depth), 20 ft)",
+        "label": "Conditional reviewed expression"
+      },
+      "blockers": [
+        {
+          "code": "applicability",
+          "message": "CPD Building Lines: matched; front-yard applicability requires review",
+          "target": "input-panel",
+          "action": "review",
+          "label": "Review project facts"
+        }
+      ]
+    },
+    {
+      "category": "side-yard",
+      "value": 5,
+      "units": "ft",
+      "status": "evaluated",
+      "confidence": "medium",
+      "reasons": [
+        "Attributed reviewed rule; project assertions remain user supplied"
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the side lot lines measured at right angles to the lot depth at a point midway between the front and rear lot lines.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        }
+      ],
+      "inputs": {
+        "lot_width_ft": {
+          "value": 62.56,
+          "origin": "machine-corroborated",
+          "evidence": "Lot 3's Louise Ave frontage carries a ditto mark. The nearest explicitly printed dimension on the same front line in the chain is lot 2's '62.56'. The rear edge also shows a ditto chained to lot 2's rear '62.56', so opposite widths are equal. Tract map sheet 2 likewise prints 62.56' on both the front and rear lines of lot 3.",
+          "units": "ft",
+          "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+          "document_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+          "observation_id": "bf6a639ce38d73445412ef90cb585cc84a9e0a5fa8b3a88e5a01047ba4a1e680"
+        },
+        "building_height_ft": {
+          "value": 16,
+          "origin": "user-supplied",
+          "evidence": "Acceptance design assumptions; public source reading provides dimensions. Building-line conflict remains conditional.",
+          "units": "ft"
+        }
+      },
+      "derivation": "(If (lot width < 50 ft): max((0.1 × lot width), 3 ft); otherwise 5 ft + (1 ft × ceil((max((building height − 18 ft), 0 ft) ÷ 10 ft))))",
+      "rule_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "conditional": null,
+      "blockers": []
+    },
+    {
+      "category": "rear-yard",
+      "value": 15,
+      "units": "ft",
+      "status": "evaluated",
+      "confidence": "medium",
+      "reasons": [
+        "Attributed reviewed rule; project assertions remain user supplied"
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a rear yard of not less than 15 feet in depth.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+          "quote": "Except in the RS, R1, RU, RZ, RMP, and R2 Zones, in computing the depth of a rear yard where the rear yard opens onto an alley or in the RW Zone onto a court of not more than 30 feet in width, one-half the width of the alley or court may be assumed to be a portion of the required rear yard.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-114455",
+          "section": "12.22"
+        }
+      ],
+      "inputs": {},
+      "derivation": "15 ft",
+      "rule_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "conditional": null,
+      "blockers": []
+    },
+    {
+      "category": "height",
+      "value": 28,
+      "units": "ft",
+      "status": "evaluated",
+      "confidence": "medium",
+      "reasons": [
+        "Attributed reviewed rule; project assertions remain user supplied"
+      ],
+      "citations": [
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "Notwithstanding the preceding paragraph, the following height regulations shall apply on a Lot that is not located in a Hillside Area or Coastal Zone:",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+          "section": "12.21.1"
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "In the R1, RS, or RE9 Zones, no Building or Structure shall exceed 33 feet in height; except that when the roof of the uppermost Story of a Building or Structure or portion of the Building or Structure has a Slope of less than 25 percent, the maximum height shall be 28 feet.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+          "section": "12.21.1"
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "Notwithstanding the above, when 40 percent or more of the existing One-Family Dwellings with Frontage on both sides of the block have Building heights exceeding these limits, the maximum height for any Building on that block may be the average height of the Dwellings exceeding these limits.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+          "section": "12.21.1"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "Is the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        }
+      ],
+      "inputs": {
+        "roof_slope_percent": {
+          "value": 20,
+          "origin": "user-supplied",
+          "evidence": "Acceptance design assumptions; public source reading provides dimensions. Building-line conflict remains conditional.",
+          "units": "%"
+        }
+      },
+      "derivation": "If (roof slope < 25 %): 28 ft; otherwise 33 ft",
+      "rule_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "conditional": null,
+      "blockers": []
+    },
+    {
+      "category": "floor-area",
+      "value": 4588.776000000001,
+      "units": "sq ft",
+      "status": "evaluated",
+      "confidence": "medium",
+      "reasons": [
+        "Attributed reviewed rule; project assertions remain user supplied"
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "For lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45).",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "For RA, RE, RS, and R1 Zoned properties not located in a Hillside Area or Coastal Zone, the total Residential Floor Area shall comply with the Floor Area restrictions for each zone.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-6325",
+          "section": "12.21.1"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The area in square feet confined within the exterior walls of a residential or non-residential Building on a Lot in an RA, RE, RS, or R1 Zone.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The total horizontal area within the lot lines of a lot.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        }
+      ],
+      "inputs": {
+        "lot_area_sqft": {
+          "value": 10197.28,
+          "origin": "machine-corroborated",
+          "evidence": "No area is printed for lot 3. The area is derived as width 62.56 ft (ditto chain to lot 2) times depth 163 ft (tract map side line). This treats the lot as rectangular between common parallel boundaries.",
+          "units": "sq ft",
+          "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-005-&f=file",
+          "document_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+          "observation_id": "5be2e218d1cdd41063552d3ab145663a9b2094035e65bce50dcfa793f69adae3"
+        }
+      },
+      "derivation": "(0.45 × lot area)",
+      "rule_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "conditional": null,
+      "blockers": []
+    }
+  ],
+  "coverage": "Operator-reviewed expression package; inspect applicability and exclusions",
+  "project_type": "single-family",
+  "rule_set_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+  "checked_sources": [
+    "Parcels",
+    "Specific plans",
+    "Design overlays",
+    "Hillside Ordinance",
+    "Historic overlays",
+    "CPD Building Lines",
+    "City boundary",
+    "Coastal Zone (state boundary)",
+    "Buildings",
+    "Chapter 1A zoning",
+    "Coastal Commission Permit Area",
+    "Chapter 1 zoning"
+  ],
+  "summary": {
+    "headline": "4 constraints evaluated; 1 conditional paths available.",
+    "notes": [
+      "These comparisons cover the selected quantities; placement, construction-code compliance and permit eligibility are separate questions."
+    ],
+    "issues": [
+      "CPD Building Lines: matched; front-yard applicability requires review"
+    ],
+    "design_implications": [
+      {
+        "category": "height",
+        "message": "Proposed quantity 16 ft is within the selected 28 ft limit.",
+        "status": "within-limit",
+        "proposed": 16,
+        "limit": 28,
+        "assumptions": []
+      },
+      {
+        "category": "floor-area",
+        "message": "Proposed quantity 2600 sq ft is within the selected 4588.78 sq ft limit.",
+        "status": "within-limit",
+        "proposed": 2600,
+        "limit": 4588.776000000001,
+        "assumptions": []
+      }
+    ]
+  },
+  "snapshot_id": "c44efdbc-998b-4fe4-b811-837ce00159a3",
+  "geometry": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -118.51000621496682,
+              34.2116157247362
+            ],
+            [
+              -118.51054532208963,
+              34.211615154754455
+            ]
+          ]
+        },
+        "properties": {
+          "kind": "setback-edge",
+          "category": "side-yard",
+          "setback_ft": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -118.51054532208963,
+              34.211615154754455
+            ],
+            [
+              -118.51054519720466,
+              34.211443246253495
+            ]
+          ]
+        },
+        "properties": {
+          "kind": "setback-edge",
+          "category": "rear-yard",
+          "setback_ft": 15
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -118.51054519720466,
+              34.211443246253495
+            ],
+            [
+              -118.51000609135949,
+              34.211443843713056
+            ]
+          ]
+        },
+        "properties": {
+          "kind": "setback-edge",
+          "category": "side-yard",
+          "setback_ft": 5
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -118.51000609135949,
+              34.211443843713056
+            ],
+            [
+              -118.51000621496682,
+              34.2116157247362
+            ]
+          ]
+        },
+        "properties": {
+          "kind": "setback-edge",
+          "category": "front-yard",
+          "setback_ft": 20
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.51007235678372,
+                34.211601915569574
+              ],
+              [
+                -118.51007225282072,
+                34.211457509886706
+              ],
+              [
+                -118.51049559350089,
+                34.21145704069404
+              ],
+              [
+                -118.510495698336,
+                34.2116014679543
+              ],
+              [
+                -118.51007235678372,
+                34.211601915569574
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "kind": "setback-envelope",
+          "area_sqft": 6726.672832474544
+        }
+      }
+    ],
+    "metadata": {
+      "status": "conditional",
+      "scope": "Setback envelope only; excludes easements, passageways, fire separation and other unmodeled constraints",
+      "calculation_crs": "EPSG:2229",
+      "linear_units": "US survey foot",
+      "output_crs": "OGC:CRS84",
+      "rule_set_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+      "document_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+      "frontage": {
+        "confirmed": true,
+        "street": "Louise Ave",
+        "compass": "east",
+        "reason": "The assessor sheet (doc 0) north arrow at the bottom, with a rotated 'N' and the arrowhead pointing left, shows north toward the left of the sheet. Stagg St is on the left (north) and Louise Ave runs along the top of the row of lots 1-13. Lot 3's top edge abuts Louise Ave, so it fronts east. The tract map sheet 2 (doc 1 p2) has north up and shows Louise Avenue on the east side of lots 1-13, with an alley on their west side. Both maps agree."
+      },
+      "assumptions": [
+        "CPD Building Lines: matched; front-yard applicability requires review"
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet; provided, however that where all of the developed lots which have front yards that vary in depth by not more than ten feet comprise 40% or more of the frontage, the minimum front yard shall be the average depth of the front yard of such lots.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "provided, however, that nothing contained in this paragraph shall be deemed to require front yards which exceed 40 feet in depth.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the front and rear lot lines measured in the mean direction of the side lot lines.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "A lot other than a corner lot.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the side lot lines measured at right angles to the lot depth at a point midway between the front and rear lot lines.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+          "section": "12.03"
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a rear yard of not less than 15 feet in depth.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+          "section": "12.08"
+        },
+        {
+          "source_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+          "quote": "Except in the RS, R1, RU, RZ, RMP, and R2 Zones, in computing the depth of a rear yard where the rear yard opens onto an alley or in the RW Zone onto a court of not more than 30 feet in width, one-half the width of the alley or court may be assumed to be a portion of the required rear yard.",
+          "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-114455",
+          "section": "12.22"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 60,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.72,
+        0.195,
+        0.745,
+        0.225
+      ],
+      "printed_mark": "60",
+      "reason": "The value 60 is printed directly on the Haynes St frontage edge of lot 155. The rear edge, shared with lot 152 to the south, is also printed '60' near [0.742,0.322,0.765,0.345]. No ditto chain is needed.",
+      "method": "printed",
+      "ain": "2034022051",
+      "map_id": "2034-022",
+      "document_hash": "df45212369f1fe437b59bfa9a7d164a67b672ab5ac7289131efd36d74299be8b",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2034-022-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "aed6a196f50b2815c6978dfef20e6af436c5982e5159f38c42a926c91f53f987"
+    },
+    {
+      "key": "lot_depth_ft",
+      "value": 125,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.752,
+        0.24,
+        0.772,
+        0.29
+      ],
+      "printed_mark": "125",
+      "reason": "The value 125 is printed directly on the east side line between lot 155 and lot 154. The side lines are drawn perpendicular to Haynes St, parallel to the N.13\u00b036'17\"W line labeled near lot 161.",
+      "method": "printed",
+      "ain": "2034022051",
+      "map_id": "2034-022",
+      "document_hash": "df45212369f1fe437b59bfa9a7d164a67b672ab5ac7289131efd36d74299be8b",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2034-022-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "b76cf839e67d2d2aa68417a77d08d24fd7518a4ae7c2315a94a7b2a370d75910"
+    },
+    {
+      "key": "lot_area_sqft",
+      "value": 7500,
+      "units": "sq ft",
+      "page": 1,
+      "region": [
+        0.71,
+        0.19,
+        0.78,
+        0.35
+      ],
+      "printed_mark": "60 / 125 / 60",
+      "reason": "No area is printed on the map. The area is derived as 60 x 125. The front and rear edges are both printed as 60, the depth is printed as 125, and the side lines appear parallel and perpendicular to the frontage.",
+      "method": "derived-rectangle",
+      "dimensions_ft": {
+        "lot_width_ft": 60,
+        "lot_depth_ft": 125
+      },
+      "ain": "2034022051",
+      "map_id": "2034-022",
+      "document_hash": "df45212369f1fe437b59bfa9a7d164a67b672ab5ac7289131efd36d74299be8b",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2034-022-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "10e213d98a89082e0afc7a270d8d4b3449baf136d8c68ba5b5dabbbd67be99a3"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Haynes St",
+    "compass": "north",
+    "reason": "The north arrow at the left margin points straight up the sheet. Lot 155 (circled 51) is in the northern row of lots. Its top edge is the south right-of-way line of Haynes St, which is labeled with bearing N.76\u00b023'43\"E. The outward normal of that edge points about N13\u00b036'W, so the lot faces north and slightly west. 'north' is the nearest allowed compass value. The supplied situs address (23838 Haynes St) is consistent with this."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "The west side line of lot 155 (shared with lot 156) has no printed dimension. Rectangularity is inferred from the equal 60 ft front and rear edges, the 125 ft east side, and the drawn parallel side lines. It is not stated explicitly.",
+    "No area is printed on the map, so the 7500 sq ft figure is derived rather than recorded.",
+    "The map sheet shows '2034 | 22'. This was read as map book 2034, page 022, matching the request.",
+    "The adjacent lot 154 (circled 50) is an irregular corner lot. It was not used for any dimension."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "2034-022",
+      "tract": "21892",
+      "lot": "155",
+      "parcel_number": "051",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Haynes St",
+      "compass": "north",
+      "reason": "The north arrow at the left margin points straight up the sheet. Lot 155 (circled 51) is in the northern row of lots. Its top edge is the south right-of-way line of Haynes St, which is labeled with bearing N.76\u00b023'43\"E. The outward normal of that edge points about N13\u00b036'W, so the lot faces north and slightly west. 'north' is the nearest allowed compass value. The supplied situs address (23838 Haynes St) is consistent with this."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 60,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.72,
+          0.195,
+          0.745,
+          0.225
+        ],
+        "printed_mark": "60",
+        "reason": "The value 60 is printed directly on the Haynes St frontage edge of lot 155. The rear edge, shared with lot 152 to the south, is also printed '60' near [0.742,0.322,0.765,0.345]. No ditto chain is needed.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_depth_ft",
+        "value": 125,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.752,
+          0.24,
+          0.772,
+          0.29
+        ],
+        "printed_mark": "125",
+        "reason": "The value 125 is printed directly on the east side line between lot 155 and lot 154. The side lines are drawn perpendicular to Haynes St, parallel to the N.13\u00b036'17\"W line labeled near lot 161.",
+        "method": "printed"
+      },
+      {
+        "key": "lot_area_sqft",
+        "value": 7500,
+        "units": "sq ft",
+        "page": 1,
+        "region": [
+          0.71,
+          0.19,
+          0.78,
+          0.35
+        ],
+        "printed_mark": "60 / 125 / 60",
+        "reason": "No area is printed on the map. The area is derived as 60 x 125. The front and rear edges are both printed as 60, the depth is printed as 125, and the side lines appear parallel and perpendicular to the frontage.",
+        "method": "derived-rectangle",
+        "dimensions_ft": {
+          "lot_width_ft": 60,
+          "lot_depth_ft": 125
+        }
+      }
+    ],
+    "uncertainties": [
+      "The west side line of lot 155 (shared with lot 156) has no printed dimension. Rectangularity is inferred from the equal 60 ft front and rear edges, the 125 ft east side, and the drawn parallel side lines. It is not stated explicitly.",
+      "No area is printed on the map, so the 7500 sq ft figure is derived rather than recorded.",
+      "The map sheet shows '2034 | 22'. This was read as map book 2034, page 022, matching the request.",
+      "The adjacent lot 154 (circled 50) is an irregular corner lot. It was not used for any dimension."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1554,
+        "cacheReadInputTokens": 4372,
+        "cacheCreationInputTokens": 307,
+        "webSearchRequests": 0,
+        "costUSD": 0.0344184,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 624,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "f355f10c1629afad1781a3158c8ea5e6fd33619d9a388a26778b409b907c1124",
+    "elapsed_seconds": 16.22
+  },
+  "document": {
+    "map_id": "2034-022",
+    "ain": "2034022051",
+    "legal_description": "TRACT # 21892 LOT  155",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2034-022-&f=file",
+    "retrieved_at": "2026-10-22T17:10:36.138154+00:00",
+    "content_hash": "df45212369f1fe437b59bfa9a7d164a67b672ab5ac7289131efd36d74299be8b"
+  },
+  "elapsed_seconds": 16.677078605047427
+}

@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-22T02:26:54.251131+00:00",
+  "live": {
+    "ain": "2202010009",
+    "seconds": 10.378347535035573,
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "needs-review",
+    "sources": {
+      "Parcels": {
+        "status": "matched",
+        "error": null
+      },
+      "Specific plans": {
+        "status": "no-match",
+        "error": null
+      },
+      "Historic overlays": {
+        "status": "no-match",
+        "error": null
+      },
+      "Design overlays": {
+        "status": "no-match",
+        "error": null
+      },
+      "City boundary": {
+        "status": "matched",
+        "error": null
+      },
+      "Buildings": {
+        "status": "matched",
+        "error": null
+      },
+      "Chapter 1A zoning": {
+        "status": "no-match",
+        "error": null
+      },
+      "Chapter 1 zoning": {
+        "status": "unavailable",
+        "error": "ReadTimeout"
+      }
+    }
+  },
+  "forced_timeout": {
+    "seconds": 25.025361888925545,
+    "states": {
+      "Parcels": "unavailable",
+      "Buildings": "unavailable",
+      "City boundary": "unavailable",
+      "Chapter 1 zoning": "unavailable",
+      "Chapter 1A zoning": "unavailable",
+      "Historic overlays": "unavailable",
+      "Specific plans": "unavailable",
+      "Design overlays": "unavailable"
+    },
+    "action": "Retry lookup; no fixture fallback"
+  },
+  "live_retry_with_22_second_request_budget": {
+    "at": "2026-10-22T02:27:47.271631+00:00",
+    "seconds": 10.408389104995877,
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "resolved",
+    "sources": {
+      "Parcels": "matched",
+      "Historic overlays": "no-match",
+      "Design overlays": "no-match",
+      "Specific plans": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1A zoning": "no-match",
+      "Chapter 1 zoning": "matched"
+    }
+  }
+}

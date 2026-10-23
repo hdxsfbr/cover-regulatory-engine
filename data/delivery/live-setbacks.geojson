@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.51000621496682,
+            34.2116157247362
+          ],
+          [
+            -118.51054532208963,
+            34.211615154754455
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "setback-edge",
+        "category": "side-yard",
+        "setback_ft": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.51054532208963,
+            34.211615154754455
+          ],
+          [
+            -118.51054519720466,
+            34.211443246253495
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "setback-edge",
+        "category": "rear-yard",
+        "setback_ft": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.51054519720466,
+            34.211443246253495
+          ],
+          [
+            -118.51000609135949,
+            34.211443843713056
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "setback-edge",
+        "category": "side-yard",
+        "setback_ft": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.51000609135949,
+            34.211443843713056
+          ],
+          [
+            -118.51000621496682,
+            34.2116157247362
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "setback-edge",
+        "category": "front-yard",
+        "setback_ft": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.51007235678372,
+              34.211601915569574
+            ],
+            [
+              -118.51007225282072,
+              34.211457509886706
+            ],
+            [
+              -118.51049559350089,
+              34.21145704069404
+            ],
+            [
+              -118.510495698336,
+              34.2116014679543
+            ],
+            [
+              -118.51007235678372,
+              34.211601915569574
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "setback-envelope",
+        "area_sqft": 6726.672832474544
+      }
+    }
+  ],
+  "metadata": {
+    "status": "conditional",
+    "scope": "Setback envelope only; excludes easements, passageways, fire separation and other unmodeled constraints",
+    "calculation_crs": "EPSG:2229",
+    "linear_units": "US survey foot",
+    "output_crs": "OGC:CRS84",
+    "rule_set_version": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+    "document_hash": "bbcd3bd2c9b07d12943af0395b8ff2c5b1317b4d5d7e75a2b0970431c34e1f40",
+    "frontage": {
+      "confirmed": true,
+      "street": "Louise Ave",
+      "compass": "east",
+      "reason": "The assessor sheet (doc 0) north arrow at the bottom, with a rotated 'N' and the arrowhead pointing left, shows north toward the left of the sheet. Stagg St is on the left (north) and Louise Ave runs along the top of the row of lots 1-13. Lot 3's top edge abuts Louise Ave, so it fronts east. The tract map sheet 2 (doc 1 p2) has north up and shows Louise Avenue on the east side of lots 1-13, with an alley on their west side. Both maps agree."
+    },
+    "assumptions": [
+      "CPD Building Lines: matched; front-yard applicability requires review"
+    ],
+    "citations": [
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet; provided, however that where all of the developed lots which have front yards that vary in depth by not more than ten feet comprise 40% or more of the frontage, the minimum front yard shall be the average depth of the front yard of such lots.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "provided, however, that nothing contained in this paragraph shall be deemed to require front yards which exceed 40 feet in depth.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+        "quote": "The horizontal distance between the front and rear lot lines measured in the mean direction of the side lot lines.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+        "section": "12.03"
+      },
+      {
+        "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+        "quote": "A lot other than a corner lot.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+        "section": "12.03"
+      },
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+        "quote": "The horizontal distance between the side lot lines measured at right angles to the lot depth at a point midway between the front and rear lot lines.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-886",
+        "section": "12.03"
+      },
+      {
+        "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+        "quote": "There shall be a rear yard of not less than 15 feet in depth.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+        "section": "12.08"
+      },
+      {
+        "source_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+        "quote": "Except in the RS, R1, RU, RZ, RMP, and R2 Zones, in computing the depth of a rear yard where the rear yard opens onto an alley or in the RW Zone onto a court of not more than 30 feet in width, one-half the width of the alley or court may be assumed to be a portion of the required rear yard.",
+        "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-114455",
+        "section": "12.22"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01-intro",
+    "title": "From address to evidence",
+    "text": "Welcome to this property intelligence prototype. It brings parcel research, public records, and traceable residential calculations into one workspace. I'll walk through a real Los Angeles property, then compare two hypothetical designs."
+  },
+  {
+    "id": "02-search",
+    "title": "Find a real property",
+    "text": "Let's search for seventy-six sixty-one Penfield Avenue. The matching parcel opens with its address, assessor parcel number, zoning, and mapped buildings. This property is zoned R S one. Finding a parcel does not mean every calculation is supported. The app keeps those limits visible."
+  },
+  {
+    "id": "03-evidence",
+    "title": "Inspect the map evidence",
+    "text": "The public map reading gives us a width of sixty feet, a depth of one hundred twenty-five feet, and a derived area of seventy-five hundred square feet. These are machine interpretations, with explanations and source references. This example reuses a completed reading. On a new property, available results appear while extraction runs."
+  },
+  {
+    "id": "04-research",
+    "title": "Research in one place",
+    "text": "Property research brings together planning, permit history, engineering, and transit information. Penfield has eleven permit and building records, including four downloadable documents. Here is the recent certificate of occupancy. Engineering also returns mapped easement features and nearby sewer records. Each source stays visible so the user can inspect the underlying evidence."
+  },
+  {
+    "id": "05-assumptions",
+    "title": "A hypothetical detached ADU",
+    "text": "Now I'll switch to a detached A D U. This is a hypothetical design exercise, not a finding that this particular proposal is approved. I'm documenting the assumptions about an existing dwelling, detached construction, kitchen facilities, and coastal requirements. The app distinguishes these user-supplied assumptions from source evidence."
+  },
+  {
+    "id": "06-height",
+    "title": "See the design consequence",
+    "text": "With a proposed height of nineteen feet, the selected rule branch shows a sixteen-foot limit. The design exceeds that limit by three feet. Opening the explanation reveals the calculation, assumptions, and cited provisions. That makes the answer inspectable, instead of presenting an unexplained number."
+  },
+  {
+    "id": "07-compare",
+    "title": "Compare saved alternatives",
+    "text": "I'll save the nineteen-foot option, change the proposed height to sixteen feet, and save a second version. The comparison now shows one option exceeding the height limit and the other within it. That result applies to this height check under the stated assumptions. It is not an overall permit approval."
+  },
+  {
+    "id": "08-reopen",
+    "title": "Keep the decision trail",
+    "text": "Saved scenarios retain their inputs, results, and evidence references. Reopening the project brings the comparison back, so the reasoning can be reviewed later. The workflow connects public-source retrieval and model-assisted map reading to deterministic calculations and saved decisions. Missing evidence stays explicit. The goal is faster, more explainable feasibility research."
+  }
+]

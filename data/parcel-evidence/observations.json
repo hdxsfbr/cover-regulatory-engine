@@ -1,0 +1,144 @@
+[
+  {
+    "ain": "2202010006",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  108",
+    "tract": "16180",
+    "lot": "108",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 108, circled parcel 6; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "visual-transcription",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_width_ft",
+    "value": 50,
+    "units": "ft",
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:21:41.969193+00:00",
+      "scope": "transcription-only",
+      "digest": "f7556b37127680409e31878b8d0ee4589c9ecdbecf5d37d4d1092eb5bb9587bc"
+    },
+    "id": "2ace381f3acceb9056d00c122bd298f69385247c0f2e72ca4cb4831fdae89d70"
+  },
+  {
+    "ain": "2202010006",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  108",
+    "tract": "16180",
+    "lot": "108",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 108, circled parcel 6; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "visual-transcription",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_depth_ft",
+    "value": 120,
+    "units": "ft",
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:21:41.969274+00:00",
+      "scope": "transcription-only",
+      "digest": "d1ca03ef62d1078c39cbc5d24449457577a299a5ea7f95b1ec68ffbcdf729a1e"
+    },
+    "id": "705df2c316dc1b48ce9268f91e9a1752eead2f15ea94a2a7088eac0865e6e1ad"
+  },
+  {
+    "ain": "2202010006",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  108",
+    "tract": "16180",
+    "lot": "108",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 108, circled parcel 6; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "derived-rectangle",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_area_sqft",
+    "value": 6000,
+    "units": "sq ft",
+    "derivation": "50 ft width \u00d7 120 ft depth; rectangular lot on this sheet, not a printed area or legal verification",
+    "dimensions_ft": {
+      "lot_width_ft": 50,
+      "lot_depth_ft": 120
+    },
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:26:53.126735+00:00",
+      "scope": "transcription-only",
+      "digest": "d0e7af273ad943bd9aaee4820f590ea5394ddac21d2cfa7b502d0ebe55666dbc"
+    },
+    "id": "32c582a56a49aaa68ac1b017ed962b197f51e031b484dc10990157092344c3bb"
+  },
+  {
+    "ain": "2202010009",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  111",
+    "tract": "16180",
+    "lot": "111",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 111, circled parcel 9; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "visual-transcription",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_width_ft",
+    "value": 50,
+    "units": "ft",
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:21:41.979258+00:00",
+      "scope": "transcription-only",
+      "digest": "e91284b65a9975112413ed383c157e1dee1cdb260222542dfdf679362eb5cd40"
+    },
+    "id": "175e3dd42e4ede6fb25f83d6dac423ebbd56eab16560cc0be8baaddb7b5176ee"
+  },
+  {
+    "ain": "2202010009",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  111",
+    "tract": "16180",
+    "lot": "111",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 111, circled parcel 9; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "visual-transcription",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_depth_ft",
+    "value": 120,
+    "units": "ft",
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:21:41.979325+00:00",
+      "scope": "transcription-only",
+      "digest": "5a7c3f5921b0db8a007b9e8a0f35a78497e1f0449477cbd65adc42b76e2ec935"
+    },
+    "id": "d25cedde461b4e4b73f991aafd4f3473feed7fd02aa5f9e6041c4874a66dd698"
+  },
+  {
+    "ain": "2202010009",
+    "map_id": "2202-010",
+    "legal_description": "TRACT # 16180 LOT  111",
+    "tract": "16180",
+    "lot": "111",
+    "page": 1,
+    "location": "Louise Avenue row, Lot 111, circled parcel 9; 50-foot widths and 120-foot depth (ditto marks continue the row).",
+    "method": "derived-rectangle",
+    "document_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26",
+    "document_vintage": "1985 sheet stamp",
+    "key": "lot_area_sqft",
+    "value": 6000,
+    "units": "sq ft",
+    "derivation": "50 ft width \u00d7 120 ft depth; rectangular lot on this sheet, not a printed area or legal verification",
+    "dimensions_ft": {
+      "lot_width_ft": 50,
+      "lot_depth_ft": 120
+    },
+    "review": {
+      "reviewer": "Codex \u2014 visual transcription, not independent legal review",
+      "at": "2026-10-22T16:26:53.126840+00:00",
+      "scope": "transcription-only",
+      "digest": "a61cc61d05a46643f06a898450cbcfc88b624ac110f16e1cbc39c1fdd47155e7"
+    },
+    "id": "84d0ef977b6f2fa6e56377c80216555a0fd8981217e7051525ec98c07ea51684"
+  }
+]

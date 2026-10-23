@@ -1,0 +1,16 @@
+{
+  "backup": "/tmp/cover-restore-kfd_8hdq/workspace.sqlite3",
+  "checks": {
+    "source": {
+      "integrity": "ok",
+      "scenario_hash": "6734e753e038d9f01a9b22125e084526bc49162112194f57a53254795c8bdf1d",
+      "scenarios": 2
+    },
+    "restored": {
+      "integrity": "ok",
+      "scenario_hash": "6734e753e038d9f01a9b22125e084526bc49162112194f57a53254795c8bdf1d",
+      "scenarios": 2
+    }
+  },
+  "method": "SQLite online backup; immutable scenario bytes compared after reopening"
+}

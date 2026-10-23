@@ -1,0 +1,649 @@
+{
+  "rules": [
+    {
+      "id": "LA-CH1-R1-1-INTERIOR-SFD-FRONT-YARD-MIN",
+      "category": "front-yard",
+      "jurisdiction": "Los Angeles",
+      "regime": "Chapter 1",
+      "project_type": "single-family",
+      "units": "ft",
+      "expression": {
+        "op": "min",
+        "args": [
+          {
+            "op": "multiply",
+            "args": [
+              {
+                "op": "constant",
+                "value": 0.2,
+                "unit": "scalar"
+              },
+              {
+                "op": "input",
+                "name": "lot_depth_ft",
+                "unit": "ft"
+              }
+            ]
+          },
+          {
+            "op": "constant",
+            "value": 20,
+            "unit": "ft"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "name": "lot_depth_ft",
+          "unit": "ft"
+        }
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet; provided, however that where all of the developed lots which have front yards that vary in depth by not more than ten feet comprise 40% or more of the frontage, the minimum front yard shall be the average depth of the front yard of such lots."
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "provided, however, that nothing contained in this paragraph shall be deemed to require front yards which exceed 40 feet in depth."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the front and rear lot lines measured in the mean direction of the side lot lines."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "A lot other than a corner lot."
+        }
+      ],
+      "predicates": [
+        "Lot is zoned R1 with Height District 1 (R1-1)",
+        "Lot is an interior lot, meaning not a corner lot",
+        "Lot is not a key lot",
+        "Lot is not a through lot or flag lot",
+        "Use is a one-family dwelling main building",
+        "The prevailing-setback condition is not triggered: developed lots whose front yards vary in depth by not more than ten feet do not make up 40% or more of the frontage",
+        "No ordinance Building Line or Setback Line is established for the lot",
+        "No specific plan, HPOZ, subdivision approval, Q/D condition, or other overlay modifies the front yard"
+      ],
+      "exceptions": [
+        "Prevailing setback: if the 40%-of-frontage condition is met, the minimum front yard is the average front yard depth of those lots, or of the combination with the shallowest average. Key-lot buildings, buildings entirely on the rear half of lots, and buildings in C or M zones are not counted. The required front yard is capped at 40 ft.",
+        "Key lots: an alternative averaging rule applies (Sec. 12.08 C.1, second paragraph). Excluded from this rule.",
+        "Sec. 12.22 C.1: an established Building Line or Setback Line may be used in lieu of the required front yard.",
+        "Sec. 12.22 C.6: on a sloping lot whose ground elevation 50 ft from the front lot line, midway between the side lot lines, differs from curb level by 10 ft or more, the front yard need not exceed 50% of that required.",
+        "Sec. 12.22 C.8: where all lots in a frontage are developed as a unit, the front yard may be reduced by up to 5 ft on some lots if the frontage average is maintained.",
+        "Sec. 12.22 C.20: permitted projections into the front yard, such as eaves, porches, and fences up to 3.5 ft.",
+        "Affordable-housing incentive programs (Sec. 12.22 A.37-A.40) are excluded; no approvals were supplied."
+      ],
+      "unresolved_references": [],
+      "zone": "R1-1",
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "frontage_reviewed"
+      ],
+      "dependency_resolutions": [
+        {
+          "reference": "The prevailing-setback calculation needs frontage data for neighboring developed lots. The 0.2 x depth / 20 ft expression is valid only if that condition is confirmed not met.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "frontage_reviewed"
+          ]
+        },
+        {
+          "reference": "Specific plan, HPOZ, overlay, Q/D condition, and recorded tract restriction status is not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "frontage_reviewed"
+          ]
+        },
+        {
+          "reference": "Hillside Area and Coastal Zone status is not supplied. Sec. 12.21 C.10 hillside standards were not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "frontage_reviewed"
+          ]
+        },
+        {
+          "reference": "Sec. 12.21 C.5 and other referenced sections were not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "frontage_reviewed"
+          ]
+        }
+      ],
+      "reviewed_as_of": "2026-10-22"
+    },
+    {
+      "id": "LA-CH1-R1-1-INTERIOR-SFD-SIDE-YARD-MIN",
+      "category": "side-yard",
+      "jurisdiction": "Los Angeles",
+      "regime": "Chapter 1",
+      "project_type": "single-family",
+      "units": "ft",
+      "expression": {
+        "op": "add",
+        "args": [
+          {
+            "op": "if",
+            "args": [
+              {
+                "op": "lt",
+                "args": [
+                  {
+                    "op": "input",
+                    "name": "lot_width_ft",
+                    "unit": "ft"
+                  },
+                  {
+                    "op": "constant",
+                    "value": 50,
+                    "unit": "ft"
+                  }
+                ]
+              },
+              {
+                "op": "max",
+                "args": [
+                  {
+                    "op": "multiply",
+                    "args": [
+                      {
+                        "op": "constant",
+                        "value": 0.1,
+                        "unit": "scalar"
+                      },
+                      {
+                        "op": "input",
+                        "name": "lot_width_ft",
+                        "unit": "ft"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "constant",
+                    "value": 3,
+                    "unit": "ft"
+                  }
+                ]
+              },
+              {
+                "op": "constant",
+                "value": 5,
+                "unit": "ft"
+              }
+            ]
+          },
+          {
+            "op": "multiply",
+            "args": [
+              {
+                "op": "constant",
+                "value": 1,
+                "unit": "ft"
+              },
+              {
+                "op": "ceil",
+                "args": [
+                  {
+                    "op": "divide",
+                    "args": [
+                      {
+                        "op": "max",
+                        "args": [
+                          {
+                            "op": "subtract",
+                            "args": [
+                              {
+                                "op": "input",
+                                "name": "building_height_ft",
+                                "unit": "ft"
+                              },
+                              {
+                                "op": "constant",
+                                "value": 18,
+                                "unit": "ft"
+                              }
+                            ]
+                          },
+                          {
+                            "op": "constant",
+                            "value": 0,
+                            "unit": "ft"
+                          }
+                        ]
+                      },
+                      {
+                        "op": "constant",
+                        "value": 10,
+                        "unit": "ft"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "name": "lot_width_ft",
+          "unit": "ft"
+        },
+        {
+          "name": "building_height_ft",
+          "unit": "ft"
+        }
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width."
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet."
+        },
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The horizontal distance between the side lot lines measured at right angles to the lot depth at a point midway between the front and rear lot lines."
+        }
+      ],
+      "predicates": [
+        "Lot is zoned R1 with Height District 1 (R1-1)",
+        "Lot is an interior lot",
+        "Main building is not more than two stories in height",
+        "Project is new construction of a main building or a ground floor addition to the main building, which is the condition for the height-based increment",
+        "Lot is not located in a Hillside Area",
+        "Lot is not located in a Coastal Zone",
+        "No specific plan, HPOZ, or subdivision approval sets side yard requirements"
+      ],
+      "exceptions": [
+        "Plane break: any portion with a side wall over 14 ft high and a continuous length over 45 ft needs an offset at least 5 ft deep beyond the required yard and at least 10 ft long. This is a separate, non-scalar constraint not encoded here.",
+        "An occupied rooftop deck must be set back at least 3 ft from the minimum required side yard (Sec. 12.08 C.2(d)).",
+        "Encroachment plane originating 20 ft above grade along the required side yard setback (Sec. 12.08 C.5(a)). Not encoded.",
+        "Sec. 12.22 C.9: unit development of a whole frontage may reduce one side yard, subject to combined-width and 3 ft minimum conditions.",
+        "Sec. 12.22 C.20: permitted projections such as eaves, cornices, chimneys, and porte cocheres.",
+        "Sec. 12.22 C.1: an established Building Line or Setback Line may be used in lieu of the side yard.",
+        "Buildings over two stories are excluded from this rule."
+      ],
+      "unresolved_references": [],
+      "zone": "R1-1",
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "side_conditions_reviewed"
+      ],
+      "dependency_resolutions": [
+        {
+          "reference": "Interpretation uncertainty: Sec. 12.08 C.2(b) is worded as 'in lieu of' the per-story increment for buildings over two stories. This rule applies the 18 ft height increment to buildings of two stories or less. That reading should be confirmed by a reviewer or LADBS interpretation.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "side_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "Sec. 12.08 C.2(b) does not state the height measurement method. Using building_height_ft under the Sec. 12.03 'Height of Building or Structure' definition is an assumption.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "side_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "For lots narrower than 50 ft the text says the side yard 'may be reduced'. The expression treats the reduced value as the applicable minimum.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "side_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "Hillside Area, Coastal Zone, specific plan, HPOZ, and subdivision status are not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "side_conditions_reviewed"
+          ]
+        }
+      ],
+      "reviewed_as_of": "2026-10-22",
+      "correction": "Source says one foot for each increment. Extraction omitted the foot unit multiplier; corrected dimensionless increment count \u00d71foot. Numeric thresholds unchanged."
+    },
+    {
+      "id": "LA-CH1-R1-1-INTERIOR-SFD-REAR-YARD-MIN",
+      "category": "rear-yard",
+      "jurisdiction": "Los Angeles",
+      "regime": "Chapter 1",
+      "project_type": "single-family",
+      "units": "ft",
+      "expression": {
+        "op": "constant",
+        "value": 15,
+        "unit": "ft"
+      },
+      "inputs": [],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "There shall be a rear yard of not less than 15 feet in depth."
+        },
+        {
+          "source_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+          "quote": "Except in the RS, R1, RU, RZ, RMP, and R2 Zones, in computing the depth of a rear yard where the rear yard opens onto an alley or in the RW Zone onto a court of not more than 30 feet in width, one-half the width of the alley or court may be assumed to be a portion of the required rear yard."
+        }
+      ],
+      "predicates": [
+        "Lot is zoned R1 with Height District 1 (R1-1)",
+        "Lot is an interior lot with an identifiable rear lot line",
+        "Lot is not a through lot developed under Sec. 12.22 C.19",
+        "No specific plan, HPOZ, subdivision approval, or overlay modifies the rear yard"
+      ],
+      "exceptions": [
+        "The half-alley credit under Sec. 12.22 C.10 does NOT apply in the R1 zone.",
+        "Sec. 12.22 C.20: permitted projections such as stairways and balconies up to 4 ft, breezeways, and tennis courts under stated conditions.",
+        "Accessory buildings may be located in required yards per Sec. 12.21 C.5. Not supplied; not applicable to the main building.",
+        "For irregular, triangular, or gore-shaped lots, the rear lot line is defined in Sec. 12.03. Excluded as not ordinary."
+      ],
+      "unresolved_references": [],
+      "zone": "R1-1",
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal"
+      ],
+      "dependency_resolutions": [
+        {
+          "reference": "Sec. 12.21 C.5 (accessory buildings in yards) was not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        },
+        {
+          "reference": "Hillside Area status is not supplied. Sec. 12.21 C.10 was not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        },
+        {
+          "reference": "Specific plan and overlay status is not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        }
+      ],
+      "reviewed_as_of": "2026-10-22"
+    },
+    {
+      "id": "LA-CH1-R1-1-NONHILLSIDE-NONCOASTAL-HEIGHT-MAX",
+      "category": "height",
+      "jurisdiction": "Los Angeles",
+      "regime": "Chapter 1",
+      "project_type": "single-family",
+      "units": "ft",
+      "expression": {
+        "op": "if",
+        "args": [
+          {
+            "op": "lt",
+            "args": [
+              {
+                "op": "input",
+                "name": "roof_slope_percent",
+                "unit": "%"
+              },
+              {
+                "op": "constant",
+                "value": 25,
+                "unit": "%"
+              }
+            ]
+          },
+          {
+            "op": "constant",
+            "value": 28,
+            "unit": "ft"
+          },
+          {
+            "op": "constant",
+            "value": 33,
+            "unit": "ft"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "name": "roof_slope_percent",
+          "unit": "%"
+        }
+      ],
+      "citations": [
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "Notwithstanding the preceding paragraph, the following height regulations shall apply on a Lot that is not located in a Hillside Area or Coastal Zone:"
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "In the R1, RS, or RE9 Zones, no Building or Structure shall exceed 33 feet in height; except that when the roof of the uppermost Story of a Building or Structure or portion of the Building or Structure has a Slope of less than 25 percent, the maximum height shall be 28 feet."
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "Notwithstanding the above, when 40 percent or more of the existing One-Family Dwellings with Frontage on both sides of the block have Building heights exceeding these limits, the maximum height for any Building on that block may be the average height of the Dwellings exceeding these limits."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "Is the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest."
+        }
+      ],
+      "predicates": [
+        "Lot is zoned R1 (not R1V, R1F, R1R, or R1H variation zones)",
+        "Lot is in Height District No. 1 with no 1-L, 1-VL, 1-XL, or 1-SS suffix",
+        "Lot is not located in a Hillside Area",
+        "Lot is not located in a Coastal Zone",
+        "No Specific Plan, HPOZ, or subdivision approval imposes a height limit",
+        "The block-average height exception is not invoked",
+        "roof_slope_percent is the slope of the roof of the uppermost story, or of the relevant portion of it"
+      ],
+      "exceptions": [
+        "Block average: if 40% or more of existing one-family dwellings fronting both sides of the block exceed these limits, the maximum may be the average height of those dwellings. This requires block survey data.",
+        "Height limits in Specific Plans, HPOZs, or subdivision approvals take precedence.",
+        "Sec. 12.21.1 B.3: roof structures such as chimneys, skylights, stair or elevator housing, and solar structures may exceed the limit by stated amounts. No such space may be used for floor space.",
+        "Sec. 12.21.1 B.2: up to 12 ft of additional height where the adjoining ground exceeds grade by more than 20 ft. Does not apply to one-family dwellings subject to Sec. 12.21 A.17.",
+        "Encroachment plane: in R1 outside Hillside/Coastal it originates 20 ft above the lower of existing or finished grade along the required front and side yard setbacks, sloping 45 degrees inward (Sec. 12.08 C.5(a); Sec. 12.03). This separate envelope constraint is not encoded.",
+        "Height District 1-XL (30 ft, 2 stories), 1-SS (18 ft, 1 story), and 1-VL designations override this rule. Excluded.",
+        "R1V, R1F, and R1R zones must comply with Sec. 12.21.6. Excluded."
+      ],
+      "unresolved_references": [],
+      "zone": "R1-1",
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal",
+        "height_conditions_reviewed"
+      ],
+      "dependency_resolutions": [
+        {
+          "reference": "The roof-slope trigger applies to the 'roof of the uppermost Story ... or portion' of the building. For mixed roofs, the 28 ft limit may apply only to the low-slope portion. A single roof_slope_percent input is a simplification.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "height_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "Sec. 12.03 defines 'Slope' as an inclined ground surface. Its application to roof slope is by reference and should be confirmed.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "height_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "Height district suffix and Hillside/Coastal status are not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "height_conditions_reviewed"
+          ]
+        },
+        {
+          "reference": "Sec. 12.21 A.17, Sec. 12.21 C.10, and Sec. 12.21.6 were not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal",
+            "height_conditions_reviewed"
+          ]
+        }
+      ],
+      "reviewed_as_of": "2026-10-22"
+    },
+    {
+      "id": "LA-CH1-R1-1-NONHILLSIDE-NONCOASTAL-RFA-MAX",
+      "category": "floor-area",
+      "jurisdiction": "Los Angeles",
+      "regime": "Chapter 1",
+      "project_type": "single-family",
+      "units": "sq ft",
+      "expression": {
+        "op": "multiply",
+        "args": [
+          {
+            "op": "constant",
+            "value": 0.45,
+            "unit": "scalar"
+          },
+          {
+            "op": "input",
+            "name": "lot_area_sqft",
+            "unit": "sq ft"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "name": "lot_area_sqft",
+          "unit": "sq ft"
+        }
+      ],
+      "citations": [
+        {
+          "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+          "quote": "For lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45)."
+        },
+        {
+          "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+          "quote": "For RA, RE, RS, and R1 Zoned properties not located in a Hillside Area or Coastal Zone, the total Residential Floor Area shall comply with the Floor Area restrictions for each zone."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The area in square feet confined within the exterior walls of a residential or non-residential Building on a Lot in an RA, RE, RS, or R1 Zone."
+        },
+        {
+          "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+          "quote": "The total horizontal area within the lot lines of a lot."
+        }
+      ],
+      "predicates": [
+        "Lot is zoned R1 (not R1V, R1F, R1R, or R1H)",
+        "Lot is not located in a Hillside Area",
+        "Lot is not located in a Coastal Zone",
+        "Floor area is measured as Residential Floor Area per Sec. 12.03",
+        "Limit applies to the sum across all buildings and accessory buildings on the lot",
+        "No specific plan, HPOZ, or Q/D condition imposes a different floor area limit"
+      ],
+      "exceptions": [
+        "Residential Floor Area rules (Sec. 12.03): area with ceiling height over 14 ft counts twice; stairways and elevator shafts count once; attic area with ceiling height over 7 ft counts.",
+        "Not counted: required covered parking (up to 400 sq ft if located per criteria, otherwise 200 sq ft); detached accessory buildings of 200 sq ft or less (combined cap 400 sq ft); lattice-roof porches, patios, and breezeways; qualifying basements (non-Hillside, upper floor surface not more than 2 ft above the lower of finished or natural grade).",
+        "Sec. 12.08 C.6: verification of existing Residential Floor Area for additions or remodels may rely on building or Assessor records.",
+        "Detached ADUs: per Sec. 12.22 A.33, lot floor area limits apply separately and cannot prevent an 800 sq ft ADU meeting stated conditions. ADUs are outside this scope.",
+        "Hillside lots: Sec. 12.21 C.10. Coastal non-Hillside lots: 3 times Buildable Area. Both excluded."
+      ],
+      "unresolved_references": [],
+      "zone": "R1-1",
+      "required_checks": [
+        "ordinary_context",
+        "outside_hillside_coastal"
+      ],
+      "dependency_resolutions": [
+        {
+          "reference": "Hillside Area and Coastal Zone status is not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        },
+        {
+          "reference": "Specific plan, HPOZ, and Q/D condition status is not supplied.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        },
+        {
+          "reference": "Sec. 12.21 C.10 and Sec. 12.21.1 A.1 hillside limits were not provided.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        },
+        {
+          "reference": "Lot area here is gross lot area per the Sec. 12.03 definition. Whether dedications affect it is not addressed in the supplied text.",
+          "disposition": "site-condition-or-excluded-branch",
+          "basis": "Ordinary interior new main-building package only. Referenced hillside/coastal, accessory, special-plan and averaging branches are excluded; applicable site checks and source-layer gates remain mandatory. Roof is uniform; building height uses the preserved12.03 definition. Agent review, not professional approval.",
+          "required_checks": [
+            "ordinary_context",
+            "outside_hillside_coastal"
+          ]
+        }
+      ],
+      "reviewed_as_of": "2026-10-22"
+    }
+  ]
+}

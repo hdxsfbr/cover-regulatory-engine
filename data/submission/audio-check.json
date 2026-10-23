@@ -1,0 +1,2168 @@
+[
+  {
+    "id": "01-intro",
+    "transcription": " Welcome to this property intelligence prototype.  It brings parcel research, public records, and traceable residential calculations into one workspace.  I'll walk through a real Los Angeles property, then compare two hypothetical designs.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.64,
+        "text": " Welcome to this property intelligence prototype.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.7,
+            "word": " Welcome"
+          },
+          {
+            "start": 0.7,
+            "end": 0.98,
+            "word": " to"
+          },
+          {
+            "start": 0.98,
+            "end": 1.12,
+            "word": " this"
+          },
+          {
+            "start": 1.12,
+            "end": 1.46,
+            "word": " property"
+          },
+          {
+            "start": 1.46,
+            "end": 2.08,
+            "word": " intelligence"
+          },
+          {
+            "start": 2.08,
+            "end": 2.64,
+            "word": " prototype."
+          }
+        ]
+      },
+      {
+        "start": 3.74,
+        "end": 10.2,
+        "text": " It brings parcel research, public records, and traceable residential calculations into one workspace.",
+        "words": [
+          {
+            "start": 3.74,
+            "end": 3.88,
+            "word": " It"
+          },
+          {
+            "start": 3.88,
+            "end": 4.1,
+            "word": " brings"
+          },
+          {
+            "start": 4.1,
+            "end": 4.44,
+            "word": " parcel"
+          },
+          {
+            "start": 4.44,
+            "end": 5.08,
+            "word": " research,"
+          },
+          {
+            "start": 5.48,
+            "end": 5.76,
+            "word": " public"
+          },
+          {
+            "start": 5.76,
+            "end": 6.3,
+            "word": " records,"
+          },
+          {
+            "start": 6.82,
+            "end": 6.88,
+            "word": " and"
+          },
+          {
+            "start": 6.88,
+            "end": 7.34,
+            "word": " traceable"
+          },
+          {
+            "start": 7.34,
+            "end": 7.86,
+            "word": " residential"
+          },
+          {
+            "start": 7.86,
+            "end": 8.66,
+            "word": " calculations"
+          },
+          {
+            "start": 8.66,
+            "end": 9.48,
+            "word": " into"
+          },
+          {
+            "start": 9.48,
+            "end": 9.72,
+            "word": " one"
+          },
+          {
+            "start": 9.72,
+            "end": 10.2,
+            "word": " workspace."
+          }
+        ]
+      },
+      {
+        "start": 11.26,
+        "end": 16.66,
+        "text": " I'll walk through a real Los Angeles property, then compare two hypothetical designs.",
+        "words": [
+          {
+            "start": 11.26,
+            "end": 11.46,
+            "word": " I'll"
+          },
+          {
+            "start": 11.46,
+            "end": 11.68,
+            "word": " walk"
+          },
+          {
+            "start": 11.68,
+            "end": 11.92,
+            "word": " through"
+          },
+          {
+            "start": 11.92,
+            "end": 12.12,
+            "word": " a"
+          },
+          {
+            "start": 12.12,
+            "end": 12.54,
+            "word": " real"
+          },
+          {
+            "start": 12.54,
+            "end": 13.06,
+            "word": " Los"
+          },
+          {
+            "start": 13.06,
+            "end": 13.52,
+            "word": " Angeles"
+          },
+          {
+            "start": 13.52,
+            "end": 14.06,
+            "word": " property,"
+          },
+          {
+            "start": 14.52,
+            "end": 14.8,
+            "word": " then"
+          },
+          {
+            "start": 14.8,
+            "end": 15.2,
+            "word": " compare"
+          },
+          {
+            "start": 15.2,
+            "end": 15.54,
+            "word": " two"
+          },
+          {
+            "start": 15.54,
+            "end": 16.04,
+            "word": " hypothetical"
+          },
+          {
+            "start": 16.04,
+            "end": 16.66,
+            "word": " designs."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "02-search",
+    "transcription": " Let's search for 7661 Penfield Avenue.  The matching parcel opens with its address, assessor parcel number, zoning, and mapped buildings.  This property is zoned RS1.  Finding a parcel does not mean every calculation is supported.  The app keeps those limits visible.",
+    "similarity": 0.9285714285714286,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.42,
+        "text": " Let's search for 7661 Penfield Avenue.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.52,
+            "word": " Let's"
+          },
+          {
+            "start": 0.52,
+            "end": 0.7,
+            "word": " search"
+          },
+          {
+            "start": 0.7,
+            "end": 1.02,
+            "word": " for"
+          },
+          {
+            "start": 1.02,
+            "end": 2.48,
+            "word": " 7661"
+          },
+          {
+            "start": 2.48,
+            "end": 3.04,
+            "word": " Penfield"
+          },
+          {
+            "start": 3.04,
+            "end": 3.42,
+            "word": " Avenue."
+          }
+        ]
+      },
+      {
+        "start": 4.4,
+        "end": 10.04,
+        "text": " The matching parcel opens with its address, assessor parcel number, zoning, and mapped buildings.",
+        "words": [
+          {
+            "start": 4.4,
+            "end": 4.48,
+            "word": " The"
+          },
+          {
+            "start": 4.48,
+            "end": 4.84,
+            "word": " matching"
+          },
+          {
+            "start": 4.84,
+            "end": 5.24,
+            "word": " parcel"
+          },
+          {
+            "start": 5.24,
+            "end": 5.66,
+            "word": " opens"
+          },
+          {
+            "start": 5.66,
+            "end": 5.92,
+            "word": " with"
+          },
+          {
+            "start": 5.92,
+            "end": 6.1,
+            "word": " its"
+          },
+          {
+            "start": 6.1,
+            "end": 6.5,
+            "word": " address,"
+          },
+          {
+            "start": 7.04,
+            "end": 7.44,
+            "word": " assessor"
+          },
+          {
+            "start": 7.44,
+            "end": 7.7,
+            "word": " parcel"
+          },
+          {
+            "start": 7.7,
+            "end": 8.16,
+            "word": " number,"
+          },
+          {
+            "start": 8.44,
+            "end": 8.72,
+            "word": " zoning,"
+          },
+          {
+            "start": 9.24,
+            "end": 9.32,
+            "word": " and"
+          },
+          {
+            "start": 9.32,
+            "end": 9.6,
+            "word": " mapped"
+          },
+          {
+            "start": 9.6,
+            "end": 10.04,
+            "word": " buildings."
+          }
+        ]
+      },
+      {
+        "start": 11.2,
+        "end": 13.16,
+        "text": " This property is zoned RS1.",
+        "words": [
+          {
+            "start": 11.2,
+            "end": 11.4,
+            "word": " This"
+          },
+          {
+            "start": 11.4,
+            "end": 11.82,
+            "word": " property"
+          },
+          {
+            "start": 11.82,
+            "end": 12.08,
+            "word": " is"
+          },
+          {
+            "start": 12.08,
+            "end": 12.42,
+            "word": " zoned"
+          },
+          {
+            "start": 12.42,
+            "end": 13.16,
+            "word": " RS1."
+          }
+        ]
+      },
+      {
+        "start": 14.18,
+        "end": 17.52,
+        "text": " Finding a parcel does not mean every calculation is supported.",
+        "words": [
+          {
+            "start": 14.18,
+            "end": 14.54,
+            "word": " Finding"
+          },
+          {
+            "start": 14.54,
+            "end": 14.76,
+            "word": " a"
+          },
+          {
+            "start": 14.76,
+            "end": 15.1,
+            "word": " parcel"
+          },
+          {
+            "start": 15.1,
+            "end": 15.38,
+            "word": " does"
+          },
+          {
+            "start": 15.38,
+            "end": 15.6,
+            "word": " not"
+          },
+          {
+            "start": 15.6,
+            "end": 15.88,
+            "word": " mean"
+          },
+          {
+            "start": 15.88,
+            "end": 16.24,
+            "word": " every"
+          },
+          {
+            "start": 16.24,
+            "end": 16.76,
+            "word": " calculation"
+          },
+          {
+            "start": 16.76,
+            "end": 17.08,
+            "word": " is"
+          },
+          {
+            "start": 17.08,
+            "end": 17.52,
+            "word": " supported."
+          }
+        ]
+      },
+      {
+        "start": 17.52,
+        "end": 20.2,
+        "text": " The app keeps those limits visible.",
+        "words": [
+          {
+            "start": 17.52,
+            "end": 18.56,
+            "word": " The"
+          },
+          {
+            "start": 18.56,
+            "end": 18.78,
+            "word": " app"
+          },
+          {
+            "start": 18.78,
+            "end": 19.14,
+            "word": " keeps"
+          },
+          {
+            "start": 19.14,
+            "end": 19.4,
+            "word": " those"
+          },
+          {
+            "start": 19.4,
+            "end": 19.78,
+            "word": " limits"
+          },
+          {
+            "start": 19.78,
+            "end": 20.2,
+            "word": " visible."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03-evidence",
+    "transcription": " The public map reading gives us a width of 60 feet,  a depth of 125 feet, and a derived area of 7,500 square feet.  These are machine interpretations, with explanations and source references.  This example reuses a completed reading.  On a new property, available results appear while extraction runs.",
+    "similarity": 0.9387755102040817,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.88,
+        "text": " The public map reading gives us a width of 60 feet,",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.32,
+            "word": " The"
+          },
+          {
+            "start": 0.32,
+            "end": 0.58,
+            "word": " public"
+          },
+          {
+            "start": 0.58,
+            "end": 0.86,
+            "word": " map"
+          },
+          {
+            "start": 0.86,
+            "end": 1.14,
+            "word": " reading"
+          },
+          {
+            "start": 1.14,
+            "end": 1.44,
+            "word": " gives"
+          },
+          {
+            "start": 1.44,
+            "end": 1.64,
+            "word": " us"
+          },
+          {
+            "start": 1.64,
+            "end": 1.76,
+            "word": " a"
+          },
+          {
+            "start": 1.76,
+            "end": 1.96,
+            "word": " width"
+          },
+          {
+            "start": 1.96,
+            "end": 2.22,
+            "word": " of"
+          },
+          {
+            "start": 2.22,
+            "end": 2.58,
+            "word": " 60"
+          },
+          {
+            "start": 2.58,
+            "end": 2.88,
+            "word": " feet,"
+          }
+        ]
+      },
+      {
+        "start": 3.36,
+        "end": 8.24,
+        "text": " a depth of 125 feet, and a derived area of 7,500 square feet.",
+        "words": [
+          {
+            "start": 3.36,
+            "end": 3.42,
+            "word": " a"
+          },
+          {
+            "start": 3.42,
+            "end": 3.68,
+            "word": " depth"
+          },
+          {
+            "start": 3.68,
+            "end": 3.88,
+            "word": " of"
+          },
+          {
+            "start": 3.88,
+            "end": 4.52,
+            "word": " 125"
+          },
+          {
+            "start": 4.52,
+            "end": 5.1,
+            "word": " feet,"
+          },
+          {
+            "start": 5.44,
+            "end": 5.6,
+            "word": " and"
+          },
+          {
+            "start": 5.6,
+            "end": 5.7,
+            "word": " a"
+          },
+          {
+            "start": 5.7,
+            "end": 6.04,
+            "word": " derived"
+          },
+          {
+            "start": 6.04,
+            "end": 6.4,
+            "word": " area"
+          },
+          {
+            "start": 6.4,
+            "end": 6.66,
+            "word": " of"
+          },
+          {
+            "start": 6.66,
+            "end": 6.96,
+            "word": " 7"
+          },
+          {
+            "start": 6.96,
+            "end": 7.4,
+            "word": ",500"
+          },
+          {
+            "start": 7.4,
+            "end": 7.76,
+            "word": " square"
+          },
+          {
+            "start": 7.76,
+            "end": 8.24,
+            "word": " feet."
+          }
+        ]
+      },
+      {
+        "start": 9.16,
+        "end": 13.44,
+        "text": " These are machine interpretations, with explanations and source references.",
+        "words": [
+          {
+            "start": 9.16,
+            "end": 9.42,
+            "word": " These"
+          },
+          {
+            "start": 9.42,
+            "end": 9.56,
+            "word": " are"
+          },
+          {
+            "start": 9.56,
+            "end": 9.86,
+            "word": " machine"
+          },
+          {
+            "start": 9.86,
+            "end": 10.58,
+            "word": " interpretations,"
+          },
+          {
+            "start": 11.26,
+            "end": 11.46,
+            "word": " with"
+          },
+          {
+            "start": 11.46,
+            "end": 11.98,
+            "word": " explanations"
+          },
+          {
+            "start": 11.98,
+            "end": 12.62,
+            "word": " and"
+          },
+          {
+            "start": 12.62,
+            "end": 12.88,
+            "word": " source"
+          },
+          {
+            "start": 12.88,
+            "end": 13.44,
+            "word": " references."
+          }
+        ]
+      },
+      {
+        "start": 14.38,
+        "end": 16.94,
+        "text": " This example reuses a completed reading.",
+        "words": [
+          {
+            "start": 14.38,
+            "end": 14.58,
+            "word": " This"
+          },
+          {
+            "start": 14.58,
+            "end": 14.94,
+            "word": " example"
+          },
+          {
+            "start": 14.94,
+            "end": 15.62,
+            "word": " reuses"
+          },
+          {
+            "start": 15.62,
+            "end": 16.18,
+            "word": " a"
+          },
+          {
+            "start": 16.18,
+            "end": 16.54,
+            "word": " completed"
+          },
+          {
+            "start": 16.54,
+            "end": 16.94,
+            "word": " reading."
+          }
+        ]
+      },
+      {
+        "start": 17.56,
+        "end": 21.26,
+        "text": " On a new property, available results appear while extraction runs.",
+        "words": [
+          {
+            "start": 17.56,
+            "end": 17.68,
+            "word": " On"
+          },
+          {
+            "start": 17.68,
+            "end": 17.8,
+            "word": " a"
+          },
+          {
+            "start": 17.8,
+            "end": 18.02,
+            "word": " new"
+          },
+          {
+            "start": 18.02,
+            "end": 18.54,
+            "word": " property,"
+          },
+          {
+            "start": 19.04,
+            "end": 19.22,
+            "word": " available"
+          },
+          {
+            "start": 19.22,
+            "end": 19.72,
+            "word": " results"
+          },
+          {
+            "start": 19.72,
+            "end": 20.1,
+            "word": " appear"
+          },
+          {
+            "start": 20.1,
+            "end": 20.38,
+            "word": " while"
+          },
+          {
+            "start": 20.38,
+            "end": 20.82,
+            "word": " extraction"
+          },
+          {
+            "start": 20.82,
+            "end": 21.26,
+            "word": " runs."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04-research",
+    "transcription": " Property research brings together planning, permit history, engineering, and transit information.  Penfield has 11 permit and building records, including four downloadable documents.  Here is the recent certificate of occupancy. Engineering also returns  mapped easement features and nearby sewer records.  Each source stays visible so the user can inspect the underlying evidence.",
+    "similarity": 0.9900990099009901,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.96,
+        "text": " Property research brings together planning, permit history, engineering, and transit information.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.56,
+            "word": " Property"
+          },
+          {
+            "start": 0.56,
+            "end": 1.04,
+            "word": " research"
+          },
+          {
+            "start": 1.04,
+            "end": 1.46,
+            "word": " brings"
+          },
+          {
+            "start": 1.46,
+            "end": 1.92,
+            "word": " together"
+          },
+          {
+            "start": 1.92,
+            "end": 2.38,
+            "word": " planning,"
+          },
+          {
+            "start": 2.72,
+            "end": 2.92,
+            "word": " permit"
+          },
+          {
+            "start": 2.92,
+            "end": 3.42,
+            "word": " history,"
+          },
+          {
+            "start": 3.76,
+            "end": 4.16,
+            "word": " engineering,"
+          },
+          {
+            "start": 4.68,
+            "end": 4.9,
+            "word": " and"
+          },
+          {
+            "start": 4.9,
+            "end": 5.26,
+            "word": " transit"
+          },
+          {
+            "start": 5.26,
+            "end": 5.96,
+            "word": " information."
+          }
+        ]
+      },
+      {
+        "start": 7.02,
+        "end": 12.32,
+        "text": " Penfield has 11 permit and building records, including four downloadable documents.",
+        "words": [
+          {
+            "start": 7.02,
+            "end": 7.28,
+            "word": " Penfield"
+          },
+          {
+            "start": 7.28,
+            "end": 7.66,
+            "word": " has"
+          },
+          {
+            "start": 7.66,
+            "end": 8.1,
+            "word": " 11"
+          },
+          {
+            "start": 8.1,
+            "end": 8.48,
+            "word": " permit"
+          },
+          {
+            "start": 8.48,
+            "end": 8.72,
+            "word": " and"
+          },
+          {
+            "start": 8.72,
+            "end": 8.98,
+            "word": " building"
+          },
+          {
+            "start": 8.98,
+            "end": 9.44,
+            "word": " records,"
+          },
+          {
+            "start": 9.76,
+            "end": 10.16,
+            "word": " including"
+          },
+          {
+            "start": 10.16,
+            "end": 10.66,
+            "word": " four"
+          },
+          {
+            "start": 10.66,
+            "end": 11.6,
+            "word": " downloadable"
+          },
+          {
+            "start": 11.6,
+            "end": 12.32,
+            "word": " documents."
+          }
+        ]
+      },
+      {
+        "start": 13.18,
+        "end": 17.56,
+        "text": " Here is the recent certificate of occupancy. Engineering also returns",
+        "words": [
+          {
+            "start": 13.18,
+            "end": 13.36,
+            "word": " Here"
+          },
+          {
+            "start": 13.36,
+            "end": 13.6,
+            "word": " is"
+          },
+          {
+            "start": 13.6,
+            "end": 13.76,
+            "word": " the"
+          },
+          {
+            "start": 13.76,
+            "end": 14.04,
+            "word": " recent"
+          },
+          {
+            "start": 14.04,
+            "end": 14.46,
+            "word": " certificate"
+          },
+          {
+            "start": 14.46,
+            "end": 14.78,
+            "word": " of"
+          },
+          {
+            "start": 14.78,
+            "end": 15.36,
+            "word": " occupancy."
+          },
+          {
+            "start": 16.3,
+            "end": 16.56,
+            "word": " Engineering"
+          },
+          {
+            "start": 16.56,
+            "end": 16.98,
+            "word": " also"
+          },
+          {
+            "start": 16.98,
+            "end": 17.56,
+            "word": " returns"
+          }
+        ]
+      },
+      {
+        "start": 17.56,
+        "end": 20.96,
+        "text": " mapped easement features and nearby sewer records.",
+        "words": [
+          {
+            "start": 17.56,
+            "end": 18.2,
+            "word": " mapped"
+          },
+          {
+            "start": 18.2,
+            "end": 18.66,
+            "word": " easement"
+          },
+          {
+            "start": 18.66,
+            "end": 19.1,
+            "word": " features"
+          },
+          {
+            "start": 19.1,
+            "end": 19.8,
+            "word": " and"
+          },
+          {
+            "start": 19.8,
+            "end": 20.12,
+            "word": " nearby"
+          },
+          {
+            "start": 20.12,
+            "end": 20.4,
+            "word": " sewer"
+          },
+          {
+            "start": 20.4,
+            "end": 20.96,
+            "word": " records."
+          }
+        ]
+      },
+      {
+        "start": 21.86,
+        "end": 25.66,
+        "text": " Each source stays visible so the user can inspect the underlying evidence.",
+        "words": [
+          {
+            "start": 21.86,
+            "end": 22.06,
+            "word": " Each"
+          },
+          {
+            "start": 22.06,
+            "end": 22.44,
+            "word": " source"
+          },
+          {
+            "start": 22.44,
+            "end": 22.8,
+            "word": " stays"
+          },
+          {
+            "start": 22.8,
+            "end": 23.26,
+            "word": " visible"
+          },
+          {
+            "start": 23.26,
+            "end": 23.5,
+            "word": " so"
+          },
+          {
+            "start": 23.5,
+            "end": 23.66,
+            "word": " the"
+          },
+          {
+            "start": 23.66,
+            "end": 23.9,
+            "word": " user"
+          },
+          {
+            "start": 23.9,
+            "end": 24.14,
+            "word": " can"
+          },
+          {
+            "start": 24.14,
+            "end": 24.54,
+            "word": " inspect"
+          },
+          {
+            "start": 24.54,
+            "end": 24.82,
+            "word": " the"
+          },
+          {
+            "start": 24.82,
+            "end": 25.22,
+            "word": " underlying"
+          },
+          {
+            "start": 25.22,
+            "end": 25.66,
+            "word": " evidence."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "05-assumptions",
+    "transcription": " Now I'll switch to a detached ADU.  This is a hypothetical design exercise, not a finding that this particular proposal is  approved.  I'm documenting the assumptions about an existing dwelling, detached construction, kitchen facilities,  and coastal requirements.  The app distinguishes these user-supplied assumptions from source evidence.",
+    "similarity": 0.9574468085106383,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.94,
+        "text": " Now I'll switch to a detached ADU.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.72,
+            "word": " Now"
+          },
+          {
+            "start": 0.72,
+            "end": 0.98,
+            "word": " I'll"
+          },
+          {
+            "start": 0.98,
+            "end": 1.2,
+            "word": " switch"
+          },
+          {
+            "start": 1.2,
+            "end": 1.52,
+            "word": " to"
+          },
+          {
+            "start": 1.52,
+            "end": 1.68,
+            "word": " a"
+          },
+          {
+            "start": 1.68,
+            "end": 2.12,
+            "word": " detached"
+          },
+          {
+            "start": 2.12,
+            "end": 2.94,
+            "word": " ADU."
+          }
+        ]
+      },
+      {
+        "start": 3.64,
+        "end": 9.86,
+        "text": " This is a hypothetical design exercise, not a finding that this particular proposal is",
+        "words": [
+          {
+            "start": 3.64,
+            "end": 3.88,
+            "word": " This"
+          },
+          {
+            "start": 3.88,
+            "end": 4.0,
+            "word": " is"
+          },
+          {
+            "start": 4.0,
+            "end": 4.14,
+            "word": " a"
+          },
+          {
+            "start": 4.14,
+            "end": 4.54,
+            "word": " hypothetical"
+          },
+          {
+            "start": 4.54,
+            "end": 5.12,
+            "word": " design"
+          },
+          {
+            "start": 5.12,
+            "end": 5.7,
+            "word": " exercise,"
+          },
+          {
+            "start": 6.24,
+            "end": 6.48,
+            "word": " not"
+          },
+          {
+            "start": 6.48,
+            "end": 6.64,
+            "word": " a"
+          },
+          {
+            "start": 6.64,
+            "end": 6.92,
+            "word": " finding"
+          },
+          {
+            "start": 6.92,
+            "end": 7.58,
+            "word": " that"
+          },
+          {
+            "start": 7.58,
+            "end": 7.82,
+            "word": " this"
+          },
+          {
+            "start": 7.82,
+            "end": 8.26,
+            "word": " particular"
+          },
+          {
+            "start": 8.26,
+            "end": 8.72,
+            "word": " proposal"
+          },
+          {
+            "start": 8.72,
+            "end": 9.86,
+            "word": " is"
+          }
+        ]
+      },
+      {
+        "start": 9.86,
+        "end": 10.28,
+        "text": " approved.",
+        "words": [
+          {
+            "start": 9.86,
+            "end": 10.28,
+            "word": " approved."
+          }
+        ]
+      },
+      {
+        "start": 11.7,
+        "end": 18.38,
+        "text": " I'm documenting the assumptions about an existing dwelling, detached construction, kitchen facilities,",
+        "words": [
+          {
+            "start": 11.7,
+            "end": 12.06,
+            "word": " I'm"
+          },
+          {
+            "start": 12.06,
+            "end": 12.58,
+            "word": " documenting"
+          },
+          {
+            "start": 12.58,
+            "end": 13.08,
+            "word": " the"
+          },
+          {
+            "start": 13.08,
+            "end": 13.54,
+            "word": " assumptions"
+          },
+          {
+            "start": 13.54,
+            "end": 14.08,
+            "word": " about"
+          },
+          {
+            "start": 14.08,
+            "end": 14.22,
+            "word": " an"
+          },
+          {
+            "start": 14.22,
+            "end": 14.66,
+            "word": " existing"
+          },
+          {
+            "start": 14.66,
+            "end": 15.1,
+            "word": " dwelling,"
+          },
+          {
+            "start": 15.86,
+            "end": 16.16,
+            "word": " detached"
+          },
+          {
+            "start": 16.16,
+            "end": 16.9,
+            "word": " construction,"
+          },
+          {
+            "start": 17.54,
+            "end": 17.74,
+            "word": " kitchen"
+          },
+          {
+            "start": 17.74,
+            "end": 18.38,
+            "word": " facilities,"
+          }
+        ]
+      },
+      {
+        "start": 18.78,
+        "end": 19.8,
+        "text": " and coastal requirements.",
+        "words": [
+          {
+            "start": 18.78,
+            "end": 18.88,
+            "word": " and"
+          },
+          {
+            "start": 18.88,
+            "end": 19.16,
+            "word": " coastal"
+          },
+          {
+            "start": 19.16,
+            "end": 19.8,
+            "word": " requirements."
+          }
+        ]
+      },
+      {
+        "start": 19.8,
+        "end": 24.9,
+        "text": " The app distinguishes these user-supplied assumptions from source evidence.",
+        "words": [
+          {
+            "start": 19.8,
+            "end": 20.94,
+            "word": " The"
+          },
+          {
+            "start": 20.94,
+            "end": 21.2,
+            "word": " app"
+          },
+          {
+            "start": 21.2,
+            "end": 21.94,
+            "word": " distinguishes"
+          },
+          {
+            "start": 21.94,
+            "end": 22.46,
+            "word": " these"
+          },
+          {
+            "start": 22.46,
+            "end": 22.84,
+            "word": " user"
+          },
+          {
+            "start": 22.84,
+            "end": 23.26,
+            "word": "-supplied"
+          },
+          {
+            "start": 23.26,
+            "end": 23.7,
+            "word": " assumptions"
+          },
+          {
+            "start": 23.7,
+            "end": 24.08,
+            "word": " from"
+          },
+          {
+            "start": 24.08,
+            "end": 24.38,
+            "word": " source"
+          },
+          {
+            "start": 24.38,
+            "end": 24.9,
+            "word": " evidence."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06-height",
+    "transcription": " With a proposed height of 19 feet, the selected rule branch shows a 16-foot limit.  The design exceeds that limit by 3 feet. Opening the explanation reveals the calculation,  assumptions, and cited provisions. That makes the answer inspectable,  instead of presenting an unexplained number.",
+    "similarity": 0.9534883720930233,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.4,
+        "text": " With a proposed height of 19 feet, the selected rule branch shows a 16-foot limit.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.34,
+            "word": " With"
+          },
+          {
+            "start": 0.34,
+            "end": 0.48,
+            "word": " a"
+          },
+          {
+            "start": 0.48,
+            "end": 0.88,
+            "word": " proposed"
+          },
+          {
+            "start": 0.88,
+            "end": 1.22,
+            "word": " height"
+          },
+          {
+            "start": 1.22,
+            "end": 1.46,
+            "word": " of"
+          },
+          {
+            "start": 1.46,
+            "end": 1.9,
+            "word": " 19"
+          },
+          {
+            "start": 1.9,
+            "end": 2.26,
+            "word": " feet,"
+          },
+          {
+            "start": 2.72,
+            "end": 2.8,
+            "word": " the"
+          },
+          {
+            "start": 2.8,
+            "end": 3.18,
+            "word": " selected"
+          },
+          {
+            "start": 3.18,
+            "end": 3.56,
+            "word": " rule"
+          },
+          {
+            "start": 3.56,
+            "end": 3.88,
+            "word": " branch"
+          },
+          {
+            "start": 3.88,
+            "end": 4.18,
+            "word": " shows"
+          },
+          {
+            "start": 4.18,
+            "end": 4.38,
+            "word": " a"
+          },
+          {
+            "start": 4.38,
+            "end": 4.82,
+            "word": " 16"
+          },
+          {
+            "start": 4.82,
+            "end": 5.02,
+            "word": "-foot"
+          },
+          {
+            "start": 5.02,
+            "end": 5.4,
+            "word": " limit."
+          }
+        ]
+      },
+      {
+        "start": 6.22,
+        "end": 12.96,
+        "text": " The design exceeds that limit by 3 feet. Opening the explanation reveals the calculation,",
+        "words": [
+          {
+            "start": 6.22,
+            "end": 6.44,
+            "word": " The"
+          },
+          {
+            "start": 6.44,
+            "end": 6.96,
+            "word": " design"
+          },
+          {
+            "start": 6.96,
+            "end": 7.62,
+            "word": " exceeds"
+          },
+          {
+            "start": 7.62,
+            "end": 8.04,
+            "word": " that"
+          },
+          {
+            "start": 8.04,
+            "end": 8.34,
+            "word": " limit"
+          },
+          {
+            "start": 8.34,
+            "end": 8.6,
+            "word": " by"
+          },
+          {
+            "start": 8.6,
+            "end": 8.92,
+            "word": " 3"
+          },
+          {
+            "start": 8.92,
+            "end": 9.26,
+            "word": " feet."
+          },
+          {
+            "start": 10.24,
+            "end": 10.52,
+            "word": " Opening"
+          },
+          {
+            "start": 10.52,
+            "end": 10.76,
+            "word": " the"
+          },
+          {
+            "start": 10.76,
+            "end": 11.32,
+            "word": " explanation"
+          },
+          {
+            "start": 11.32,
+            "end": 12.0,
+            "word": " reveals"
+          },
+          {
+            "start": 12.0,
+            "end": 12.4,
+            "word": " the"
+          },
+          {
+            "start": 12.4,
+            "end": 12.96,
+            "word": " calculation,"
+          }
+        ]
+      },
+      {
+        "start": 13.64,
+        "end": 18.4,
+        "text": " assumptions, and cited provisions. That makes the answer inspectable,",
+        "words": [
+          {
+            "start": 13.64,
+            "end": 14.04,
+            "word": " assumptions,"
+          },
+          {
+            "start": 14.72,
+            "end": 14.78,
+            "word": " and"
+          },
+          {
+            "start": 14.78,
+            "end": 15.06,
+            "word": " cited"
+          },
+          {
+            "start": 15.06,
+            "end": 15.66,
+            "word": " provisions."
+          },
+          {
+            "start": 16.62,
+            "end": 16.82,
+            "word": " That"
+          },
+          {
+            "start": 16.82,
+            "end": 17.06,
+            "word": " makes"
+          },
+          {
+            "start": 17.06,
+            "end": 17.3,
+            "word": " the"
+          },
+          {
+            "start": 17.3,
+            "end": 17.64,
+            "word": " answer"
+          },
+          {
+            "start": 17.64,
+            "end": 18.4,
+            "word": " inspectable,"
+          }
+        ]
+      },
+      {
+        "start": 18.8,
+        "end": 21.6,
+        "text": " instead of presenting an unexplained number.",
+        "words": [
+          {
+            "start": 18.8,
+            "end": 19.12,
+            "word": " instead"
+          },
+          {
+            "start": 19.12,
+            "end": 19.3,
+            "word": " of"
+          },
+          {
+            "start": 19.3,
+            "end": 19.76,
+            "word": " presenting"
+          },
+          {
+            "start": 19.76,
+            "end": 20.5,
+            "word": " an"
+          },
+          {
+            "start": 20.5,
+            "end": 21.08,
+            "word": " unexplained"
+          },
+          {
+            "start": 21.08,
+            "end": 21.6,
+            "word": " number."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07-compare",
+    "transcription": " I'll save the 19-foot option, change the proposed height to 16 feet, and save a second version.  The comparison now shows one option exceeding the height limit and the other within it.  That result applies to this height check under the stated assumptions.  It is not an overall permit approval.",
+    "similarity": 0.9696969696969697,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.98,
+        "text": " I'll save the 19-foot option, change the proposed height to 16 feet, and save a second version.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.36,
+            "word": " I'll"
+          },
+          {
+            "start": 0.36,
+            "end": 0.58,
+            "word": " save"
+          },
+          {
+            "start": 0.58,
+            "end": 0.76,
+            "word": " the"
+          },
+          {
+            "start": 0.76,
+            "end": 1.14,
+            "word": " 19"
+          },
+          {
+            "start": 1.14,
+            "end": 1.32,
+            "word": "-foot"
+          },
+          {
+            "start": 1.32,
+            "end": 1.78,
+            "word": " option,"
+          },
+          {
+            "start": 2.32,
+            "end": 2.62,
+            "word": " change"
+          },
+          {
+            "start": 2.62,
+            "end": 2.9,
+            "word": " the"
+          },
+          {
+            "start": 2.9,
+            "end": 3.18,
+            "word": " proposed"
+          },
+          {
+            "start": 3.18,
+            "end": 3.5,
+            "word": " height"
+          },
+          {
+            "start": 3.5,
+            "end": 3.78,
+            "word": " to"
+          },
+          {
+            "start": 3.78,
+            "end": 4.26,
+            "word": " 16"
+          },
+          {
+            "start": 4.26,
+            "end": 4.56,
+            "word": " feet,"
+          },
+          {
+            "start": 5.32,
+            "end": 5.52,
+            "word": " and"
+          },
+          {
+            "start": 5.52,
+            "end": 6.06,
+            "word": " save"
+          },
+          {
+            "start": 6.06,
+            "end": 6.28,
+            "word": " a"
+          },
+          {
+            "start": 6.28,
+            "end": 6.54,
+            "word": " second"
+          },
+          {
+            "start": 6.54,
+            "end": 6.98,
+            "word": " version."
+          }
+        ]
+      },
+      {
+        "start": 7.82,
+        "end": 13.6,
+        "text": " The comparison now shows one option exceeding the height limit and the other within it.",
+        "words": [
+          {
+            "start": 7.82,
+            "end": 7.96,
+            "word": " The"
+          },
+          {
+            "start": 7.96,
+            "end": 8.36,
+            "word": " comparison"
+          },
+          {
+            "start": 8.36,
+            "end": 8.86,
+            "word": " now"
+          },
+          {
+            "start": 8.86,
+            "end": 9.22,
+            "word": " shows"
+          },
+          {
+            "start": 9.22,
+            "end": 9.66,
+            "word": " one"
+          },
+          {
+            "start": 9.66,
+            "end": 10.22,
+            "word": " option"
+          },
+          {
+            "start": 10.22,
+            "end": 11.16,
+            "word": " exceeding"
+          },
+          {
+            "start": 11.16,
+            "end": 11.48,
+            "word": " the"
+          },
+          {
+            "start": 11.48,
+            "end": 11.66,
+            "word": " height"
+          },
+          {
+            "start": 11.66,
+            "end": 11.94,
+            "word": " limit"
+          },
+          {
+            "start": 11.94,
+            "end": 12.5,
+            "word": " and"
+          },
+          {
+            "start": 12.5,
+            "end": 12.64,
+            "word": " the"
+          },
+          {
+            "start": 12.64,
+            "end": 12.86,
+            "word": " other"
+          },
+          {
+            "start": 12.86,
+            "end": 13.26,
+            "word": " within"
+          },
+          {
+            "start": 13.26,
+            "end": 13.6,
+            "word": " it."
+          }
+        ]
+      },
+      {
+        "start": 13.92,
+        "end": 17.82,
+        "text": " That result applies to this height check under the stated assumptions.",
+        "words": [
+          {
+            "start": 13.92,
+            "end": 14.14,
+            "word": " That"
+          },
+          {
+            "start": 14.14,
+            "end": 14.54,
+            "word": " result"
+          },
+          {
+            "start": 14.54,
+            "end": 14.98,
+            "word": " applies"
+          },
+          {
+            "start": 14.98,
+            "end": 15.34,
+            "word": " to"
+          },
+          {
+            "start": 15.34,
+            "end": 15.52,
+            "word": " this"
+          },
+          {
+            "start": 15.52,
+            "end": 15.74,
+            "word": " height"
+          },
+          {
+            "start": 15.74,
+            "end": 16.1,
+            "word": " check"
+          },
+          {
+            "start": 16.1,
+            "end": 16.84,
+            "word": " under"
+          },
+          {
+            "start": 16.84,
+            "end": 17.02,
+            "word": " the"
+          },
+          {
+            "start": 17.02,
+            "end": 17.3,
+            "word": " stated"
+          },
+          {
+            "start": 17.3,
+            "end": 17.82,
+            "word": " assumptions."
+          }
+        ]
+      },
+      {
+        "start": 18.64,
+        "end": 20.92,
+        "text": " It is not an overall permit approval.",
+        "words": [
+          {
+            "start": 18.64,
+            "end": 18.9,
+            "word": " It"
+          },
+          {
+            "start": 18.9,
+            "end": 19.02,
+            "word": " is"
+          },
+          {
+            "start": 19.02,
+            "end": 19.3,
+            "word": " not"
+          },
+          {
+            "start": 19.3,
+            "end": 19.66,
+            "word": " an"
+          },
+          {
+            "start": 19.66,
+            "end": 20.12,
+            "word": " overall"
+          },
+          {
+            "start": 20.12,
+            "end": 20.52,
+            "word": " permit"
+          },
+          {
+            "start": 20.52,
+            "end": 20.92,
+            "word": " approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "08-reopen",
+    "transcription": " Saved scenarios retain their inputs, results, and evidence references.  Reopening the project brings the comparison back, so the reasoning can be reviewed later.  The workflow connects public source retrieval and model-assisted map reading to deterministic  calculations and saved decisions.  Missing evidence stays explicit.  The goal is faster, more explainable feasibility research.",
+    "similarity": 0.9702970297029703,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.6,
+        "text": " Saved scenarios retain their inputs, results, and evidence references.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.48,
+            "word": " Saved"
+          },
+          {
+            "start": 0.48,
+            "end": 0.9,
+            "word": " scenarios"
+          },
+          {
+            "start": 0.9,
+            "end": 1.4,
+            "word": " retain"
+          },
+          {
+            "start": 1.4,
+            "end": 1.7,
+            "word": " their"
+          },
+          {
+            "start": 1.7,
+            "end": 2.14,
+            "word": " inputs,"
+          },
+          {
+            "start": 2.58,
+            "end": 2.96,
+            "word": " results,"
+          },
+          {
+            "start": 3.5,
+            "end": 3.62,
+            "word": " and"
+          },
+          {
+            "start": 3.62,
+            "end": 4.0,
+            "word": " evidence"
+          },
+          {
+            "start": 4.0,
+            "end": 4.6,
+            "word": " references."
+          }
+        ]
+      },
+      {
+        "start": 5.32,
+        "end": 10.18,
+        "text": " Reopening the project brings the comparison back, so the reasoning can be reviewed later.",
+        "words": [
+          {
+            "start": 5.32,
+            "end": 5.78,
+            "word": " Reopening"
+          },
+          {
+            "start": 5.78,
+            "end": 6.02,
+            "word": " the"
+          },
+          {
+            "start": 6.02,
+            "end": 6.42,
+            "word": " project"
+          },
+          {
+            "start": 6.42,
+            "end": 6.76,
+            "word": " brings"
+          },
+          {
+            "start": 6.76,
+            "end": 7.0,
+            "word": " the"
+          },
+          {
+            "start": 7.0,
+            "end": 7.4,
+            "word": " comparison"
+          },
+          {
+            "start": 7.4,
+            "end": 7.86,
+            "word": " back,"
+          },
+          {
+            "start": 8.22,
+            "end": 8.52,
+            "word": " so"
+          },
+          {
+            "start": 8.52,
+            "end": 8.66,
+            "word": " the"
+          },
+          {
+            "start": 8.66,
+            "end": 8.98,
+            "word": " reasoning"
+          },
+          {
+            "start": 8.98,
+            "end": 9.32,
+            "word": " can"
+          },
+          {
+            "start": 9.32,
+            "end": 9.48,
+            "word": " be"
+          },
+          {
+            "start": 9.48,
+            "end": 9.82,
+            "word": " reviewed"
+          },
+          {
+            "start": 9.82,
+            "end": 10.18,
+            "word": " later."
+          }
+        ]
+      },
+      {
+        "start": 10.94,
+        "end": 16.46,
+        "text": " The workflow connects public source retrieval and model-assisted map reading to deterministic",
+        "words": [
+          {
+            "start": 10.94,
+            "end": 11.14,
+            "word": " The"
+          },
+          {
+            "start": 11.14,
+            "end": 11.52,
+            "word": " workflow"
+          },
+          {
+            "start": 11.52,
+            "end": 12.02,
+            "word": " connects"
+          },
+          {
+            "start": 12.02,
+            "end": 12.44,
+            "word": " public"
+          },
+          {
+            "start": 12.44,
+            "end": 12.8,
+            "word": " source"
+          },
+          {
+            "start": 12.8,
+            "end": 13.34,
+            "word": " retrieval"
+          },
+          {
+            "start": 13.34,
+            "end": 13.74,
+            "word": " and"
+          },
+          {
+            "start": 13.74,
+            "end": 14.06,
+            "word": " model"
+          },
+          {
+            "start": 14.06,
+            "end": 14.4,
+            "word": "-assisted"
+          },
+          {
+            "start": 14.4,
+            "end": 14.82,
+            "word": " map"
+          },
+          {
+            "start": 14.82,
+            "end": 15.12,
+            "word": " reading"
+          },
+          {
+            "start": 15.12,
+            "end": 15.8,
+            "word": " to"
+          },
+          {
+            "start": 15.8,
+            "end": 16.46,
+            "word": " deterministic"
+          }
+        ]
+      },
+      {
+        "start": 16.46,
+        "end": 18.5,
+        "text": " calculations and saved decisions.",
+        "words": [
+          {
+            "start": 16.46,
+            "end": 17.28,
+            "word": " calculations"
+          },
+          {
+            "start": 17.28,
+            "end": 17.72,
+            "word": " and"
+          },
+          {
+            "start": 17.72,
+            "end": 18.0,
+            "word": " saved"
+          },
+          {
+            "start": 18.0,
+            "end": 18.5,
+            "word": " decisions."
+          }
+        ]
+      },
+      {
+        "start": 19.7,
+        "end": 22.08,
+        "text": " Missing evidence stays explicit.",
+        "words": [
+          {
+            "start": 19.7,
+            "end": 20.04,
+            "word": " Missing"
+          },
+          {
+            "start": 20.04,
+            "end": 20.66,
+            "word": " evidence"
+          },
+          {
+            "start": 20.66,
+            "end": 21.3,
+            "word": " stays"
+          },
+          {
+            "start": 21.3,
+            "end": 22.08,
+            "word": " explicit."
+          }
+        ]
+      },
+      {
+        "start": 22.08,
+        "end": 26.42,
+        "text": " The goal is faster, more explainable feasibility research.",
+        "words": [
+          {
+            "start": 22.08,
+            "end": 23.02,
+            "word": " The"
+          },
+          {
+            "start": 23.02,
+            "end": 23.24,
+            "word": " goal"
+          },
+          {
+            "start": 23.24,
+            "end": 23.48,
+            "word": " is"
+          },
+          {
+            "start": 23.48,
+            "end": 24.02,
+            "word": " faster,"
+          },
+          {
+            "start": 24.56,
+            "end": 24.62,
+            "word": " more"
+          },
+          {
+            "start": 24.62,
+            "end": 25.28,
+            "word": " explainable"
+          },
+          {
+            "start": 25.28,
+            "end": 25.72,
+            "word": " feasibility"
+          },
+          {
+            "start": 25.72,
+            "end": 26.42,
+            "word": " research."
+          }
+        ]
+      }
+    ]
+  }
+]

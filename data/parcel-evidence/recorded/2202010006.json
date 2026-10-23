@@ -1,0 +1,55 @@
+{
+  "document": {
+    "map_id": "2202-010",
+    "ain": "2202010006",
+    "legal_description": "TRACT # 16180 LOT  108",
+    "status": "available",
+    "vintage": "1985 sheet stamp",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=2202-010-&f=file",
+    "retrieved_at": "2026-10-22T16:25:07.231465+00:00",
+    "content_hash": "1fb5359431e0aef739702af86d58362ade032b2f2f57cb169d23b0bd7c6f2e26"
+  },
+  "records": {
+    "Hillside Ordinance": {
+      "source_url": "https://maps.lacity.org/lahub/rest/services/Special_Areas/MapServer/6",
+      "retrieved_at": "2026-10-22T16:25:07.233517+00:00",
+      "vintage": "unknown",
+      "origin": "live",
+      "crs": "EPSG:2229",
+      "query": {
+        "f": "geojson",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "outSR": "2229",
+        "geometry": "{\"rings\": [[[6407468.650000006, 1898365.1800000072], [6407468.450000003, 1898315.200000003], [6407348.450000003, 1898315.6700000018], [6407348.650000006, 1898365.6700000018], [6407468.650000006, 1898365.1800000072]]], \"spatialReference\": {\"wkid\": 2229}}",
+        "geometryType": "esriGeometryPolygon",
+        "inSR": "2229",
+        "spatialRel": "esriSpatialRelIntersects",
+        "resultRecordCount": "1000"
+      },
+      "status": "no-match",
+      "features": []
+    },
+    "Coastal Commission Permit Area": {
+      "source_url": "https://zimas.lacity.org/arcgis/rest/services/zma/zimas/MapServer/1605",
+      "retrieved_at": "2026-10-22T16:25:07.233718+00:00",
+      "vintage": "unknown",
+      "origin": "live",
+      "crs": "EPSG:2229",
+      "query": {
+        "f": "geojson",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "outSR": "2229",
+        "geometry": "{\"rings\": [[[6407468.650000006, 1898365.1800000072], [6407468.450000003, 1898315.200000003], [6407348.450000003, 1898315.6700000018], [6407348.650000006, 1898365.6700000018], [6407468.650000006, 1898365.1800000072]]], \"spatialReference\": {\"wkid\": 2229}}",
+        "geometryType": "esriGeometryPolygon",
+        "inSR": "2229",
+        "spatialRel": "esriSpatialRelIntersects",
+        "resultRecordCount": "1000"
+      },
+      "status": "no-match",
+      "features": []
+    }
+  }
+}

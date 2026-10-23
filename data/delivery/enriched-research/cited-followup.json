@@ -1,0 +1,110 @@
+[
+  {
+    "status": 200,
+    "body": {
+      "answer": "Five permit/building records were saved for 17404 W Stagg St (APN 2202-004-010) from the PRISM permit-history search:\n\n1. 06044-90000-07649: mechanical permit (HVAC), dated 2006-07-21, status ISSUED. A downloadable document is available.\n2. 1979VN05830: building permit for new construction, dated 1979-11-30, status not supplied.\n3. 1970VN58829: building permit for a building addition, dated 1970-06-10, status not supplied. It appears twice, as record IDs 8316367 and 8316368.\n4. 1950VN07525: building permit for a new building, dated 1950-04-20, status not supplied.\n\nNo. An issued permit does not prove final approval. The saved permit research says so directly, and it also says that missing records do not prove there are no permits or violations.\n\nThe only record with a stated status is the 2006 HVAC permit, and that status is ISSUED, not finaled. The four building-permit records have no status at all. None of the saved evidence includes final inspection or certificate-of-occupancy information, so the evidence cannot establish final approval for any of these permits.\n\nThe saved next step is to check the permit scope and final inspection records for the existing buildings and any proposed alterations.",
+      "citations": [
+        {
+          "id": "research-permits",
+          "quote": "5 permit/building records; 1 downloadable documents.",
+          "evidence": {
+            "text": "{\"source\": \"permits\", \"title\": \"Permit history\", \"source_url\": \"https://prism.dbs.lacity.gov\", \"ain\": \"2202004010\", \"context_key\": \"2ac7f19259cebaffb12d3f862bb2ea292ebee6dca3639479e86a7f8c7143ac54\", \"retrieved_at\": \"2026-10-22T22:32:29.697436+00:00\", \"origin\": \"live\", \"vintage\": \"Not supplied by service\", \"status\": \"matched\", \"warnings\": [\"A permit being issued does not establish final approval. No returned records does not establish an absence of permits or violations.\"], \"association\": \"PRISM assessor search: 2202-004-010.\", \"next_action\": \"Check permit scope and final inspection records for the existing buildings and proposed alterations.\", \"summary\": \"5 permit/building records; 1 downloadable documents.\", \"id\": \"f7680036-585e-45dc-89f6-8800ebe174be\"}",
+            "kind": "research-status",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits",
+          "quote": "A permit being issued does not establish final approval. No returned records does not establish an absence of permits or violations.",
+          "evidence": {
+            "text": "{\"source\": \"permits\", \"title\": \"Permit history\", \"source_url\": \"https://prism.dbs.lacity.gov\", \"ain\": \"2202004010\", \"context_key\": \"2ac7f19259cebaffb12d3f862bb2ea292ebee6dca3639479e86a7f8c7143ac54\", \"retrieved_at\": \"2026-10-22T22:32:29.697436+00:00\", \"origin\": \"live\", \"vintage\": \"Not supplied by service\", \"status\": \"matched\", \"warnings\": [\"A permit being issued does not establish final approval. No returned records does not establish an absence of permits or violations.\"], \"association\": \"PRISM assessor search: 2202-004-010.\", \"next_action\": \"Check permit scope and final inspection records for the existing buildings and proposed alterations.\", \"summary\": \"5 permit/building records; 1 downloadable documents.\", \"id\": \"f7680036-585e-45dc-89f6-8800ebe174be\"}",
+            "kind": "research-status",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits",
+          "quote": "Check permit scope and final inspection records for the existing buildings and proposed alterations.",
+          "evidence": {
+            "text": "{\"source\": \"permits\", \"title\": \"Permit history\", \"source_url\": \"https://prism.dbs.lacity.gov\", \"ain\": \"2202004010\", \"context_key\": \"2ac7f19259cebaffb12d3f862bb2ea292ebee6dca3639479e86a7f8c7143ac54\", \"retrieved_at\": \"2026-10-22T22:32:29.697436+00:00\", \"origin\": \"live\", \"vintage\": \"Not supplied by service\", \"status\": \"matched\", \"warnings\": [\"A permit being issued does not establish final approval. No returned records does not establish an absence of permits or violations.\"], \"association\": \"PRISM assessor search: 2202-004-010.\", \"next_action\": \"Check permit scope and final inspection records for the existing buildings and proposed alterations.\", \"summary\": \"5 permit/building records; 1 downloadable documents.\", \"id\": \"f7680036-585e-45dc-89f6-8800ebe174be\"}",
+            "kind": "research-status",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits-0",
+          "quote": "\"title\": \"06044-90000-07649\", \"value\": \"MECHANICAL PERMIT · HVAC · ISSUED\", \"date\": \"2006-07-21T00:00:00\"",
+          "evidence": {
+            "text": "{\"title\": \"06044-90000-07649\", \"value\": \"MECHANICAL PERMIT · HVAC · ISSUED\", \"date\": \"2006-07-21T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"ISSUED\", \"record_id\": 50938062, \"source_url\": \"https://prism.dbs.lacity.gov/blob/public/mechanical-permit/72728edf-b9ad-4939-bd9a-b972b8382b61.pdf\", \"document_available\": true}",
+            "kind": "research-record",
+            "url": "https://prism.dbs.lacity.gov/blob/public/mechanical-permit/72728edf-b9ad-4939-bd9a-b972b8382b61.pdf"
+          }
+        },
+        {
+          "id": "research-permits-1",
+          "quote": "\"title\": \"1979VN05830\", \"value\": \"BUILDING PERMIT · NEW CONSTRUCTION\", \"date\": \"1979-11-30T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\"",
+          "evidence": {
+            "text": "{\"title\": \"1979VN05830\", \"value\": \"BUILDING PERMIT · NEW CONSTRUCTION\", \"date\": \"1979-11-30T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\", \"record_id\": 21133820, \"source_url\": \"https://prism.dbs.lacity.gov\", \"document_available\": false}",
+            "kind": "research-record",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits-2",
+          "quote": "\"title\": \"1970VN58829\", \"value\": \"BUILDING PERMIT · BLDG-ADDITION\", \"date\": \"1970-06-10T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\", \"record_id\": 8316367",
+          "evidence": {
+            "text": "{\"title\": \"1970VN58829\", \"value\": \"BUILDING PERMIT · BLDG-ADDITION\", \"date\": \"1970-06-10T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\", \"record_id\": 8316367, \"source_url\": \"https://prism.dbs.lacity.gov\", \"document_available\": false}",
+            "kind": "research-record",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits-3",
+          "quote": "\"record_id\": 8316368",
+          "evidence": {
+            "text": "{\"title\": \"1970VN58829\", \"value\": \"BUILDING PERMIT · BLDG-ADDITION\", \"date\": \"1970-06-10T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\", \"record_id\": 8316368, \"source_url\": \"https://prism.dbs.lacity.gov\", \"document_available\": false}",
+            "kind": "research-record",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        },
+        {
+          "id": "research-permits-4",
+          "quote": "\"title\": \"1950VN07525\", \"value\": \"BUILDING PERMIT · BLDG-NEW\", \"date\": \"1950-04-20T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\"",
+          "evidence": {
+            "text": "{\"title\": \"1950VN07525\", \"value\": \"BUILDING PERMIT · BLDG-NEW\", \"date\": \"1950-04-20T00:00:00\", \"address\": \"17404 W STAGG ST\", \"status\": \"Not supplied\", \"record_id\": 8316366, \"source_url\": \"https://prism.dbs.lacity.gov\", \"document_available\": false}",
+            "kind": "research-record",
+            "url": "https://prism.dbs.lacity.gov"
+          }
+        }
+      ],
+      "suggested_changes": [
+        "Get final inspection or certificate-of-occupancy records from LADBS for permits 1950VN07525, 1970VN58829, 1979VN05830 and 06044-90000-07649 before treating any of them as finaled.",
+        "Open the downloadable 2006 HVAC permit PDF to review its scope and any inspection sign-offs."
+      ],
+      "insufficient_evidence": false,
+      "provenance": {
+        "auth_method": "claude.ai",
+        "model_usage": {
+          "claude-opus-5-5": {
+            "inputTokens": 2,
+            "outputTokens": 1165,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 67969,
+            "webSearchRequests": 0,
+            "costUSD": 0.56706,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 0,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "prompt_hash": "7e983260b6f1b4bc2d4030bb38e5fd344522279d92eb2ac02839cd82a1c2b18d",
+        "elapsed_seconds": 10.475
+      },
+      "id": "f644f4e9-d977-45ba-a1ce-1619027a6cfd",
+      "scenario_id": "eb9b4287-9722-49ce-944c-788062ddb0d8"
+    }
+  }
+]

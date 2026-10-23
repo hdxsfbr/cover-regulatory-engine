@@ -1,0 +1,22 @@
+schema: spec-driven
+
+context: |
+  Deliver a one-week proof of concept for Cover's Home Building Regulatory Engine.
+  The primary brief is docs/project_1771987446618.pdf.
+  Target architects and engineers assessing residential parcels in the City of Los Angeles.
+  Use Python for the backend and JavaScript/TypeScript for the frontend.
+  Prioritize regulatory ingestion and synthesis, citations, traceability, and explainability.
+  Clearly separate verified parcel data from interpretations and inferred conclusions.
+  Use a small, well-reasoned subset of regulations; do not imply complete regulatory coverage.
+  Reasonable mock data is permitted by the brief and must be clearly identified.
+  Ponytail guidance in AGENTS.md applies: choose the smallest complete implementation.
+
+rules:
+  proposal:
+    - State the regulatory scope and what remains out of scope.
+  specs:
+    - Make evidence, uncertainty, and missing-data behavior explicit where applicable.
+  design:
+    - Prefer existing capabilities and simple components over speculative abstractions.
+  tasks:
+    - Include validation against representative parcels and building types when relevant.

@@ -1,0 +1,337 @@
+[
+  {
+    "ain": "2126037055",
+    "seconds": 12.05,
+    "address": "6754 RHEA CT LOS ANGELES 91335",
+    "zone": null,
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "needs-review",
+    "sources": {
+      "Parcels": "matched",
+      "Design overlays": "no-match",
+      "Historic overlays": "no-match",
+      "Specific plans": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1 zoning": "matched",
+      "Chapter 1A zoning": "no-match"
+    },
+    "map": "2126-037",
+    "legal": "TR=73315 LOT 1",
+    "constraints": [
+      {
+        "category": "front-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+        ]
+      },
+      {
+        "category": "side-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_width_ft, building_height_ft, ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "rear-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+        ]
+      },
+      {
+        "category": "height",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: roof_slope_percent, ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "floor-area",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+        ]
+      }
+    ]
+  },
+  {
+    "ain": "2202010005",
+    "seconds": 13.1,
+    "address": "7543 LOUISE AVE LOS ANGELES CA 91406",
+    "zone": null,
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "needs-review",
+    "sources": {
+      "Parcels": "matched",
+      "Design overlays": "no-match",
+      "Historic overlays": "no-match",
+      "Specific plans": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1A zoning": "no-match",
+      "Chapter 1 zoning": "matched"
+    },
+    "map": "2202-010",
+    "legal": "TRACT # 16180 LOT  107",
+    "constraints": [
+      {
+        "category": "front-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+        ]
+      },
+      {
+        "category": "side-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_width_ft, building_height_ft, ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "rear-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+        ]
+      },
+      {
+        "category": "height",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: roof_slope_percent, ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "floor-area",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Zoning requires review",
+          "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+        ]
+      }
+    ]
+  },
+  {
+    "ain": "2202010006",
+    "seconds": 11.97,
+    "address": "7537 LOUISE AVE LOS ANGELES CA 91406",
+    "zone": "R1-1",
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "resolved",
+    "sources": {
+      "Parcels": "matched",
+      "Design overlays": "no-match",
+      "Historic overlays": "no-match",
+      "Specific plans": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1 zoning": "matched",
+      "Chapter 1A zoning": "no-match"
+    },
+    "map": "2202-010",
+    "legal": "TRACT # 16180 LOT  108",
+    "constraints": [
+      {
+        "category": "front-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+        ]
+      },
+      {
+        "category": "side-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_width_ft, building_height_ft, ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "rear-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+        ]
+      },
+      {
+        "category": "height",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: roof_slope_percent, ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "floor-area",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+        ]
+      }
+    ]
+  },
+  {
+    "ain": "2202010009",
+    "seconds": 13.11,
+    "address": "7523 LOUISE AVE LOS ANGELES CA 91406",
+    "zone": "R1-1",
+    "jurisdiction": "Los Angeles",
+    "zoning_status": "resolved",
+    "sources": {
+      "Parcels": "matched",
+      "Design overlays": "no-match",
+      "Historic overlays": "no-match",
+      "Specific plans": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1A zoning": "no-match",
+      "Chapter 1 zoning": "matched"
+    },
+    "map": "2202-010",
+    "legal": "TRACT # 16180 LOT  111",
+    "constraints": [
+      {
+        "category": "front-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+        ]
+      },
+      {
+        "category": "side-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_width_ft, building_height_ft, ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "rear-yard",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+        ]
+      },
+      {
+        "category": "height",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: roof_slope_percent, ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "floor-area",
+        "status": "needs-review",
+        "value": null,
+        "reasons": [
+          "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+        ]
+      }
+    ]
+  },
+  {
+    "ain": "4328021043",
+    "seconds": 11.01,
+    "address": "9601 CHARLEVILLE BLVD 16 BEVERLY HILLS 90212",
+    "zone": null,
+    "jurisdiction": "outside-city",
+    "zoning_status": "needs-review",
+    "sources": {
+      "Parcels": "matched",
+      "Specific plans": "no-match",
+      "Historic overlays": "no-match",
+      "Design overlays": "no-match",
+      "City boundary": "matched",
+      "Buildings": "matched",
+      "Chapter 1 zoning": "no-match",
+      "Chapter 1A zoning": "no-match"
+    },
+    "map": "4328-021",
+    "legal": "TR=62141 LOT 1 CONDO UNIT 16 (AIRSPACE AND 1/22 INT IN COMMON AREA)",
+    "constraints": [
+      {
+        "category": "front-yard",
+        "status": "unsupported",
+        "value": null,
+        "reasons": [
+          "LA City jurisdiction not established",
+          "Zoning requires review",
+          "This project type, jurisdiction or zoning regime is outside the supported calculation scope",
+          "Missing or unresolved: lot_depth_ft, ordinary_context, outside_hillside_coastal, frontage_reviewed"
+        ]
+      },
+      {
+        "category": "side-yard",
+        "status": "unsupported",
+        "value": null,
+        "reasons": [
+          "LA City jurisdiction not established",
+          "Zoning requires review",
+          "This project type, jurisdiction or zoning regime is outside the supported calculation scope",
+          "Missing or unresolved: lot_width_ft, building_height_ft, ordinary_context, outside_hillside_coastal, side_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "rear-yard",
+        "status": "unsupported",
+        "value": null,
+        "reasons": [
+          "LA City jurisdiction not established",
+          "Zoning requires review",
+          "This project type, jurisdiction or zoning regime is outside the supported calculation scope",
+          "Missing or unresolved: ordinary_context, outside_hillside_coastal"
+        ]
+      },
+      {
+        "category": "height",
+        "status": "unsupported",
+        "value": null,
+        "reasons": [
+          "LA City jurisdiction not established",
+          "Zoning requires review",
+          "This project type, jurisdiction or zoning regime is outside the supported calculation scope",
+          "Missing or unresolved: roof_slope_percent, ordinary_context, outside_hillside_coastal, height_conditions_reviewed"
+        ]
+      },
+      {
+        "category": "floor-area",
+        "status": "unsupported",
+        "value": null,
+        "reasons": [
+          "LA City jurisdiction not established",
+          "Zoning requires review",
+          "This project type, jurisdiction or zoning regime is outside the supported calculation scope",
+          "Missing or unresolved: lot_area_sqft, ordinary_context, outside_hillside_coastal"
+        ]
+      }
+    ]
+  }
+]

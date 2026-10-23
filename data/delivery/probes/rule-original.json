@@ -1,0 +1,88 @@
+{
+  "source": {
+    "section": "12.08",
+    "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lapz/0-0-0-2052",
+    "publisher": "City of Los Angeles / American Legal Publishing",
+    "retrieved_at": "2026-10-22T02:14:16.529151+00:00",
+    "edition": "2026 Rev. 9",
+    "effective_date": null,
+    "content_hash": "f863873c6b5ea590c21f0dd50d474ab39d9c6ec89bb056552f3cb070ecb98531",
+    "text": "Rear Yard.\nThere shall be a rear yard of not less than 15 feet in depth.\n(Amended by Ord. No. 121,925, Eff. 6/4/62.)\n4.\nLot Area.\n(Amended by Ord. No. 153,478, Eff. 4/12/80.).\nEvery lot shall have a minimum width of 50 feet and a minimum area of 5,000 square feet. The minimum lot area per dwelling unit shall also be 5,000 square feet, except for two-family dwellings on lots having a side lot line adjoining a lot in a commercial or industrial zone as provided for in Subsection A. of this section.\nThere may be lots with less than the minimum required area and there may be a single dwelling on each such lot if the lot is shown with a separate letter or lot number on a recorded Subdivision Tract Map or a Parcel Map.\nThere may be lots with less than the minimum width and area as provided for in Section\n17.05\nH.7. Further exceptions to area regulations are provided for in Section\n12.22\nC.\n5.\nMaximum Residential Floor Area and Massing.  (Amended by Ord. No. 184,802, Eff. 3/17/17.)\n(a)\nR1.\nFor a lot located in a Hillside Area or Coastal Zone, the maximum floor area shall comply with Section\n12.21.1\nA.1. of this Code.\nFor lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45).\nThe encroachment plane shall originate from a point that is 20 feet in height from the existing or finished grade, whichever is lower, along the required front and side yard setbacks.\n(b)\nR1V, Variable-Mass.\nThese zones are intended to address issues of neighborhood character and to facilitate the compatibility of new construction, additions, and alterations in single-family neighborhoods having an existing variety of building forms.  The inten",
+    "extraction": "HTML visible text; may include navigation when no codecontent container exists",
+    "origin": "live"
+  },
+  "result": {
+    "output": {
+      "rules": [
+        {
+          "id": "LAMC-12.08-R1-rear-yard-min-depth-default",
+          "category": "rear-yard",
+          "jurisdiction": "City of Los Angeles",
+          "regime": "LAMC Chapter 1 (Zoning), Section 12.08 R1 One-Family Zone, 2026 Rev. 9 (American Legal Publishing; effective_date not supplied)",
+          "project_type": "single-family dwelling, R1-1 lot, default (non-hillside) rear yard",
+          "units": "ft",
+          "expression": {
+            "op": "constant",
+            "value": 15,
+            "unit": "ft"
+          },
+          "inputs": [],
+          "citations": [
+            {
+              "source_hash": "f863873c6b5ea590c21f0dd50d474ab39d9c6ec89bb056552f3cb070ecb98531",
+              "quote": "There shall be a rear yard of not less than 15 feet in depth."
+            }
+          ],
+          "predicates": [
+            "Lot is zoned R1 and governed by Section 12.08. Applicability is inferred from the section identifier only. The excerpt does not include the zone heading or the subsection number for the Rear Yard paragraph.",
+            "The value is a minimum: the required rear yard depth is not less than 15 feet.",
+            "The scope is limited by the user to an ordinary R1-1 lot, meaning not in a Hillside Area. The supplied rear-yard text does not itself state this condition.",
+            "The source does not define how rear yard depth is measured or where measurement starts."
+          ],
+          "exceptions": [
+            "Hillside Area lots are excluded from this rule by the requested scope. The supplied excerpt contains no hillside rear-yard text, so no hillside operand is extracted."
+          ],
+          "unresolved_references": [
+            "Hillside Area rear-yard provisions are not in the supplied text. Possible alternate or supplemental rear-yard requirements for Hillside Area lots cannot be confirmed or quantified from this source.",
+            "Section 12.22 C (cited in the excerpt as 'Further exceptions to area regulations') may contain yard exceptions or encroachment allowances that modify the rear yard. That text was not supplied.",
+            "Section 17.05 H.7 is referenced in the excerpt for substandard lot width and area only. Its effect on the rear yard, if any, is not shown.",
+            "The excerpt is truncated at the start. Text before 'Rear Yard.', including the zone heading, front-yard and side-yard provisions, and any lead-in conditions or exceptions that apply to all yards, was not supplied.",
+            "The meaning of the '-1' height-district suffix in 'R1-1' is not addressed in the supplied text. No height-district dependency on the rear yard can be confirmed.",
+            "Amendment note '(Amended by Ord. No. 121,925, Eff. 6/4/62.)' immediately follows the rear-yard sentence. Later amendments and the current effective date are not confirmed, and the source effective_date is null.",
+            "The extraction note says the text may include navigation content. The subsection numbering, such as whether this is 12.08 C.3, is not verifiable from the excerpt."
+          ]
+        }
+      ]
+    },
+    "provenance": {
+      "auth_method": "claude.ai",
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 1581,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 1987,
+          "webSearchRequests": 0,
+          "costUSD": 0.047524,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 577,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "prompt_hash": "cc4314534b11c4a30c1d55adc4d7bdcdc9f29b48a16b681406c2c522b4637427",
+      "elapsed_seconds": 17.71
+    },
+    "validation_errors": [
+      {
+        "rule": "LAMC-12.08-R1-rear-yard-min-depth-default",
+        "error": "Unresolved dependencies"
+      }
+    ],
+    "sources": [
+      "f863873c6b5ea590c21f0dd50d474ab39d9c6ec89bb056552f3cb070ecb98531"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "ain": "2202010006",
+    "selection_ms": 1009,
+    "dimension_transcriptions": 0,
+    "accepted_observations": 3,
+    "project_numeric_inputs": 2,
+    "applicability_checks": 5,
+    "values": [
+      "20 ft",
+      "5 ft",
+      "15 ft",
+      "28 ft",
+      "2,700 sq ft"
+    ],
+    "scenario": "hypothetical design/applicability; real map measurements and live GIS"
+  },
+  {
+    "ain": "2202010009",
+    "selection_ms": 11620,
+    "dimension_transcriptions": 0,
+    "accepted_observations": 3,
+    "project_numeric_inputs": 2,
+    "applicability_checks": 5,
+    "values": [
+      "20 ft",
+      "5 ft",
+      "15 ft",
+      "28 ft",
+      "2,700 sq ft"
+    ],
+    "scenario": "hypothetical design/applicability; real map measurements and live GIS"
+  },
+  {
+    "controlled_refresh_failure": "no stale numeric cards; notes retained",
+    "note": "Hypothetical acceptance project: ordinary conditions and exceptions assumed solely to test calculations. Map dimensions sourced; not independent legal verification."
+  },
+  {
+    "ain": "2126037055",
+    "visible_blockers": 5,
+    "evaluated": 0
+  }
+]

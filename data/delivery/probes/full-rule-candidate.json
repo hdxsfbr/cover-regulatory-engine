@@ -1,0 +1,473 @@
+{
+  "output": {
+    "rules": [
+      {
+        "id": "la-ch1-r1-1-sfd-front-yard-min-depth",
+        "category": "front-yard",
+        "jurisdiction": "Los Angeles",
+        "regime": "Chapter 1",
+        "project_type": "single-family",
+        "units": "ft",
+        "expression": {
+          "op": "min",
+          "args": [
+            {
+              "op": "multiply",
+              "args": [
+                {
+                  "op": "constant",
+                  "value": 0.2,
+                  "unit": "scalar"
+                },
+                {
+                  "op": "input",
+                  "name": "lot_depth_ft",
+                  "unit": "ft"
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "value": 20,
+              "unit": "ft"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "name": "lot_depth_ft",
+            "unit": "ft"
+          }
+        ],
+        "citations": [
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "There shall be a front yard of not less than 20% of the depth of the lot, but such front yard need not exceed 20 feet"
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "The horizontal distance between the front and rear lot lines measured in the mean direction of the side lot lines."
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "A lot other than a corner lot."
+          }
+        ],
+        "predicates": [
+          "ordinary_context",
+          "frontage_reviewed"
+        ],
+        "exceptions": [
+          "Excluded: frontage-averaging proviso (developed lots with front yards varying by not more than ten feet comprising 40% or more of the frontage), including the 40-foot cap on averaged yards (12.08 C.1)",
+          "Excluded: key-lot front yard averaging (12.08 C.1, second paragraph)",
+          "Excluded: sloping-lot front yard reduction (12.22 C.6)",
+          "Excluded: unit-development front yard reduction (12.22 C.8)",
+          "Excluded: established Building Line or Setback Line substitution (12.22 C.1)",
+          "Excluded: lots affected by public acquisition (12.22 C.13)",
+          "Excluded: through lots and flag lots",
+          "Excluded: projections into yards (12.22 C.20); the rule expresses the yard depth only"
+        ],
+        "unresolved_references": [
+          "The value is the minimum required front yard depth. It applies only after frontage_reviewed confirms that the 12.08 C.1 averaging proviso is not triggered. Data on adjacent developed lots and frontage was not supplied.",
+          "Specific plan, HPOZ, or subdivision-approval yard requirements for the site were not supplied."
+        ]
+      },
+      {
+        "id": "la-ch1-r1-1-sfd-new-main-bldg-side-yard-min-width-at-height",
+        "category": "side-yard",
+        "jurisdiction": "Los Angeles",
+        "regime": "Chapter 1",
+        "project_type": "single-family",
+        "units": "ft",
+        "expression": {
+          "op": "add",
+          "args": [
+            {
+              "op": "if",
+              "args": [
+                {
+                  "op": "lt",
+                  "args": [
+                    {
+                      "op": "input",
+                      "name": "lot_width_ft",
+                      "unit": "ft"
+                    },
+                    {
+                      "op": "constant",
+                      "value": 50,
+                      "unit": "ft"
+                    }
+                  ]
+                },
+                {
+                  "op": "max",
+                  "args": [
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "op": "constant",
+                          "value": 0.1,
+                          "unit": "scalar"
+                        },
+                        {
+                          "op": "input",
+                          "name": "lot_width_ft",
+                          "unit": "ft"
+                        }
+                      ]
+                    },
+                    {
+                      "op": "constant",
+                      "value": 3,
+                      "unit": "ft"
+                    }
+                  ]
+                },
+                {
+                  "op": "constant",
+                  "value": 5,
+                  "unit": "ft"
+                }
+              ]
+            },
+            {
+              "op": "multiply",
+              "args": [
+                {
+                  "op": "constant",
+                  "value": 1,
+                  "unit": "ft"
+                },
+                {
+                  "op": "ceil",
+                  "args": [
+                    {
+                      "op": "divide",
+                      "args": [
+                        {
+                          "op": "max",
+                          "args": [
+                            {
+                              "op": "subtract",
+                              "args": [
+                                {
+                                  "op": "input",
+                                  "name": "building_height_ft",
+                                  "unit": "ft"
+                                },
+                                {
+                                  "op": "constant",
+                                  "value": 18,
+                                  "unit": "ft"
+                                }
+                              ]
+                            },
+                            {
+                              "op": "constant",
+                              "value": 0,
+                              "unit": "ft"
+                            }
+                          ]
+                        },
+                        {
+                          "op": "constant",
+                          "value": 10,
+                          "unit": "ft"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "name": "lot_width_ft",
+            "unit": "ft"
+          },
+          {
+            "name": "building_height_ft",
+            "unit": "ft"
+          }
+        ],
+        "citations": [
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "For a main building not more than two stories in height, there shall be a side yard on each side of the building of not less than 5 feet, except that where the lot is less than 50 feet in width, the side yard may be reduced to 10 percent of the width of the lot, but in no event to less than 3 feet in width."
+          },
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "In lieu of the additional one-foot side yard for each story above the second story as required above, for new construction of a main building or a ground floor addition to the main building on a lot not located in a Hillside Area or Coastal Zone, one-foot shall be added to each required side yard for each increment of ten feet or fraction thereof above the first 18 feet."
+          },
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "Side yard requirements in specific plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over this subdivision."
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "The horizontal distance between the side lot lines measured at right angles to the lot depth at a point midway between the front and rear lot lines."
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "Is the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest."
+          }
+        ],
+        "predicates": [
+          "ordinary_context",
+          "outside_hillside_coastal",
+          "side_conditions_reviewed",
+          "height_conditions_reviewed"
+        ],
+        "exceptions": [
+          "Excluded: offset/plane-break requirement for side walls exceeding 14 feet in height and longer than 45 feet (12.08 C.2(a), second paragraph)",
+          "Excluded: occupied rooftop deck setback (12.08 C.2(d))",
+          "Excluded: side yards reduced for frontages developed as a unit (12.22 C.9)",
+          "Excluded: side yard waived for a first-story garage (12.22 C.2)",
+          "Excluded: Building Line substitution (12.22 C.1) and public acquisition (12.22 C.13)",
+          "Excluded: specific plan, HPOZ, and subdivision-approval side yard requirements, which take precedence (12.08 C.2(c))",
+          "Excluded: projections into yards (12.22 C.20)"
+        ],
+        "unresolved_references": [
+          "Interpretation uncertainty: the text attaches the 10-percent / 3-foot reduction for lots under 50 feet wide to 'a main building not more than two stories in height'. The expression applies that reduction as the base yard at any height, with the 12.08 C.2(b) height increment added. The text does not expressly say whether the reduced base carries over to buildings taller than two stories.",
+          "Interpretation uncertainty: 12.08 C.2(b) applies 'in lieu of' the per-story increment. The expression applies the 18-foot/10-foot increment to all new main-building construction on non-hillside, non-coastal lots, whatever the story count.",
+          "The reduced side yard below 5 feet is phrased permissively ('may be reduced'). The expression returns the reduced minimum.",
+          "Height is measured from 'grade' as defined in 12.03. Grade elevations were not supplied.",
+          "Hillside Area Map (Council File No. 09-1390) and Coastal Zone boundary (Public Resources Code Division 20) were not supplied. These are needed to confirm outside_hillside_coastal."
+        ]
+      },
+      {
+        "id": "la-ch1-r1-1-sfd-rear-yard-min-depth",
+        "category": "rear-yard",
+        "jurisdiction": "Los Angeles",
+        "regime": "Chapter 1",
+        "project_type": "single-family",
+        "units": "ft",
+        "expression": {
+          "op": "constant",
+          "value": 15,
+          "unit": "ft"
+        },
+        "inputs": [],
+        "citations": [
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "There shall be a rear yard of not less than 15 feet in depth."
+          },
+          {
+            "source_hash": "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246",
+            "quote": "Except in the RS, R1, RU, RZ, RMP, and R2 Zones, in computing the depth of a rear yard where the rear yard opens onto an alley"
+          }
+        ],
+        "predicates": [
+          "ordinary_context"
+        ],
+        "exceptions": [
+          "The one-half-alley credit toward rear yard depth does not apply in R1 (12.22 C.10).",
+          "Excluded: through-lot two-building-site treatment (12.22 C.19), public acquisition (12.22 C.13), loading space in rear yard (12.22 C.11), accessory buildings in yards (12.22 C.12 / 12.21 C.5), and projections into yards (12.22 C.20)"
+        ],
+        "unresolved_references": [
+          "Section 12.21 C.5 (accessory building location) is referenced but was not supplied. It does not affect the main-building rear yard value."
+        ]
+      },
+      {
+        "id": "la-ch1-r1-1-sfd-max-height-uppermost-roof-slope",
+        "category": "height",
+        "jurisdiction": "Los Angeles",
+        "regime": "Chapter 1",
+        "project_type": "single-family",
+        "units": "ft",
+        "expression": {
+          "op": "if",
+          "args": [
+            {
+              "op": "lt",
+              "args": [
+                {
+                  "op": "input",
+                  "name": "roof_slope_percent",
+                  "unit": "%"
+                },
+                {
+                  "op": "constant",
+                  "value": 25,
+                  "unit": "%"
+                }
+              ]
+            },
+            {
+              "op": "constant",
+              "value": 28,
+              "unit": "ft"
+            },
+            {
+              "op": "constant",
+              "value": 33,
+              "unit": "ft"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "name": "roof_slope_percent",
+            "unit": "%"
+          }
+        ],
+        "citations": [
+          {
+            "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+            "quote": "Notwithstanding the preceding paragraph, the following height regulations shall apply on a Lot that is not located in a Hillside Area or Coastal Zone:"
+          },
+          {
+            "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+            "quote": "In the R1, RS, or RE9 Zones, no Building or Structure shall exceed 33 feet in height; except that when the roof of the uppermost Story of a Building or Structure or portion of the Building or Structure has a Slope of less than 25 percent, the maximum height shall be 28 feet."
+          },
+          {
+            "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+            "quote": "Height limitations in Specific Plans, Historic Preservation Overlay Zones or in subdivision approvals shall take precedence over the requirements of this Section"
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "Is the vertical distance above grade measured to the highest point of the roof, structure, or the parapet wall, whichever is highest."
+          }
+        ],
+        "predicates": [
+          "ordinary_context",
+          "outside_hillside_coastal",
+          "height_conditions_reviewed"
+        ],
+        "exceptions": [
+          "Excluded: block-averaging height alternative where 40 percent or more of existing One-Family Dwellings with Frontage on both sides of the block exceed the limits (12.21.1)",
+          "Excluded: roof structures and equipment allowances above the height limit, including solar structures (12.21.1 B.3)",
+          "Excluded: the additional height of up to 12 feet where adjoining sidewalk or ground exceeds grade by more than 20 feet (12.21.1 B.2)",
+          "Excluded: specific plan, HPOZ, and subdivision-approval height limits, which take precedence",
+          "Excluded: R1V/R1F/R1R/R1H variation zones and Height District 1-XL/1-VL/1-SS designations",
+          "Excluded: roof decks"
+        ],
+        "unresolved_references": [
+          "The slope test applies to the roof of the uppermost Story 'or portion' of the building. Where roof slopes differ by portion, the expression must be evaluated per portion. The text does not explain how to aggregate portions.",
+          "Slope is defined in 12.03 as a ground-surface inclination. Applying that definition to a roof slope expressed in percent is an interpretation.",
+          "The 'Story' and 'grade' definitions (12.03) are supplied, but the building geometry and grade elevations were not.",
+          "The encroachment plane originating at 20 feet along the required front and side yards (12.08 C.5(a)) is a separate envelope constraint. It is not expressed as a quantity here.",
+          "Confirmation that the site is mapped R1-1 (Height District No. 1 without L/VL/XL/SS suffix) and has no specific plan, HPOZ, or subdivision height limit was not supplied.",
+          "Section 12.21 A.17, referenced by 12.21.1 B.2, was not supplied. That branch is excluded."
+        ]
+      },
+      {
+        "id": "la-ch1-r1-1-sfd-max-aggregate-residential-floor-area",
+        "category": "floor-area",
+        "jurisdiction": "Los Angeles",
+        "regime": "Chapter 1",
+        "project_type": "single-family",
+        "units": "sq ft",
+        "expression": {
+          "op": "multiply",
+          "args": [
+            {
+              "op": "constant",
+              "value": 0.45,
+              "unit": "scalar"
+            },
+            {
+              "op": "input",
+              "name": "lot_area_sqft",
+              "unit": "sq ft"
+            }
+          ]
+        },
+        "inputs": [
+          {
+            "name": "lot_area_sqft",
+            "unit": "sq ft"
+          }
+        ],
+        "citations": [
+          {
+            "source_hash": "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+            "quote": "For lots outside of a Hillside Area or Coastal Zone, the maximum Residential Floor Area contained in all buildings and accessory buildings shall not exceed 45 percent of the lot area (a Residential Floor Area ratio of 0.45)."
+          },
+          {
+            "source_hash": "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+            "quote": "For RA, RE, RS, and R1 Zoned properties not located in a Hillside Area or Coastal Zone, the total Residential Floor Area shall comply with the Floor Area restrictions for each zone."
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "The area in square feet confined within the exterior walls of a residential or non-residential Building on a Lot in an RA, RE, RS, or R1 Zone."
+          },
+          {
+            "source_hash": "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+            "quote": "The total horizontal area within the lot lines of a lot."
+          }
+        ],
+        "predicates": [
+          "ordinary_context",
+          "outside_hillside_coastal"
+        ],
+        "exceptions": [
+          "Residential Floor Area counting rules and exemptions from the 12.03 definition apply to the measured area, not to the limit. These include double counting above a 14-foot ceiling, attic area above a 7-foot ceiling, required covered parking up to 400 square feet, detached accessory buildings, lattice-roof porches, and qualifying basements.",
+          "Excluded: Hillside Area (12.21 C.10) and Coastal Zone (12.21.1 A.1) floor area regimes",
+          "Excluded: R1V/R1F/R1R/R1H variation-zone ratios",
+          "Excluded: ADU-specific floor area provisions (12.22 A.33) and affordable-housing incentive programs",
+          "Excluded: verification-of-existing-floor-area rules for additions and remodels (12.08 C.6), which do not apply to new construction"
+        ],
+        "unresolved_references": [
+          "The limit is aggregate across all buildings and accessory buildings on the lot. The proposed floor area was not supplied.",
+          "Section 12.21 C.10 (Hillside regime) is referenced but was not supplied. It is excluded by scope.",
+          "The Hillside Area Map and Coastal Zone boundary needed to confirm outside_hillside_coastal were not supplied."
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 9188,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 239381,
+        "webSearchRequests": 0,
+        "costUSD": 2.0988160000000002,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 3618,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "39ffcf06eae51cc9859be701f8fb6af0aa2174dac0981c7ed96afa79ad6e7f8e",
+    "elapsed_seconds": 84.819
+  },
+  "validation_errors": [
+    {
+      "rule": "la-ch1-r1-1-sfd-front-yard-min-depth",
+      "error": "Unresolved dependencies"
+    },
+    {
+      "rule": "la-ch1-r1-1-sfd-new-main-bldg-side-yard-min-width-at-height",
+      "error": "Unresolved dependencies"
+    },
+    {
+      "rule": "la-ch1-r1-1-sfd-rear-yard-min-depth",
+      "error": "Unresolved dependencies"
+    },
+    {
+      "rule": "la-ch1-r1-1-sfd-max-height-uppermost-roof-slope",
+      "error": "Unresolved dependencies"
+    },
+    {
+      "rule": "la-ch1-r1-1-sfd-max-aggregate-residential-floor-area",
+      "error": "Unresolved dependencies"
+    }
+  ],
+  "sources": [
+    "6eafeb53d83da1527f3dc5374ce9364464b8db38714979bab48d0aafb2e14025",
+    "6cfef74864f86853445427f31201a9a459c425f102a7a928708888f846e6def7",
+    "1ed7d5f4997ded878eec76e1f5c5b766b1a056f8545a358da575f6ef72b5b2cb",
+    "61fa24da4298d69cce8d62297b0160cb492d1d73e50ff465feeb99c5b77bf246"
+  ]
+}

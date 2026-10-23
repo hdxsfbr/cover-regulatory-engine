@@ -1,0 +1,9 @@
+{
+  "voice_model": "chatterbox.tts.ChatterboxTTS (standard, not Turbo)",
+  "voice_reference": "/home/hdx/code/chatterbox-play/voices/andre_voice_clean_ref.wav",
+  "generation": "local CUDA, calm style, sentence splitting",
+  "capture": "Playwright recording of actual local application; no mocked API responses",
+  "scope": "Penfield real-source research; explicitly hypothetical ADU assumptions",
+  "narration_check": "All eight generated segments transcribed; opening retaken; key address, dimensions and comparison values verified against script",
+  "external_publication": false
+}

@@ -1,0 +1,14 @@
+
+> cover-regulatory-engine-ui@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 20 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.41 kB │ gzip:   0.29 kB
+dist/assets/index-CkP3iXdp.css   25.61 kB │ gzip:   9.32 kB
+dist/assets/index-B7TIqmYi.js   412.22 kB │ gzip: 125.16 kB
+
+✓ built in 105ms

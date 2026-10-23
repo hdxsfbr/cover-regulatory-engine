@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+.env
+playwright-report/
+test-results/
+data/workspace.sqlite3*
+data/*.operator-token
+data/parcel-evidence/pages/
+
+# Demo videos and screen recordings (kept local, not in git)
+data/submission/**/*.mp4
+data/submission/**/*.webm
+data/submission/*.mp4
+data/submission/*.webm

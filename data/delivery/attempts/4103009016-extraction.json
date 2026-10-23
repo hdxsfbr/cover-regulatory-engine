@@ -1,0 +1,111 @@
+{
+  "observations": [
+    {
+      "key": "lot_width_ft",
+      "value": 55,
+      "units": "ft",
+      "page": 1,
+      "region": [
+        0.405,
+        0.805,
+        0.445,
+        0.835
+      ],
+      "printed_mark": "\"",
+      "reason": "The Kittyhawk Ave frontage edge of lot 28 carries a ditto mark (\") near x\u22480.44, y\u22480.78. That ditto continues the frontage dimension of the adjacent lot 27. Lot 27's Kittyhawk frontage edge has the explicit printed value '55' near x\u22480.42, y\u22480.82, which ends the chain. The rear edge of lot 28 also carries a ditto that continues the printed '55' on the rear edge of lot 27. This consistently gives a 55 ft width.",
+      "method": "ditto",
+      "ain": "4103009016",
+      "map_id": "4103-009",
+      "document_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d",
+      "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+      "provenance_tier": "machine-corroborated",
+      "status": "machine-corroborated",
+      "confidence_reason": "Model reading corroborated against parcel geometry; not a survey or legal review.",
+      "id": "e4780d6ee588e5b394510353476eb0face7d6de04f9e7bd9e35060bed63a7b12"
+    }
+  ],
+  "rejected": [],
+  "frontage": {
+    "street": "Kittyhawk Ave",
+    "compass": "southeast",
+    "reason": "The north arrow at upper left points straight up the page, so the top of the image is north. Kittyhawk Ave runs diagonally from lower-left to upper-right, which is southwest to northeast. Lot 28 (circled 16) lies in the row of lots on the upper-left (northwest) side of Kittyhawk Ave. Its street edge is the lower-right edge of the lot, so the lot fronts southeast onto Kittyhawk Ave."
+  },
+  "shape": "rectangle",
+  "uncertainties": [
+    "No depth dimension is printed on either side line of lot 28. The value '125' appears on the side line near lots 26/27 and again at lot 39 at the far end of the row. Lot 28's depth is not explicitly marked, so lot_depth_ft is omitted and no rectangular area is derived.",
+    "Tract identity relies on the '11569' tract label printed near lot 13 and the 'TRACT NO ... M B 303' labels running along the Kittyhawk row. The lot-number continuity (13\u201316, 26\u201339) supports lot 28 belonging to Tract 11569, but the tract label is not printed directly inside lot 28.",
+    "The circled number 16 is the assessor parcel number (AIN suffix 016). It is distinct from tract lot number 28, which is printed uncircled in the same lot.",
+    "The 'M B 303' reference is read from split labels ('M B' near lot 26, '303' near lot 29), so this reading is somewhat uncertain."
+  ],
+  "raw": {
+    "identity": {
+      "map_id": "4103-009",
+      "tract": "11569",
+      "lot": "28",
+      "parcel_number": "016",
+      "confirmed": true
+    },
+    "shape": "rectangle",
+    "frontage": {
+      "street": "Kittyhawk Ave",
+      "compass": "southeast",
+      "reason": "The north arrow at upper left points straight up the page, so the top of the image is north. Kittyhawk Ave runs diagonally from lower-left to upper-right, which is southwest to northeast. Lot 28 (circled 16) lies in the row of lots on the upper-left (northwest) side of Kittyhawk Ave. Its street edge is the lower-right edge of the lot, so the lot fronts southeast onto Kittyhawk Ave."
+    },
+    "observations": [
+      {
+        "key": "lot_width_ft",
+        "value": 55,
+        "units": "ft",
+        "page": 1,
+        "region": [
+          0.405,
+          0.805,
+          0.445,
+          0.835
+        ],
+        "printed_mark": "\"",
+        "reason": "The Kittyhawk Ave frontage edge of lot 28 carries a ditto mark (\") near x\u22480.44, y\u22480.78. That ditto continues the frontage dimension of the adjacent lot 27. Lot 27's Kittyhawk frontage edge has the explicit printed value '55' near x\u22480.42, y\u22480.82, which ends the chain. The rear edge of lot 28 also carries a ditto that continues the printed '55' on the rear edge of lot 27. This consistently gives a 55 ft width.",
+        "method": "ditto"
+      }
+    ],
+    "uncertainties": [
+      "No depth dimension is printed on either side line of lot 28. The value '125' appears on the side line near lots 26/27 and again at lot 39 at the far end of the row. Lot 28's depth is not explicitly marked, so lot_depth_ft is omitted and no rectangular area is derived.",
+      "Tract identity relies on the '11569' tract label printed near lot 13 and the 'TRACT NO ... M B 303' labels running along the Kittyhawk row. The lot-number continuity (13\u201316, 26\u201339) supports lot 28 belonging to Tract 11569, but the tract label is not printed directly inside lot 28.",
+      "The circled number 16 is the assessor parcel number (AIN suffix 016). It is distinct from tract lot number 28, which is printed uncircled in the same lot.",
+      "The 'M B 303' reference is read from split labels ('M B' near lot 26, '303' near lot 29), so this reading is somewhat uncertain."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2075,
+        "cacheReadInputTokens": 4376,
+        "cacheCreationInputTokens": 308,
+        "webSearchRequests": 0,
+        "costUSD": 0.044847200000000004,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1172,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "e02c70365043a41d6e01a99fb9d04815523e216b70c70d1276c45870f6559a59",
+    "elapsed_seconds": 22.892
+  },
+  "document": {
+    "map_id": "4103-009",
+    "ain": "4103009016",
+    "legal_description": "TRACT # 11569 LOT   28",
+    "status": "available",
+    "vintage": "unknown",
+    "origin": "live",
+    "source_url": "https://maps.assessor.lacounty.gov/GeoCortex/Essentials/PAIS/REST/sites/PAIS/Resources/ParcelMap?MapId=4103-009-&f=file",
+    "retrieved_at": "2026-10-22T17:10:36.055418+00:00",
+    "content_hash": "6142747b5f3a7ca790e909478be0c1e8a3674c650802656239aae1236d8d5c0d"
+  },
+  "elapsed_seconds": 23.39375932200346
+}

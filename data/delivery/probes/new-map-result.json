@@ -1,0 +1,125 @@
+{
+  "output": {
+    "identity": {
+      "tract": "14429",
+      "lot": "26",
+      "assessor_parcel_number": "4103-012-026"
+    },
+    "shape": "An irregular corner lot. Its north edge is straight along Knowlton Pl. Its west edge curves along Knowlton St, and an R=15 corner arc joins the two streets. The east side is straight. The south boundary has two straight segments: one shared with lot 55 and a shorter angled one at the southeast corner.",
+    "frontage_street": "Uncertain. The lot is a corner lot on both Knowlton Pl (60.05) and Knowlton St (102.58 curved). The map does not show which street is the address or legal frontage.",
+    "dimensions": [
+      {
+        "role": "front_width_knowlton_pl",
+        "value": 60.05,
+        "units": "ft",
+        "printed_mark": "60.05",
+        "page": 1,
+        "region": [
+          0.253,
+          0.303,
+          0.277,
+          0.318
+        ],
+        "reason": "Printed along the top straight edge of the parcel circled 26. This edge runs on Knowlton Pl from the corner arc east to the lot line at x\u22480.29."
+      },
+      {
+        "role": "side_depth_east",
+        "value": 115,
+        "units": "ft",
+        "printed_mark": "115",
+        "page": 1,
+        "region": [
+          0.283,
+          0.378,
+          0.293,
+          0.402
+        ],
+        "reason": "Printed rotated on the west side of the shared line with Tract 51401 lot 1, so it belongs to lot 26. The value 114.96 on the other side of the same line belongs to the neighboring lot 1 and was not used."
+      },
+      {
+        "role": "curved_side_knowlton_st",
+        "value": 102.58,
+        "units": "ft",
+        "printed_mark": "102.58",
+        "page": 1,
+        "region": [
+          0.201,
+          0.37,
+          0.218,
+          0.42
+        ],
+        "reason": "Printed rotated along the curved west edge on Knowlton St, between the R=15 corner arc and the lot 55 line. It is an arc length along the curve, not a straight-line width."
+      },
+      {
+        "role": "corner_arc_length",
+        "value": 19.66,
+        "units": "ft",
+        "printed_mark": "19.66",
+        "page": 1,
+        "region": [
+          0.224,
+          0.309,
+          0.24,
+          0.333
+        ],
+        "reason": "Arc length printed inside the corner curve where Knowlton St meets Knowlton Pl. The radius is marked R=15."
+      },
+      {
+        "role": "rear_boundary_with_lot_55",
+        "value": 95.2,
+        "units": "ft",
+        "printed_mark": "95.20",
+        "page": 1,
+        "region": [
+          0.221,
+          0.481,
+          0.244,
+          0.499
+        ],
+        "reason": "Printed along the angled line between lot 26 (above) and lot 55 (below)."
+      },
+      {
+        "role": "rear_boundary_southeast_segment",
+        "value": 36.3,
+        "units": "ft",
+        "printed_mark": "36.30",
+        "page": 1,
+        "region": [
+          0.269,
+          0.484,
+          0.288,
+          0.512
+        ],
+        "reason": "Printed rotated along the short angled segment from the end of the 115 side down to the end of the 95.20 line. This segment separates lot 26 from lot 57."
+      }
+    ],
+    "ambiguities": [
+      "The tract number is not printed inside lot 26. The block only shows the split label 'TRACT' / 'M B'. The number 14429 is printed farther right, next to lot 34 (with 'NO', '336', '17', '19', which reads as M B 336-17-19). This page does not show directly that lot 26 is in Tract 14429. That identity comes from the request and fits the AIN, but it is not confirmed here.",
+      "The match to AIN 4103-012-026 rests on the circled parcel number 26 and lot number 26 on page 4103-012. Area is printed as 11700\u00b1SF.",
+      "The radius R=730 is printed along the Knowlton St curve near the lot 26/55 boundary. The map does not show clearly whether it covers lot 26's 102.58 arc or only the curve below it, so it is not listed as a lot 26 dimension.",
+      "The frontage street for this corner lot cannot be determined from the map.",
+      "No ditto marks apply to lot 26. None were resolved, and no dimensions were taken from the image scale."
+    ]
+  },
+  "provenance": {
+    "auth_method": "claude.ai",
+    "model_usage": {
+      "claude-opus-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2916,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 247202,
+        "webSearchRequests": 0,
+        "costUSD": 2.035944,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1420,
+        "canonicalModel": "claude-opus-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "prompt_hash": "a3adf1a990d052311788914c3f4d4996b66f7d93d86ded0e10428051cbd76dd0",
+    "elapsed_seconds": 33.072
+  }
+}

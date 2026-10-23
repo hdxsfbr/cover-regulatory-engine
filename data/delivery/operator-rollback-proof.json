@@ -1,0 +1,13 @@
+{
+  "prior_review": "357a2628-80a4-4c6f-8448-b50234bdd4be",
+  "new_review": "c5aaef1e-b220-4442-b647-e63eb5c9c767",
+  "activation_events": [
+    {
+      "id": "3429f183-c36a-4470-8ae4-bc91ede8bec9"
+    },
+    {
+      "id": "4fd789b2-bda4-44ce-9f21-f89a10461a72"
+    }
+  ],
+  "active_review": "357a2628-80a4-4c6f-8448-b50234bdd4be"
+}
